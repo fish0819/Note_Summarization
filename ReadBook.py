@@ -16,23 +16,24 @@ pagenos = set()
 
 PageContentList = []
 for page in PDFPage.get_pages(fp, pagenos, maxpages = maxpages, password = '', caching = True, check_extractable = True):
-	read_position = retstr.tell() # it will be 0 on the first page
+	# read_position = retstr.tell() # it will be 0 on the first page
 	interpreter.process_page(page)
-	retstr.seek(read_position, 0)
-	PageContentList.append(retstr.read())
-# text = retstr.getvalue()
+	# retstr.seek(read_position, 0)
+	# PageContentList.append(retstr.read())
+text = retstr.getvalue()
 fp.close()
 device.close()
 retstr.close()
-with open ('Book.txt', 'w', encoding = 'UTF-8') as outFile:
-	for text in PageContentList:
-		try:
-			if text[0] == ' ':
-				text = text.replace(' ', '')
-			text = text.replace('', '\n')
-			outFile.write (text)
-		except Exception as e:
-			print (e)
+print (text)
+# with open ('Book.txt', 'w', encoding = 'UTF-8') as outFile:
+# 	for text in PageContentList:
+# 		try:
+# 			if text[0] == ' ':
+# 				text = text.replace(' ', '')
+# 			text = text.replace('', '\n')
+# 			outFile.write (text)
+# 		except Exception as e:
+# 			print (e)
 		# print (text)
 
 
