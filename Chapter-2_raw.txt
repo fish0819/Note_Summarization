@@ -1,0 +1,6604 @@
+AFP/Getty Images
+
+2
+MANAGING
+EFFECTIVE PROJECTS
+Two boys slug it out in an Xbox 360 wrestling game at the 2011 IT Show in Singapore.
+
+XBOX 360
+our years after the introduction of Xbox, Microsoft needed to quickly design,
+develop, and produce a new product. Sony’s PlayStation 2 was dominating
+the video game market and Microsoft needed a new product to compete
+with the impending release of PlayStation 3. Developing such a product is a
+project of massive proportions. The project consisted of four phases: (1) design,
+(2) analysis, (3) development, and (4) launch. The result was Xbox 360.
+
+F
+
+Design
+The design of the Xbox 360 was a collaborative effort between Microsoft and
+many other firms, including Astro Studios in San Francisco, which designed the
+overall console and controller; IBM, which designed the processor chip; ATI,
+which designed the graphics chip; and a host of game design firms to develop
+games for the new product. A key element of the new product was the built-in
+Internet access that allowed gamers to access online games, buy game add-ons,
+and access multiplayer games developed exclusively for Xbox 360. Microsoft
+also included its primary manufacturers, Flextronics and Wistron, in the design
+process to optimize the production and assembly of the more than 1,000 parts
+contained in an Xbox 360.
+
+Analysis
+Getting an estimate of future sales for a new product is always difficult; however, in this case, the historic patterns for PlayStation 1, PlayStation 2, and Xbox
+69
+
+70
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+were useful. Analysts found that the peak year for a PlayStation product was
+4 years after its introduction and that the life cycle for those products is about
+11 years. This information provided a basis for estimating the sales potential of
+Xbox 360, although actual sales may be limited due to supply constraints. Nonetheless, Microsoft realized that the potential was there to open a new generation
+of game consoles well ahead of the market.
+
+Development
+Microsoft worked closely with Flextronics, Wistron, and the various design firms
+to iron out manufacturing problems in the early phases of Xbox 360 production.
+Once initial production was underway, Microsoft brought on Celestica to add production capacity. The decision was made to focus manufacturing operations in
+China. All told, 10,000 workers in China would be involved in Xbox 360 production.
+
+Launch
+Microsoft’s Xbox 360 gained an early lead in terms of market share due, in part,
+to its early launch date, which was one year ahead of its rivals PlayStation 3 and
+Wii. All told, the product was released in 36 countries in the first year of production, a Herculean effort requiring extensive coordination and a high level of
+project management skill. Sales of the Xbox 360 exceeded expectations with
+more than 10 million units sold in the first year alone. Nonetheless, Microsoft
+experienced difficulties in getting the supply chain to meet customer demands in
+a timely fashion. The lesson to be learned is that projects can be planned and executed properly; however, the underlying infrastructure that delivers the product
+is equally important in the ultimate success of the venture.
+Source: David Holt, Charles Holloway, and Hau Lee, “Evolution of the Xbox Supply Chain,” Stanford Graduate School
+of Business, Case: GS-49, (April 14, 2006); “Xbox 360,” Wikipedia, the free encyclopedia, http://en.wikipedia.org/wiki/
+Xbox_360.
+
+LEARNING GOALS
+
+After reading this chapter, you should be able to:
+
+ Define the major activities associated with defining, orga-
+
+ Describe the considerations managers make in assessing
+
+ Diagram the network of interrelated activities in a project.
+ Identify the sequence of critical activities that determines
+
+ Define the options available to alleviate resource
+
+nizing, planning, monitoring, and controlling projects.
+
+the duration of a project.
+
+the risks in a project and calculate the probability of completing a project on time.
+problems.
+
+ Explain how to determine a minimum-cost project schedule.
+
+project
+An interrelated set of activities
+with a definite starting and ending
+point, which results in a unique
+outcome for a specific allocation
+of resources.
+
+Companies such as Microsoft are experts at managing projects such as Xbox 360. They
+master the ability to schedule activities and monitor progress within strict time, cost, and performance guidelines. A project is an interrelated set of activities with a definite starting and ending
+point, which results in a unique outcome for a specific allocation of resources.
+Projects are common in everyday life as well as in business. Planning weddings, remodeling
+bathrooms, writing term papers, and organizing surprise parties are examples of small projects in
+everyday life. Conducting company audits, planning mergers, creating advertising campaigns, reengineering processes, developing new services or products, and establishing a strategic alliance
+are examples of large projects in business.
+
+MANAGING EFFECTIVE PROJECTS
+
+The three main goals of any project are (1) complete the project on time or earlier, (2) do not
+exceed the budget, and (3) meet the specifications to the satisfaction of the customer. When we
+must undertake projects with some uncertainty involved, it does not hurt to have flexibility with
+respect to resource availability, deadlines, and budgets. Consequently, projects can be complex
+and challenging to manage. Project management, which is a systemized, phased approach to defining, organizing, planning, monitoring, and controlling projects, is one way to overcome that
+challenge.
+Projects often cut across organizational lines because they need the skills of multiple professions and organizations. Furthermore, each project is unique, even if it is routine, requiring new combinations of skills and resources in the project process. For example, projects for
+adding a new branch office, installing new computers in a department, or developing a sales
+promotion may be initiated several times a year. Each project may have been done many times
+before; however, differences arise with each replication. Uncertainties, such as the advent of
+new technologies or the activities of competitors, can change the character of projects and require responsive countermeasures. Finally, projects are temporary because personnel, materials, and facilities are organized to complete them within a specified time frame and then are
+disbanded.
+Projects, and the application of project management, facilitate the implementation of strategy. However, the power of this approach goes beyond the focus on one project. Operations strategy initiatives often require the coordination of many interdependent projects. Such a collection
+of projects is called a program, which is an interdependent set of projects with a common strategic purpose. As new project proposals come forward, management must assess their fit to the
+current operations strategy and ongoing initiatives and have a means to prioritize them because
+funds for projects are often limited. Projects can be also used to implement changes to processes
+and supply chains. For example, projects involving the implementation of major information
+technologies may affect all of a firm’s core processes and supporting processes as well as some of
+their suppliers’ and customers’ processes. As such, projects are a useful tool for improving processes and supply chains.
+
+Project Management across the Organization
+Even though a project may be under the overall purview of a single department, other departments likely should be involved in the project. For example, consider an information systems
+project to develop a corporate customer database at a bank. Many of the bank’s customers are
+large corporations that require services spanning several departments at the bank. Because no
+department at the bank knows exactly what services a corporate customer is receiving from
+other departments, the project would consolidate information about corporate customers from
+many areas of the bank into one database. From this information, corporate banking services
+could be designed not only to better serve the corporate customers, but also to provide a basis
+for evaluating the prices that the bank charges. Marketing is interested in knowing all the services a customer is receiving so that it can package and sell other services that the customer
+may not be aware of. Finance is interested in how profitable a customer is to the bank and
+whether the provided services are appropriately priced. The project team, led by the information systems department, should consist of representatives from the marketing and finance departments who have a direct interest in corporate clients. All departments in a firm benefit from
+sound project management practices, even if the projects remain within the purview of a single
+department.
+
+CHAPTER 2
+
+71
+
+project management
+A systemized, phased approach
+to defining, organizing, planning, monitoring, and controlling
+projects.
+
+program
+An interdependent set of projects
+that have a common strategic
+purpose.
+Competing with Operations
+
+Using Operations to Compete
+Managing Effective Projects
+Designing and Managing
+Processes
+
+Developing a Process Strategy
+Analyzing Processes
+Managing Quality
+Planning Capacity
+Managing Process Constraints
+Designing Lean Systems
+Designing and Managing
+Supply Chains
+
+Managing Inventories
+
+Defining and Organizing Projects
+A clear understanding of a project’s organization and how personnel are going to work together
+to complete the project are keys to success. In this section, we will address (1) defining the scope
+and objectives, (2) selecting the project manager and team, and (3) recognizing the organizational
+structure.
+
+Defining the Scope and Objectives of a Project
+A thorough statement of a project’s scope, time frame, and allocated resources is essential to managing the project. This statement is often referred to as the project objective statement. The scope
+provides a succinct statement of project objectives and captures the essence of the desired project
+
+Designing Effective
+Supply Chains
+Locating Facilities
+Integrating the Supply Chain
+Managing Sustainable
+Supply Chains
+Forecasting Demand
+Planning and Scheduling
+Operations
+Planning Sufficient Resources
+
+72
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+outcomes in the form of major deliverables, which are concrete outcomes of the project. Changes
+to the scope of a project inevitably increase costs and delay completion. Collectively, changes to
+scope are called scope creep and, in sufficient quantity, are primary causes of failed projects. The
+time frame for a project should be as specific as possible, as in “the project should be completed
+by January 1, 2014.” Finally, although specifying an allocation of resources to a project may be
+difficult during the early stages of planning, it is important for managing the project. The allocation should be expressed as a dollar figure or as full-time equivalents of personnel time. A specific
+statement of allocated resources makes it possible to make adjustments to the scope of the project
+as it proceeds.
+
+Selecting the Project Manager and Team
+Once the project is selected, a project manager must be chosen. The qualities of a good project
+manager should be well aligned with the roles a project manager must play.
+ Facilitator. The project manager often must resolve conflicts between individuals or departments to ensure that the project has the appropriate resources for the job to be completed.
+Successful project managers have good leadership skills and a systems view, which encompasses the interaction of the project, its resources, and its deliverables with the firm as a
+whole.
+ Communicator. Project progress and requests for additional resources must be clearly communicated to senior management and other stakeholders in a project. The project manager
+must also frequently communicate with the project team to get the best performance.
+ Decision Maker. Good project managers will be sensitive to the way the team performs best
+and be ready to make tough decisions, if necessary. The project manger must organize the
+team meetings, specify how the team will make decisions, and determine the nature and timing of reports to senior management.
+Selecting the project team is just as important as the selection of the project manager. Several
+characteristics should be considered.
+ Technical Competence. Team members should have the technical competence required for
+the tasks to which they will be assigned.
+ Sensitivity. All team members should be sensitive to interpersonal conflicts that may arise. Senior team members should be politically sensitive to help mitigate problems with upper-level
+management.
+ Dedication. Team members should feel comfortable solving project problems that may spill
+over into areas outside their immediate expertise. They should also be dedicated to getting
+the project done, as opposed to maintaining a comfortable work schedule.
+
+Recognizing Organizational Structure
+The relationship of the project manager to the project team is determined by the firm’s organizational structure. Each of the three types of organizational structure described below has its own
+implications for project management.
+ Functional. The project is housed in a specific department or functional area, presumably
+the one with the most interest in the project. Assistance from personnel in other functional
+areas must be negotiated by the project manager. In such cases, the project manager has less
+control over project timing than if the entire scope of the project fell within the purview of the
+department.
+ Pure Project. The team members work exclusively for the project manager on a particular
+project. This structure simplifies the lines of authority and is particularly effective for large
+projects that consist of enough work for each team member to work full time. For small projects, it could result in significant duplication of resources across functional areas.
+ Matrix. The matrix structure is a compromise between the functional and pure project structures. The project managers of the firm’s projects all report to a “program manager” who
+coordinates resource and technological needs across the functional boundaries. The matrix
+structure allows each functional area to maintain control over who works on a project and
+the technology that is used. However, team members, in effect, have two bosses: the project
+manager and the department manager. Resolving these “line of authority” conflicts requires a
+strong project manager.
+
+CHAPTER 2
+
+73
+
+Justin Kase z10z/Alamy
+
+MANAGING EFFECTIVE PROJECTS
+
+The construction of the 2012 Olympic Stadium in Stratford, East London, required the coordination of materials,
+equipment, and personnel. Project management techniques played a major role.
+
+Planning Projects
+After the project is defined and organized, the team must formulate a plan that identifies the
+specific work to be accomplished and a schedule for completion. Planning projects involves five
+steps: (1) defining the work breakdown structure, (2) diagramming the network, (3) developing the
+schedule, (4) analyzing cost–time trade-offs, and (5) assessing risks.
+
+Defining the Work Breakdown Structure
+The work breakdown structure (WBS) is a statement of all work that has to be completed. Perhaps,
+the single most important contributor to delay is the omission of work that is germane to the successful completion of the project. The project manager must work closely with the team to identify all activities. An activity is the smallest unit of work effort consuming both time and resources
+that the project manager can schedule and control. Typically, in the process of accumulating activities, the team generates a hierarchy to the work breakdown. Major work components are broken
+down to smaller tasks that ultimately are broken down to activities that are assigned to individuals.
+Figure 2.1 shows a WBS for a major project involving the relocation of a hospital. In the interest of
+better serving the surrounding community, the board of St. John’s Hospital has decided to move
+to a new location. The project involves constructing a new hospital and making it operational. The
+work components at level 1 in the WBS can be broken down into smaller units of work in level 2 that
+could be further divided at level 3, until the project manager gets to activities at a level of detail that
+can be scheduled and controlled. For example, “Organizing and Site Preparation” has been divided
+into six activities at level 2 in Figure 2.1. We have kept our example simple so that the concept of
+the WBS can be easily understood. If our activities in the example are divided into even smaller
+units of work, it is easy to see that the total WBS for a project of this size may include many more
+than 100 activities. Regardless of the project, care must be taken to include all important activities
+in the WBS to avoid project delays. Often overlooked are the activities required to plan the project,
+get management approval at various stages, run pilot tests of new services or products, and prepare
+final reports.
+Each activity in the WBS must have an “owner” who is responsible for doing the work. Activity
+ownership avoids confusion in the execution of activities and assigns responsibility for timely completion. The team should have a defined procedure for assigning activities to team members, which
+can be democratic (consensus of the team) or autocratic (assigned by the project manager).
+
+work breakdown structure
+(WBS)
+A statement of all work that has
+to be completed.
+activity
+The smallest unit of work effort
+consuming both time and resources that the project manager
+can schedule and control.
+
+74
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+ FIGURE 2.1
+Work Breakdown Structure for
+the St. John’s Hospital Project
+
+Relocation of St. John’s Hospital
+
+Organizing and Site Preparation
+
+Level 0
+
+Physical Facilities and Infrastructure
+
+Select administrative staff
+
+Purchase and deliver equipment
+
+Select site and survey
+
+Construct hospital
+
+Select medical equipment
+
+Develop information system
+
+Prepare final construction plans
+
+Install medical equipment
+
+Bring utilities to site
+
+Train nurses and support staff
+
+Level 1
+
+Level 2
+
+Interview applicants for
+nursing and support staff
+
+Diagramming the Network
+network diagram
+A network planning method,
+designed to depict the relationships between activities, that
+consists of nodes (circles) and
+arcs (arrows).
+program evaluation and review
+technique (PERT)
+A network planning method created for the U.S. Navy’s Polaris
+missile project in the 1950s,
+which involved 3,000 separate
+contractors and suppliers.
+
+Network planning methods can help managers monitor and control projects. These methods treat
+a project as a set of interrelated activities that can be visually displayed in a network diagram,
+which consists of nodes (circles) and arcs (arrows) that depict the relationships between activities. Two network planning methods were developed in the 1950s. The program evaluation and
+review technique (PERT) was created for the U.S. Navy’s Polaris missile project, which involved
+3,000 separate contractors and suppliers. The critical path method (CPM) was developed as a
+means of scheduling maintenance shutdowns at chemical-processing plants. Although early versions of PERT and CPM differed in their treatment of activity time estimates, today the differences
+are minor. For purposes of our discussion, we refer to them collectively as PERT/CPM. These
+methods offer several benefits to project managers, including the following:
+1.
+
+Considering projects as networks forces project teams to identify and organize the data required and to identify the interrelationships between activities. This process also provides a
+forum for managers of different functional areas to discuss the nature of the various activities
+and their resource requirements.
+
+2.
+
+Networks enable project managers to estimate the completion time of projects, an advantage
+that can be useful in planning other events and in conducting contractual negotiations with
+customers and suppliers.
+
+3.
+
+Reports highlight the activities that are crucial to completing projects on schedule. They also
+highlight the activities that may be delayed without affecting completion dates, thereby freeing up resources for other, more critical activities.
+
+4.
+
+Network methods enable project managers to analyze the time and cost implications of
+resource trade-offs.
+
+critical path method (CPM)
+A network planning method developed in the 1950s as a means
+of scheduling maintenance shutdowns at chemical-processing
+plants.
+
+Diagramming the project network involves establishing precedence relationships and estimating activity times.
+precedence relationship
+A relationship that determines a
+sequence for undertaking activities; it specifies that one activity
+cannot start until a preceding
+activity has been completed.
+
+Establishing Precedence Relationships A precedence relationship determines a sequence
+for undertaking activities; it specifies that one activity cannot start until a preceding activity has
+been completed. For example, brochures announcing a conference for executives must first be
+designed by the program committee (activity A) before they can be printed (activity B). In other
+words, activity A must precede activity B. For large projects, establishing precedence relationships
+is essential because incorrect or omitted precedence relationships will result in costly delays. The
+precedence relationships are represented by a network diagram.
+
+MANAGING EFFECTIVE PROJECTS
+
+Estimating Activity Times When the same type of activity has been done many times before, time
+estimates will have a relatively high degree of certainty. Several ways can be used to get time estimates in such an environment. First, statistical methods can be used if the project team has access
+to data on actual activity times experienced in the past (see MyOMLab Supplement H, “Measuring Output Rates,”). Second, if activity times improve with the number of replications, the times
+can be estimated using learning curve models (see Supplement I, “Learning Curve Analysis,” in
+MyOMLab). Finally, the times for first-time activities are often estimated using managerial opinions based on similar prior experiences (see Chapter 14, “Forecasting Demand”). If the estimates
+involve a high degree of uncertainty, probability distributions for activity times can be used. We
+discuss how to incorporate uncertainty in project networks when we address risk assessment later
+in this chapter. For now, we assume that the activity times are known with certainty.
+Using the Activity-On-Node Approach
+
+The diagramming approach we use in this text is referred
+to as the activity-on-node (AON) network, in which nodes represent activities and arcs represent
+the precedence relationships between them. Some diagramming conventions must be used for
+AON networks. In cases of multiple activities with no predecessors, it is usual to show them emanating from a common node called start. For multiple activities with no successors, it is usual to
+show them connected to a node called finish. Figure 2.2 shows how to diagram several commonly
+encountered activity relationships.
+
+AON
+
+Activity Relationships
+
+T
+
+S
+
+U
+
+S
+
+S precedes T, which
+precedes U.
+
+S and T must be
+completed before U
+can be started.
+
+U
+T
+
+T
+T and U cannot begin
+until S has been completed.
+
+S
+U
+
+S
+
+U
+U and V cannot begin
+until both S and T
+have been completed.
+
+S
+
+T
+
+V
+
+S
+
+U
+
+T
+
+V
+
+T
+
+U
+
+V
+
+U cannot begin until
+both S and T have been
+completed; V cannot
+begin until T has been
+completed.
+
+T and U cannot begin
+until S has been completed
+and V cannot begin until both
+T and U have been completed.
+
+CHAPTER 2
+
+75
+
+MyOMLab
+
+activity-on-node (AON)
+network
+An approach used to create a
+network diagram, in which nodes
+represent activities and arcs represent the precedence relationships between them.
+
+ FIGURE 2.2
+Diagramming Activity
+Relationships
+
+76
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+EXAMPLE 2.1
+
+Diagramming the St. John’s Hospital Project
+Judy Kramer, the project manager for the St. John’s Hospital project, divided the project into two major modules.
+She assigned John Stewart the overall responsibility for the Organizing and Site Preparation module and Sarah
+Walker the responsibility for the Physical Facilities and Infrastructure module. Using the WBS shown in Figure 2.1,
+the project team developed the precedence relationships, activity time estimates, and activity responsibilities shown
+in the following table:
+Immediate
+Predecessors
+
+Activity
+
+Activity Times
+(wks)
+
+Responsibility
+
+ST. JOHN’S HOSPITAL PROJECT
+
+Kramer
+
+START
+
+0
+
+ORGANIZING and SITE PREPARATION
+
+Stewart
+
+A. Select administrative staff
+
+Start
+
+12
+
+Johnson
+
+B. Select site and survey
+
+Start
+
+9
+
+Taylor
+
+A
+
+10
+
+Adams
+
+C. Select medical equipment
+D. Prepare final construction plans
+
+B
+
+10
+
+Taylor
+
+E. Bring utilities to site
+
+B
+
+24
+
+Burton
+
+F. Interview applicants for nursing and support staff
+
+A
+
+10
+
+Johnson
+
+PHYSICAL FACILITIES and INFRASTRUCTURE
+
+Walker
+
+G. Purchase and deliver equipment
+
+C
+
+H. Construct hospital
+
+D
+
+40
+
+Casey
+
+I. Develop information system
+
+A
+
+15
+
+Murphy
+
+J. Install medical equipment
+
+E, G, H
+
+4
+
+Pike
+
+K. Train nurses and support staff
+
+F, I, J
+
+6
+
+Ashton
+
+K
+
+0
+
+FINISH
+
+35
+
+Sampson
+
+For purposes of our example, we will assume a work week consists of five work days. Draw the network diagram for the hospital project.
+SOLUTION
+The network diagram, activities, and
+activity times for the hospital project
+are shown in Figure 2.3. The diagram
+depicts activities as circles, with arrows indicating the sequence in which
+they are to be performed. Activities
+A and B emanate from a start node
+because they have no immediate
+predecessors. The arrows connecting
+activity A to activities C, F, and I indicate that all three require completion
+of activity A before they can begin.
+Similarly, activity B must be completed before activities D and E can
+begin, and so on. Activity K connects
+to a finish node because no activities
+follow it. The start and finish nodes do
+not actually represent activities; they
+merely provide beginning and ending
+points for the network.
+
+I
+15
+
+A
+12
+
+Start
+
+B
+9
+
+F
+10
+
+K
+6
+
+C
+10
+
+G
+35
+
+D
+10
+
+H
+40
+
+Finish
+
+J
+4
+
+E
+24
+
+ FIGURE 2.3
+Network Showing Activity Times for the St. John’s Hospital Project
+
+MANAGING EFFECTIVE PROJECTS
+
+CHAPTER 2
+
+77
+
+Developing the Schedule
+A key advantage of network planning methods is the creation of a schedule of project activities that will help managers achieve the objectives of the project. Managers can (1) estimate the
+completion time of a project by finding the critical path, (2) identify the start and finish times for
+each activity for a project schedule, and (3) calculate the amount of slack time for each activity.
+
+Critical Path A crucial aspect of project management is estimating the time of completion of a
+project. If each activity in relocating the hospital were done in sequence, with work proceeding on
+only one activity at a time, the time of completion would equal the sum of the times for all the activities, or 175 weeks. However, Figure 2.3 indicates that some activities can be carried on simultaneously given adequate resources. We call each sequence of activities between the project’s start
+and finish a path. The network describing the hospital relocation project has five paths: (1) A–I–K,
+(2) A–F–K, (3) A–C–G–J–K, (4) B–D–H–J–K, and (5) B–E–J–K. The critical path is the sequence of
+activities between a project’s start and finish that takes the longest time to complete. Thus, the
+activities along the critical path determine the completion time of the project; that is, if one of the
+activities on the critical path is delayed, the entire project will be delayed. The estimated times for
+the paths in the hospital project network are
+Path
+
+path
+The sequence of activities between a project’s start and finish.
+critical path
+The sequence of activities between a project’s start and finish
+that takes the longest time to
+complete.
+
+Estimated Time (weeks)
+
+A–I–K
+
+33
+
+A–F–K
+
+28
+
+A–C–G–J–K
+
+67
+
+B–D–H–J–K
+
+69
+
+B–E–J–K
+
+43
+
+earliest finish time (EF)
+
+The activity string B–D–H–J–K is estimated to take 69 weeks to complete. As the longest, it
+constitutes the critical path. Because the critical path defines the completion time of the project,
+Judy Kramer and the project team should focus on these activities and any other path that is close
+in length to the critical path.
+
+Project Schedule
+
+The typical objective is to finish the project as early as possible as determined
+by the critical path. The project schedule is specified by the start and finish times for each activity. For any activity, managers can use the earliest start and finish times, the latest start and finish
+times (and still finish the project on time), or times in between these extremes.
+ Earliest Start and Earliest Finish Times The earliest start and earliest finish times are obtained as follows:
+1. The earliest finish time (EF) of an activity equals its earliest start time plus its estimated
+duration, t, or EF = ES + t .
+The earliest start time (ES) for an activity is the earliest finish time of the immediately preceding activity. For
+activities with more than one preceding activity, ES is the
+latest of the earliest finish times of the preceding activities.
+To calculate the duration of the entire project, we determine the EF for the last activity on the critical path.
+
+An activity’s earliest start time
+plus its estimated duration, t, or
+EF = ES + t.
+earliest start time (ES)
+The earliest finish time of the
+immediately preceding activity.
+latest finish time (LF)
+The latest start time of the activity
+that immediately follows.
+latest start time (LS)
+The latest finish time minus its estimated duration, t, or LS = LF – t.
+
+1. The latest finish time (LF) for an activity is the latest start
+time of the activity that immediately follows. For activities
+with more than one activity that immediately follow, LF is
+the earliest of the latest start times of those activities.
+2. The latest start time (LS) for an activity equals its latest
+finish time minus its estimated duration, t, or LS = LF - t.
+
+George Hall/Corbis
+
+ Latest Start and Latest Finish Times To obtain the latest start
+and latest finish times, we must work backward from the finish
+node. We start by setting the latest finish time of the project
+equal to the earliest finish time of the last activity on the critical path.
+
+Aircraft construction is an example of a large project that requires a
+sound project schedule because of the capital involved. Here several
+747s are under construction at Boeing’s plant in Everett, Washington.
+
+78
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+EXAMPLE 2.2
+
+Calculating Start and Finish Times for the Activities
+Calculate the ES, EF, LS, and LF times for each activity in the hospital project. Which activity should Kramer start
+immediately? Figure 2.3 contains the activity times.
+SOLUTION
+To compute the early start and early finish times, we begin at the start node at time zero. Because activities
+A and B have no predecessors, the earliest start times for these activities are also zero. The earliest finish times
+for these activities are
+EF A = 0 + 12 = 12 and EF B = 0 + 9 = 9
+Because the earliest start time for activities I, F, and C is the earliest finish time of activity A,
+ESI = 12, ESF = 12, and ESC = 12
+Similarly,
+ESD = 9 and ESE = 9
+After placing these ES values on the network diagram (see Figure 2.4), we determine the EF times for activities
+I, F, C, D, and E:
+EFI = 12 + 15 = 27, EFF = 12 + 10 = 22, EFC = 12 + 10 = 22,
+EFD = 9 + 10 = 19, and EFE = 9 + 24 = 33
+The earliest start time for activity G is the latest EF time of all immediately preceding activities. Thus,
+ESG = EFC = 22, ESH = EFD = 19
+EFG = ESG + t = 22 + 35 = 57, EFH = ESH + t = 19 + 40 = 59
+
+ FIGURE 2.4
+Network Diagram Showing
+Start and Finish Times and
+Activity Slack
+
+Activity name
+Earliest start time
+
+Earliest finish time
+12
+
+I
+
+27
+
+48
+
+15
+
+63
+
+Latest start time
+
+Latest finish time
+
+Estimated time
+
+S = 36
+
+Slack
+
+0
+
+A
+
+12
+
+12
+
+F
+
+22
+
+63
+
+K
+
+69
+
+2
+
+12
+
+14
+
+53
+
+10
+
+63
+
+63
+
+6
+
+69
+
+S=2
+
+S = 41
+
+S=0
+
+12
+
+C
+
+22
+
+22
+
+G
+
+57
+
+14
+
+10
+
+24
+
+24
+
+35
+
+59
+
+Start
+
+Finish
+
+S=2
+
+Critical
+path
+
+S=2
+
+0
+
+B
+
+9
+
+9
+
+D
+
+19
+
+19
+
+H
+
+59
+
+59
+
+J
+
+63
+
+0
+
+9
+
+9
+
+9
+
+10
+
+19
+
+19
+
+40
+
+59
+
+59
+
+4
+
+63
+
+S=0
+
+S=0
+
+S=0
+
+9
+
+E
+
+33
+
+35
+
+24
+
+59
+
+S = 26
+
+S=0
+
+MANAGING EFFECTIVE PROJECTS
+
+CHAPTER 2
+
+79
+
+The project team can now determine the earliest time any activity can be started. Because activity J has
+several predecessors, the earliest time that activity J can begin is the latest of the EF times of any of its preceding activities: EFG , EFH, or EFE. Thus, EFJ = 59 + 4 = 63. Similarly, ESK = 63 and EFK = 63 + 6 = 69.
+Because activity K is the last activity on the critical path, the earliest the project can be completed is week 69.
+The earliest start and finish times for all activities are shown in Figure 2.4.
+To compute the latest start and latest finish times, we begin by setting the latest finish activity time of
+activity K at week 69, which is its earliest finish time as determined in Figure 2.4. Thus, the latest start time for
+activity K is
+LSK = LFK - t = 69 - 6 = 63
+If activity K is to start no later than week 63, all its predecessors must finish no later than that time. Consequently,
+LFI = 63, LFF = 63, and LFJ = 63
+The latest start times for these activities are shown in Figure 2.4 as
+LSI = 63 - 15 = 48, LSF = 63 - 10 = 53, and LSJ = 63 - 4 = 59
+After obtaining LSJ, we can calculate the latest start times for the immediate predecessors of activity J:
+LSG = 59 - 35 = 24, LSH = 59 - 40 = 19, and LSE = 59 - 24 = 35
+Similarly, we can now calculate the latest start times for activities C and D:
+LSC = 24 - 10 = 14 and LSD = 19 - 10 = 9
+Activity A has more than one immediately following activity: I, F, and C. The earliest of the latest start times is 14
+for activity C. Thus,
+LSA = 14 - 12 = 2
+Similarly, activity B has two immediate followers: D and E. Because the earliest of the latest start times of these
+activities is 9,
+LSB = 9 - 9 = 0
+DECISION POINT
+The earliest or latest start times can be used for developing a project schedule. For example, Kramer should
+start activity B immediately because the latest start time is 0; otherwise, the project will not be completed by
+week 69. When the LS is greater than the ES for an activity, that activity could be scheduled for any date
+between ES and LS. Such is the case for activity E, which could be scheduled to start anytime between week 9
+and week 35, depending on the availability of resources. The earliest start and earliest finish times and the latest
+start and latest finish times for all activities are shown in Figure 2.4.
+
+Activity Slack
+
+The maximum length of time that an activity can be delayed without delaying the
+entire project is called activity slack. Consequently, activities on the critical path have zero slack.
+Information on slack can be useful because it highlights activities that need close attention. In this
+regard, activity slack is the amount of schedule slippage that can be tolerated for an activity before
+the entire project will be delayed. Slack at an activity is reduced when the estimated time duration of an activity is exceeded or when the scheduled start time for the activity must be delayed
+because of resource considerations. Activity slack can be calculated in one of two ways for any
+activity:
+
+activity slack
+The maximum length of time that
+an activity can be delayed without delaying the entire project,
+calculated as S = LS – ES or
+S = LF – EF.
+
+S = LS - ES or S = LF - EF
+Computers calculate activity slack and prepare periodic reports for large projects, enabling
+managers to monitor progress. Using these reports, managers can sometimes manipulate slack
+to overcome scheduling problems. When resources can be used on several different activities
+in a project, they can be taken from activities with slack and given to activities that are behind
+schedule until the slack is used up. The slack for each activity in the hospital project is shown in
+Figure 2.4.
+
+Gantt Chart
+
+The project manager, often with the assistance of computer software, creates the
+project schedule by superimposing project activities, with their precedence relationships and
+
+MyOMLab
+Active Model 2.1 in MyOMLab
+provides additional insight on
+Gantt charts and their uses
+for the St. John’s Hospital
+project.
+
+80
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+ FIGURE 2.5
+MS Project Gantt Chart for
+the St. John’s Hospital Project
+Schedule
+
+Gantt chart
+
+Mark Eveleigh/Alamy
+
+A project schedule, usually
+created by the project manager
+using computer software, that
+superimposes project activities,
+with their precedence relationships and estimated duration
+times, on a time line.
+
+estimated duration times, on a time line. The resulting diagram is called a Gantt chart. Figure 2.5
+shows a Gantt chart for the hospital project created with Microsoft Project, a popular software
+package for project management. The critical path is shown in red. The chart clearly shows which
+activities can be undertaken simultaneously and when they should be started. Figure 2.5 also
+shows the earliest start schedule for the project. Microsoft Project can also be used to show the latest start schedule or to change the definition of the work week to declare Saturday and Sunday as
+work days, for example. Gantt charts are popular because they are intuitive and easy to construct.
+
+Analyzing Cost–Time Trade-Offs
+
+Keeping costs at acceptable levels is almost always as important as meeting schedule dates. In this
+section, we discuss the use of PERT/CPM methods to obtain minimum-cost schedules.
+The reality of project management is that there are always cost–time trade-offs. For example, a project can often
+be completed earlier than scheduled by hiring more workers
+or running extra shifts. Such actions could be advantageous
+if savings or additional revenues accrue from completing the
+project early. Total project costs are the sum of direct costs,
+indirect costs, and penalty costs. These costs are dependent either on activity times or on project completion time.
+Direct costs include labor, materials, and any other costs
+directly related to project activities. Indirect costs include
+administration, depreciation, financial, and other variable
+overhead costs that can be avoided by reducing total project
+time: The shorter the duration of the project, the lower the
+indirect costs will be. Finally, a project may incur penalty
+costs if it extends beyond some specific date, whereas an incentive may be provided for early completion. Managers can
+shorten individual activity times by using additional direct
+resources, such as overtime, personnel, or equipment. Thus,
+a project manager may consider crashing, or expediting,
+Excavators work on the new Panama Canal project, which has international
+some activities to reduce overall project completion time
+implications and massive costs.
+and total project costs.
+
+MANAGING EFFECTIVE PROJECTS
+
+81
+
+CHAPTER 2
+
+Cost to Crash To assess the benefit of crashing certain activities—from
+either a cost or a schedule perspective—the project manager needs to
+know the following times and costs:
+
+8000
+
+1.
+
+The normal time (NT) is the time necessary to complete an activity
+under normal conditions.
+
+7000
+
+2.
+
+The normal cost (NC) is the activity cost associated with the normal time.
+The crash time (CT) is the shortest possible time to complete
+an activity.
+
+4.
+
+The crash cost (CC) is the activity cost associated with the
+crash time.
+
+Direct cost (dollars)
+
+3.
+
+Crash cost (CC)
+Linear cost assumption
+
+6000
+
+Estimated costs for
+a 2-week reduction,
+from 10 weeks to
+8 weeks
+
+5200
+5000
+4000
+
+Normal cost (NC)
+
+3000
+Our cost analysis is based on the assumption that direct costs increase linearly as activity time is reduced from its normal time. This assumption implies that for every week the activity time is reduced, direct
+0
+5
+6
+costs increase by a proportional amount. For example, suppose that the
+normal time for activity C in the hospital project is 10 weeks and is associ(Crash time)
+ated with a direct cost of $4,000. Also, suppose that we can crash its time
+to only 5 weeks at a total cost of $7,000; the net time reduction is 5 weeks
+at a net cost increase of $3,000. We assume that crashing activity C costs
+$3,000>5 = $600 per week—an assumption of linear marginal costs that is illustrated in Figure 2.6.
+Thus, if activity C were expedited by 2 weeks (i.e., its time reduced from 10 weeks to 8 weeks), the
+estimated direct costs would be $4,000 + 21$6002 = $5,200. For any activity, the cost to crash an
+activity by one week is
+
+Cost to crash per period =
+
+7
+
+8
+
+9
+
+10
+
+11
+
+(Normal time)
+Time (weeks)
+
+ FIGURE 2.6
+Cost-Time Relationships in
+Cost Analysis
+
+normal time (NT)
+
+CC - NC
+NT - CT
+
+Table 2.1 contains direct cost and time data, as well as the costs of crashing per week for the
+activities in the hospital project.
+
+In the context of project management, the time necessary to
+complete an activity under normal
+conditions.
+normal cost (NC)
+
+TABLE 2.1
+Activity
+
+DIRECT COST AND TIME DATA FOR THE ST. JOHN’S HOSPITAL PROJECT
+Normal Time
+(NT) (weeks)
+
+Normal Cost
+(NC) ($)
+
+Crash Time
+(CT) (weeks)
+
+Crash Cost
+(CC) ($)
+
+Maximum Time
+Reduction (week)
+
+Cost of Crashing
+per Week ($)
+
+The activity cost associated with
+the normal time.
+crash time (CT)
+
+A
+
+12
+
+$12,000
+
+11
+
+13,000
+
+1
+
+1,000
+
+The shortest possible time to
+complete an activity.
+
+B
+
+9
+
+50,000
+
+7
+
+64,000
+
+2
+
+7,000
+
+crash cost (CC)
+
+C
+
+10
+
+4,000
+
+5
+
+7,000
+
+5
+
+600
+
+D
+
+10
+
+16,000
+
+8
+
+20,000
+
+2
+
+2,000
+
+E
+
+24
+
+120,000
+
+14
+
+200,000
+
+10
+
+8,000
+
+F
+
+10
+
+10,000
+
+6
+
+16,000
+
+4
+
+1,500
+
+G
+
+35
+
+500,000
+
+25
+
+530,000
+
+10
+
+3,000
+
+H
+
+40
+
+1,200,000
+
+35
+
+1,260,000
+
+5
+
+12,000
+
+I
+
+15
+
+40,000
+
+10
+
+52,500
+
+5
+
+2,500
+
+J
+
+4
+
+10,000
+
+1
+
+13,000
+
+3
+
+1,000
+
+K
+
+6
+
+30,000
+
+5
+
+34,000
+
+1
+
+4,000
+
+Totals
+
+$1,992,000
+
+$2,209,500
+
+Minimizing Costs The objective of cost analysis is to determine the project schedule that minimizes total project costs. Suppose that project indirect costs are $8,000 per week. Suppose also
+that, after week 65, the Regional Hospital Board imposes on St. John’s a penalty cost of $20,000
+per week if the hospital is not fully operational. With a critical path completion time of 69 weeks,
+the hospital faces potentially large penalty costs unless the schedule is changed. For every week
+that the project is shortened—to week 65—the hospital saves one week of penalty and indirect
+
+The activity cost associated with
+the crash time.
+
+82
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+minimum-cost schedule
+A schedule determined by starting with the normal time schedule
+and crashing activities along the
+critical path, in such a way that
+the costs of crashing do not exceed the savings in indirect and
+penalty costs.
+
+costs, or $28,000. For reductions beyond week 65, the savings are only the weekly indirect costs
+of $8,000.
+The minimum possible project duration can be found by using the crash times of each activity for scheduling purposes. However, the cost of that schedule could be prohibitive. Project
+managers are most interested in minimizing the costs of their projects so that budgets are not
+exceeded. In determining the minimum-cost schedule, we start with the normal time schedule
+and crash activities along the critical path, whose length equals the length of the project. We want
+to determine how much we can add in crash costs without exceeding the savings in indirect and
+penalty costs. The procedure involves the following steps:
+Step 1. Determine the project’s critical path(s).
+Step 2. Find the activity or activities on the critical path(s) with the lowest cost of crashing per week.
+Step 3. Reduce the time for this activity until (a) it cannot be further reduced, (b) another path
+becomes critical, or (c) the increase in direct costs exceeds the indirect and penalty cost
+savings that result from shortening the project. If more than one path is critical, the time
+for an activity on each path may have to be reduced simultaneously.
+Step 4. Repeat this procedure until the increase in direct costs is larger than the savings generated
+by shortening the project.
+
+EXAMPLE 2.3
+
+Find a Minimum-Cost Schedule
+Determine the minimum-cost schedule for the St. John’s Hospital project. Use the information provided in
+Table 2.1 and Figure 2.4.
+
+MyOMLab
+Active Model 2.2 in MyOMLab
+provides additional insight
+on cost analysis for the
+St. John’s Hospital project.
+
+SOLUTION
+The projected completion time of the project is 69 weeks. The project costs for that schedule are $1,992,000
+in direct costs, 691$8,0002 = $552,000 in indirect costs, and 169 - 652 1$20,0002 = $80,000 in penalty
+costs, for total project costs of $2,624,000. The five paths in the network have the following normal times:
+A–I–K:
+
+33 weeks
+
+A–F–K:
+
+28 weeks
+
+A–C–G–J–K:
+
+67 weeks
+
+B–D–H–J–K:
+
+69 weeks
+
+B–E–J–K:
+
+43 weeks
+
+It will simplify our analysis if we can eliminate some paths from further consideration. If all activities on A–C–G–J–K
+were crashed, the path duration would be 47 weeks. Crashing all activities on B–D–H–J–K results in a project
+duration of 56 weeks. Because the normal times of A–I–K, A–F–K, and B–E–J–K are less than the minimum
+times of the other two paths, we can disregard those three paths; they will never become critical regardless of
+the crashing we may do.
+STAGE 1
+Step 1. The critical path is B–D–H–J–K.
+Step 2. The cheapest activity to crash per week is J at $1,000, which is much less than the savings in indirect
+and penalty costs of $28,000 per week.
+Step 3. Crash activity J by its limit of three weeks because the critical path remains unchanged. The new
+expected path times are
+A–C–G–J–K: 64 weeks and B–D–H–J–K: 66 weeks
+The net savings are 3 ($28,000) - 3($1,000)= $81,000. The total project costs are now $2,624,000 $81,000 = $2,543,000.
+
+MANAGING EFFECTIVE PROJECTS
+
+I
+15
+
+A
+12
+
+Start
+
+B
+9
+
+CHAPTER 2
+
+I
+15
+
+F
+10
+
+K
+6
+
+C
+10
+
+G
+35
+
+D
+10
+
+H
+40
+
+A
+12
+
+Finish
+
+Start
+
+J
+1
+
+B
+9
+
+E
+24
+
+F
+10
+
+K
+6
+
+C
+10
+
+G
+35
+
+D
+8
+
+H
+40
+
+Finish
+
+J
+1
+
+E
+24
+
+STAGE 1
+
+STAGE 2
+
+STAGE 2
+Step 1. The critical path is still B–D–H–J–K.
+Step 2. The cheapest activity to crash per week is now D at $2,000.
+Step 3. Crash D by two weeks. The first week of reduction in activity D saves $28,000 because it eliminates
+a week of penalty costs, as well as indirect costs. Crashing D by a second week saves only $8,000 in
+indirect costs because, after week 65, no more penalty costs are incurred. These savings still exceed
+the cost of crashing D for a second week. Updated path times are
+A–C–G–J–K: 64 weeks and B–D–H–J–K: 64 weeks
+The net savings are $28,000 + $8,000 - 21$2,0002 = $32,000. Total project costs are now
+$2,543,000 - $32,000 = $2,511,000.
+STAGE 3
+Step 1. After crashing D, we now have two critical paths. Both critical paths must now be shortened to realize
+any savings in indirect project costs. If one is shortened and the other is not, the length of the project
+remains unchanged.
+Step 2. Our alternatives are to crash one of the following combinations of activities—(A, B); (A, H); (C, B); (C, H);
+(G, B); (G, H)—or to crash activity K, which is on both critical paths (J has already been crashed). We
+consider only those alternatives for which the cost of crashing is less than the potential savings of
+$8,000 per week. The only viable alternatives are (C, B) at a cost of $7,600 per week and K at $4,000
+per week. We choose activity K to crash.
+I
+15
+
+A
+12
+
+Start
+
+B
+9
+
+I
+15
+
+F
+10
+
+K
+5
+
+C
+10
+
+G
+35
+
+D
+8
+
+H
+40
+
+E
+24
+STAGE 3
+
+A
+12
+
+Finish
+
+J
+1
+
+Start
+
+B
+7
+
+F
+10
+
+K
+5
+
+C
+8
+
+G
+35
+
+D
+8
+
+H
+40
+
+E
+24
+STAGE 4
+
+Finish
+
+J
+1
+
+83
+
+84
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+Step 3. We crash activity K to the greatest extent possible—a reduction of one week—because it is on both
+critical paths. Updated path times are
+A–C–G–J–K: 63 weeks and B–D–H–J–K: 63 weeks
+The net savings are $8,000 - $4,000 = $4,000. Total project costs are $2,511,000 - $4,000 = $2,507,000.
+STAGE 4
+Step 1. The critical paths are B–D–H–J–K and A–C–G–J–K.
+Step 2. The only viable alternative at this stage is to crash activities B and C simultaneously at a cost of $7,600
+per week. This amount is still less than the savings of $8,000 per week.
+Step 3. Crash activities B and C by two weeks, the limit for activity B. Updated path times are
+A–C–G–J–K: 61 weeks and B–D–H–J–K: 61 weeks
+Net savings are 21$8,000) - 21$7,600) = $800. Total project costs are $2,507,000 - $800 = $2,506,200.
+The following table summarizes the analysis:
+
+Stage
+
+Crash
+Activity
+
+Time
+Reduction
+(weeks)
+
+Resulting
+Critical
+Path(s)
+
+Project
+Duration
+(weeks)
+
+Project
+Direct Costs,
+Crash Cost
+Last Trial ($000) Added ($000)
+
+0
+
+—
+
+—
+
+B–D–H–J–K
+
+69
+
+1,992.0
+
+1
+
+J
+
+3
+
+B–D–H–J–K
+
+66
+
+2
+
+D
+
+2
+
+B–D–H–J–K
+
+Total Indirect
+Costs ($000)
+
+Total Penalty
+Costs ($000)
+
+Total Project
+Costs ($000)
+
+—
+
+552.0
+
+80.0
+
+2,624.0
+
+1,992.0
+
+3.0
+
+528.0
+
+20.0
+
+2,543.0
+
+64
+
+1,995.0
+
+4.0
+
+512.0
+
+0.0
+
+2,511.0
+
+63
+
+1,999.0
+
+4.0
+
+504.0
+
+0.0
+
+2,507.0
+
+61
+
+2,003.0
+
+15.2
+
+488.0
+
+0.0
+
+2,506.2
+
+A–C–G–J–K
+3
+
+K
+
+1
+
+B–D–H–J–K
+A–C–G–J–K
+
+4
+
+B,C
+
+2
+
+B–D–H–J–K
+A–C–G–J–K
+
+DECISION POINT
+Because the crash costs exceed weekly indirect costs, any other combination of activities will result in a net increase in total project costs. The minimum-cost schedule is 61 weeks, with a total cost of $2,506,200. To obtain
+this schedule, the project team must crash activities B, D, J, and K to their limits and activity C to eight weeks. The
+other activities remain at their normal times. This schedule costs $117,800 less than the normal-time schedule.
+
+Assessing Risks
+Risk is a measure of the probability and consequence of not reaching a defined project goal. Risk
+involves the notion of uncertainty as it relates to project timing and costs. Often, project teams
+must deal with uncertainty caused by labor shortages, weather, supply delays, or the outcomes of
+critical tests. In this section, we discuss risk management plans and the tools managers can use to
+analyze the risks, such as simulation and statistical analysis, which enable managers to estimate
+the probability of completing a project on time and the potential for near-critical paths to affect
+the project completion time.
+
+Risk-Management Plans
+risk-management plan
+A plan that identifies the key
+risks to a project’s success
+and prescribes ways to
+circumvent them.
+
+A major responsibility of the project manager at the start of a project is
+to develop a risk-management plan, which identifies the key risks to a project’s success and prescribes ways to circumvent them. A good risk-management plan will quantify the risks, predict
+their impact on the project, and provide contingency plans. Project risk can be assessed by examining four categories:
+ Strategic Fit The project may not be a good strategic fit in that it may not be clearly linked to
+the strategic goals of the firm.
+
+MANAGING EFFECTIVE PROJECTS
+
+CHAPTER 2
+
+85
+
+ Service/Product Attributes If the project involves the development of a new service or product, there may be market, technological, or legal risks. There is a chance that competitors may
+offer a superior product, or a technological discovery may render the service or product obsolete before it even hits the market. There may also be a legal risk of potential lawsuits or
+liability that could force a design change after product development has begun.
+ Project Team Capability The project team may not have the capability to complete the project successfully because of the size and complexity of the project or the technology involved.
+ Operations There may be an operations risk because of poor information accuracy, lack of
+communication, missing precedence relationships, or bad estimates for activity times.
+These risks should be identified and the significant ones should have contingency plans in
+case something goes wrong. The riskier a project is, the more likely the project will experience difficulties as Managerial Practice 2.1 shows.
+
+Simulation PERT/CPM networks can be used to quantify risks associated with project timing.
+Often, the uncertainty associated with an activity can be reflected in the activity’s time duration.
+For example, an activity in a new product development project might be developing the enabling
+
+PRACTICE
+
+2.1
+
+Deadline 2004
+
+When the city of Athens, Greece, was chosen in 1997
+as the site for the 2004 Olympic Games, it was a proud moment for the Greek
+people. Preparing Athens for the Games would be a huge task that requires a
+great deal of planning, manpower, and money. Planners in Athens had a lot of
+work to do, starting with the building of 22 facilities. On top of that, more than
+10,000 athletes would need a place to stay while competing in the Games. A
+total of about 75 miles of new roads, a tram system, a suburban railway, and
+a metro system all had to be built to allow the expected spectators, journalists, and athletes to easily move around the congested city. Existing roads and
+hotels also needed to be renovated. Another major and costly concern was
+security. The Athens Games were taking place in a post-9/11 world, so security was a high priority. The security budget for the 2004 Games was $1.2
+billion, four times what it was for the Sydney Olympics just four years earlier.
+Officials in Athens saw the awarding of the hosting duties as a sign that
+the International Olympic Committee (IOC) had confidence that the city could
+stage a successful Olympics. But by early 2000, the IOC was close to taking
+the Olympics away from Athens. What went wrong? And could anything have
+been done to prevent the delays, skyrocketing costs, and other issues that
+plagued the Athens Olympic Games?
+One of the biggest problems encountered by the organizers was time.
+Construction of the Olympic venues started slowly, which is what led to the
+rebuke by the IOC. Once the construction process was finally accelerated,
+there was little room in the schedule for further delays. But ancient relics were
+found during the construction of the equestrian center, an occurrence that
+is common when doing any kind of excavation in history-rich Greece. Construction had to be halted at this venue while archaeologists catalogued and
+protected the artifacts. Labor issues and unforeseen terrain problems also
+delayed construction. Organizers had expected to be able to perform test runs
+in the venues, but many of the facilities weren’t completed until just weeks
+before the Games began. The installation of the security system and the construction of the new transportation components also faced delays. Workers
+were laboring day and night to complete everything that had to be done. With
+no time to spare and many doubts lingering in the air, Athens made itself
+ready in time for the opening ceremonies.
+The city of Athens did not start planning what to do with the facilities
+after the Games were over until after the closing ceremonies. Four years
+
+© Corbis/Yiorgos Karahalu/Reuters
+
+MANAGERIAL
+
+The Construction of the Olympic Games site In Athens was so far behind
+schedule that the International Olympic Committee seriously considered
+removing their licence to stage the event. The facilities were completed
+just weeks before the start of the games.
+
+after the Games, almost all of the facilities were standing empty and unused,
+as the organizers discovered that they had no use for the sports facilities after
+the Games were over. Attempts to sell the facilities had been unsuccessful,
+and the government was considering tearing down some of them because of
+the high costs associated with maintaining the facilities.
+Although the 2004 Olympics are an example of meeting major deadlines under pressure, they are also a reminder that good planning and
+project management are essential, especially when dealing with a large,
+complex project. Although planners and project managers cannot predict
+every possible challenge that may arise, they need to build in ways to deal
+with these problems so that the project can stay on budget and on time.
+Costly missteps in the process almost lost Athens the hosting duties for the
+Olympic Games.
+
+Sources: Coral Davenport, “Athens’ Olympic Preparations Come Down to the Wire,” USA Today, August 10, 2004, http://www.usatoday.com/travel/destinations/2004-07-07olympics-athens-preparations_x.htm; George Savvaides, “The Athens 2004 Olympic Games a Challenge and an Opportunity for Greece,” March 6, 2004, http://www.greekembassy.org/embassy/content/en/Article.aspx?office=2&folder=168&article=13065; Lisa Orkin, “Athens 2004 Plans Fall Further Behind Schedule,” Independent, March 30, 2002,
+http://www.independent.co.uk/sport/general/athens-2004-plans-fall-further-behind-schedule-655912.html; Canadian Press, “Montrealers Identify with Athens’ Challenges.
+
+86
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+technology to manufacture it, an activity that may take from eight months to a year. To incorporate
+uncertainty into the network model, probability distributions of activity times can be calculated
+using two approaches: (1) computer simulation and (2) statistical analysis. With simulation, the
+time for each activity is randomly chosen from its probability distribution (see MyOMLab Supplement E, “Simulation”). The critical path of the network is determined and the completion date of
+the project computed. The procedure is repeated many times, which results in a probability distribution for the completion date. We will have more to say about simulation when we discuss near
+critical paths later in this chapter.
+
+MyOMLab
+
+Statistical Analysis
+
+The statistical analysis approach requires that activity times be stated in
+terms of three reasonable time estimates:
+optimistic time (a)
+
+1.
+
+The shortest time in which an
+activity can be completed, if all
+goes exceptionally well.
+
+The optimistic time (a) is the shortest time in which an activity can be completed, if all goes
+exceptionally well.
+
+2.
+
+The most likely time (m) is the probable time required to perform an activity.
+
+3.
+
+The pessimistic time (b) is the longest estimated time required to perform an activity.
+
+most likely time (m)
+
+With three time estimates—the optimistic, the most likely, and the pessimistic—the project
+manager has enough information to estimate the probability that an activity will be completed on
+schedule. To do so, the project manager must first calculate the mean and variance of a probability distribution for each activity. In PERT/CPM, each activity time is treated as though it were a
+random variable derived from a beta probability distribution. This distribution can have various
+shapes, allowing the most likely time estimate (m) to fall anywhere between the pessimistic (b) and
+optimistic (a) time estimates. The most likely time estimate is the mode of the beta distribution, or
+the time with the highest probability of occurrence. This condition is not possible with the normal
+distribution, which is symmetrical, because the normal distribution requires the mode to be equidistant from the end points of the distribution. Figure 2.7 shows the difference between the two
+distributions.
+
+The probable time required to
+perform an activity.
+pessimistic time (b)
+The longest estimated time
+required to perform an activity.
+
+ FIGURE 2.7
+Differences Between Beta
+and Normal Distributions
+for Project Risk Analysis
+
+Area under curve
+between a and b is
+99.74%
+
+3σ
+a
+
+m
+
+Mean
+
+b
+
+a
+
+3σ
+
+Time
+
+m
+Mean
+Time
+
+b
+
+(a) Beta distribution: The most likely time (m) has the highest probability
+and can be placed anywhere between the optimistic (a) and pessimistic
+(b ) times.
+
+(b) Normal distribution: The mean and most likely times must be the
+same. If a and b are chosen to be 6σ apart, there is a 99.74% chance
+that the actual activity time will fall between them.
+
+Analysis
+Two key assumptions are required. First, we assume that a, m, and b can be estimated accurately.
+The estimates might best be considered values that define a reasonable time range for the activity duration negotiated between the project manager and the team members responsible for the
+activities. Second, we assume that the standard deviation, s, of the activity time is one-sixth the
+range b - a. Thus, the chance that actual activity times will fall between a and b is high. Why does
+this assumption make sense? If the activity time followed the normal distribution, six standard
+deviations would span approximately 99.74 percent of the distribution.
+Even with these assumptions, derivation of the mean and variance of each activity’s probability distribution is complex. These derivations show that the mean of the beta distribution can be
+estimated by using the following weighted average of the three time estimates:
+te =
+
+a + 4m + b
+6
+
+Note that the most likely time has four times the weight of the pessimistic and optimistic estimates.
+
+MANAGING EFFECTIVE PROJECTS
+
+The variance of the beta distribution for each activity is
+s2 = a
+
+b - a 2
+b
+6
+
+The variance, which is the standard deviation squared, increases as the difference between b and a
+increases. This result implies that the less certain a person is in estimating the actual time for an activity, the greater will be the variance.
+
+EXAMPLE 2.4
+
+Calculating Means and Variances
+
+Suppose that the project team has arrived at the following time estimates for activity B (Select site and survey)
+of the St. John’s Hospital project:
+a = 7 weeks , m = 8 weeks , and b = 15 weeks
+a.
+
+Calculate the expected time and variance for activity B.
+
+b.
+
+Calculate the expected time and variance for the other activities in the project.
+
+SOLUTION
+a.
+
+The expected time for activity B is
+te =
+
+7 + 418 2 + 15
+6
+
+=
+
+54
+= 9 weeks
+6
+
+Note that the expected time (9 weeks) does not equal the most likely time (8 weeks) for this activity. These
+times will be the same only when the most likely time is equidistant from the optimistic and pessimistic times.
+We calculate the variance for activity B as
+s2 = a
+b.
+
+15 - 7 2
+8 2
+b = a b = 1.78
+6
+6
+
+The following table shows expected activity times and variances for the activities listed in the project
+description.
+
+TIME ESTIMATES (WEEKS)
+
+ACTIVITY STATISTICS
+
+Activity
+
+Optimistic (a)
+
+Most Likely
+(m)
+
+Pessimistic (b)
+
+Expected Time
+(te )
+
+Variance
+(s2 )
+
+A
+
+11
+
+12
+
+13
+
+12
+
+0.11
+
+B
+
+7
+
+8
+
+15
+
+9
+
+1.78
+
+C
+
+5
+
+10
+
+15
+
+10
+
+2.78
+
+D
+
+8
+
+9
+
+16
+
+10
+
+1.78
+
+E
+
+14
+
+25
+
+30
+
+24
+
+7.11
+
+F
+
+6
+
+9
+
+18
+
+10
+
+4.00
+
+G
+
+25
+
+36
+
+41
+
+35
+
+7.11
+
+H
+
+35
+
+40
+
+45
+
+40
+
+2.78
+
+I
+
+10
+
+13
+
+28
+
+15
+
+9.00
+
+J
+
+1
+
+2
+
+15
+
+4
+
+5.44
+
+K
+
+5
+
+6
+
+7
+
+6
+
+0.11
+
+DECISION POINT
+The project team should notice that the greatest uncertainty lies in the time estimate for activity I, followed by
+the estimates for activities E and G. These activities should be analyzed for the source of the uncertainties and
+actions should be taken to reduce the variance in the time estimates.
+
+CHAPTER 2
+
+87
+
+88
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+Analyzing Probabilities
+
+Because time estimates for activities involve uncertainty, project
+managers are interested in determining the probability of meeting project completion deadlines. To develop the probability distribution for project completion time, we assume that the
+duration time of one activity does not depend on that of any other activity. This assumption enables us to estimate the mean and variance of the probability distribution of the time duration
+of the entire project by summing the duration times and variances of the activities along the
+critical path. However, if one work crew is assigned two activities that can be done at the same
+time, the activity times will be interdependent and the assumption is not valid. In addition, if
+other paths in the network have small amounts of slack, one of them might become the critical
+path before the project is completed; we should calculate a probability distribution for those
+paths as well.
+Because of the assumption that the activity duration times are independent random variables,
+we can make use of the central limit theorem, which states that the sum of a group of independent, identically distributed random variables approaches a normal distribution as the number
+of random variables increases. The mean of the normal distribution is the sum of the expected
+activity times on the path. In the case of the critical path, it is the earliest expected finish time for
+the project:
+TE = g 1Expected activity times on the critical path 2 = Mean of normal distribution
+
+Similarly, because of the assumption of activity time independence, we use the sum of the variances of the activities along the path as the variance of the time distribution for that path. That is, for
+the critical path,
+s2P = g 1Variances of activities on the critical path 2
+To analyze probabilities of completing a project by a certain date using the normal distribution, we focus on the critical path and use the z-transformation formula:
+z =
+
+T - TE
+sP
+
+where
+T = due date for the project
+Given the value of z, we use the Normal Distribution appendix to find the probability that the
+project will be completed by time T, or sooner. An implicit assumption in this approach is that no
+other path will become critical during the time span of the project. Example 2.5, part (a), demonstrates this calculation for the St. John’s Hospital project.
+The procedure for assessing the probability of completing any activity in a project by a specific date is similar to the one just discussed. However, instead of the critical path, we would use
+the longest time path of activities from the start node to the activity node in question.
+
+Near-Critical Paths A project’s duration is a function of its critical path. However, paths that are
+close to the same duration as the critical path may ultimately become the critical path over the life
+of the project. In practice, at the start of the project, managers typically do not know the activity
+times with certainty and may never know which path was the critical path until the actual activity times are known at the end of the project. Nonetheless, this uncertainty does not reduce the
+usefulness of identifying the probability of one path or another causing a project to exceed its
+target completion time; it helps to identify the activities that need close management attention.
+To assess the chances of near-critical paths delaying the project completion, we can focus on the
+longest paths in the project network keeping in mind that both duration and variance along the
+path must be considered. Shorter paths with high variances could have just as much a chance to
+delay the project as longer paths with smaller variances. We can then estimate the probability that
+a given path will exceed the project target completion time. We demonstrate that approach using
+statistical analysis in Example 2.5, part (b).
+Alternatively, simulation can be used to estimate the probabilities. The advantage of simulation is that you are not restricted to the use of the beta distribution for activity times. Also, activity
+or path dependencies, such as decision points that could involve different groups of activities to
+be undertaken, can be incorporated in a simulation model much more easily than with the statistical analysis approach. Fortunately, regardless of the approach used, it is rarely necessary to
+evaluate every path in the network. In large networks, many paths will have both short durations
+and low variances, making them unlikely to affect the project duration.
+
+MANAGING EFFECTIVE PROJECTS
+
+Calculate the probability that St. John’s Hospital will become operational in 72 weeks, using (a) the critical path
+and (b) near-critical path A–C–G–J–K.
+SOLUTION
+The critical path B–D–H–J–K has a length of 69 weeks. From the table in Example 2.4, we obtain the
+variance of path B–D–H–J–K: s2P = 1.78 + 1.78 + 2.78 + 5.44 + 0.11 = 11.89. Next, we calculate
+the z-value:
+z =
+
+72 - 69
+211.89
+
+=
+
+Length of
+critical path
+
+72 - 67
+215.55
+
+=
+
+Active Model 2.3 in MyOMLab
+provides additional insight on
+probability analysis for the
+St. John’s Hospital project.
+
+5
+= 1.27
+3.94
+
+Normal distribution:
+Mean = 69 weeks;
+P = 3.45 weeks
+Probability of
+exceeding 72
+weeks is 0.1922
+
+Probability of
+meeting the
+schedule is
+0.8078
+
+From the table in Example 2.4, we determine that the sum of the expected activity times
+on path A–C–G–J–K is 67 weeks and that s2P = 0.11 + 2.78 + 7.11 + 5.44 +
+0.11 = 15.55. The z-value is
+z =
+
+MyOMLab
+
+3
+= 0.87
+3.45
+
+Using the Normal Distribution appendix, we go down the left-hand column until we arrive at
+the value 0.8, and then across until we arrive at the 0.07 column, which shows a tabular value
+of 0.8078. Consequently, we find that the probability is about 0.81 that the length of path
+B–D–H–J–K will be no greater than 72 weeks. Because this path is the critical path, there is a
+19 percent probability that the project will take longer than 72 weeks. This probability is shown
+graphically in Figure 2.8.
+b.
+
+89
+
+Calculating the Probability of Completing a Project by a Given Date
+
+EXAMPLE 2.5
+
+a.
+
+CHAPTER 2
+
+69 72
+Project duration (weeks)
+
+The probability is about 0.90 that the length of path A–C–G–J–K will be no greater than 72 weeks.
+DECISION POINT
+The project team should be aware of the 10 percent chance that path A–C–G–J–K will exceed the target
+completion date of week 72. Although the probability is not high for that path, activities A, C, and G bear
+watching during the first 57 weeks of the project to make sure no more than 2 weeks of slippage occurs in
+their schedules. This attention is especially important for activity G, which has a high time variance.
+
+ FIGURE 2.8
+Probability of Completing the
+St. John’s Hospital Project on
+Schedule
+
+Monitoring and Controlling Projects
+Once project planning is over, the challenge becomes keeping the project on schedule
+within the budget of allocated resources. In this section, we discuss how to monitor
+project status and resource usage. In addition, we identify the features of project management software useful for monitoring and controlling projects.
+
+Monitoring Project Status
+A good tracking system will help the project team accomplish its project goals. Effective tracking systems collect information on three topics: (1) open issues, (2) risks, and
+(3) schedule status.
+
+Schedule Status
+
+Even the best laid project plans can go awry. A tracking system that
+provides periodic monitoring of slack time in the project schedule can help the project
+manager control activities along the critical path. Periodic updating of the status of ongoing activities in the project allows the tracking system to recalculate activity slacks
+
+Visual & Written/SuperStock
+
+Open Issues and Risks One of the duties of the project manager is to make sure that
+issues that have been raised during the project actually get resolved in a timely fashion. The tracking system should remind the project manager of due dates for open
+issues and who was responsible for seeing that they are resolved. Likewise, it should
+provide the status of each risk to project delays specified in the risk management plan
+so that the team can review them at each meeting. To be effective, the tracking system
+requires team members to update information periodically regarding their respective
+responsibilities.
+Monitoring and controlling shipbuilding projects is critical to keeping these complex projects on schedule. Here a propeller is attached
+to an ocean-going vessel.
+
+90
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+and indicate those activities that are behind schedule or are in danger of using up all of their slack.
+Management can then focus on those activities and reallocate resources as needed.
+
+Monitoring Project Resources
+
+Resource Requirements
+
+Definition
+and
+organization
+
+Experience has shown that the resources allocated to a project are consumed at an uneven rate
+that is a function of the timing of the schedules for the project’s activities. Projects have a life
+cycle that consists of four major phases: (1) definition and organization, (2) planning, (3) execution, and (4) close out. Figure 2.9 shows that each of the four phases requires different resource
+commitments.
+We have already discussed the activities associated with the project definition and organization and
+Planning
+Execution
+Close out
+project planning phases. The phase that takes the
+most resources is the execution phase, during which
+managers focus on activities pertaining to deliverables. The project schedule becomes very important
+because it shows when each resource devoted to a
+given activity will be required. Monitoring the progress of activities throughout the project is important
+to avoid potential overloading of resources. Problems
+arise when a specific resource, such as a construction
+crew or staff specialist, is required on several activities
+with overlapping schedules. Project managers have
+several options to alleviate resource problems, including the following:
+
+Start
+
+Finish
+Time
+
+ FIGURE 2.9
+Project Life Cycle
+
+  Resource Leveling. The attempt to reduce the
+peaks and valleys in resource needs by shifting the
+schedules of conflicting activities within their earliest and latest start dates. Software packages such
+as MS Project have algorithms that move activities
+to avoid violating resource constraints.
+
+ Resource Allocation. The assignment of resources to the most important activities. Most
+popular project management software packages have a few priority rules that can be
+used to decide which activity a critical resource should be scheduled to perform when
+conflicts arise. For example, for all the activities requiring a given resource, assign the
+resource to the one with the earliest start time. An activity slack report identifies potential candidates for resource shifting—shift resources from high slack activities to those
+behind schedule.
+ Resource Acquisition. The addition of more of an overloaded resource to maintain the schedule of an activity. Obviously, this tactic is constrained by the project budget.
+
+Controlling Projects
+
+close out
+An activity that includes writing
+final reports, completing remaining deliverables, and compiling
+the team’s recommendations for
+improving the project process.
+
+Project managers have the responsibilities of accounting for the effective use of the firm’s resources as well as managing the activities to achieve the time and quality goals of the project. The
+firm’s assets include the physical assets, human resources, and financial resources. Physical assets
+are controlled by the timely maintenance of machines and equipment so that their failure does
+not delay the project. Inventories must be received, stored for future use, and replenished. Project
+managers are also responsible for human resource development. Projects provide a rich environment to develop future leaders; project managers can take advantage of the situation by assigning
+team members important activities to aid in their managerial development. Last, but not least,
+project managers must control the expenditures of the firm’s financial resources. Most project
+management software packages contain accounting reports, budget reports, capital investment
+controls, and cash flow reports. Deviations from the project plan, often referred to as variances,
+must be periodically reported and analyzed for their causes.
+Monitoring and controlling projects are ongoing activities throughout the execution phase
+of the project life cycle. The project close out, however, is an activity that many project managers
+forget to include in their consideration of resource usage. The purpose of this final phase in the
+project life cycle is to write final reports and complete remaining deliverables. An important aspect of this phase, however, is compiling the team’s recommendations for improving the project
+process of which they were a part. Many team members will be assigned to other projects where
+they can apply what they learned.
+
+MANAGING EFFECTIVE PROJECTS
+
+CHAPTER 2
+
+91
+
+LEARNING GOALS IN REVIEW
+ Define the major activities associated with defining, organizing,
+
+planning, monitoring, and controlling projects. The entire outline
+of Chapter 2 revolves around these five very important activities.
+Nonetheless, be sure to read the opener to the chapter, which
+shows the four major phases of the project to introduce the new
+XBOX 360 product, the introduction to the chapter, and the section “Defining and Organizing Projects,” pp. 71–72.
+
+ Explain how to determine a minimum-cost project schedule.
+
+The section “Analyzing Cost-Time Tradeoffs,” pp. 80–84, and
+Example 2.3 demonstrate how the relevant costs must be considered to minimize costs. Figure 2.6 explains a key assumption
+in the analysis. Solved Problem 2 contains a detailed solution.
+
+ Describe the considerations managers make in assessing the
+
+risks in a project and calculate the probability of completing a
+project on time. See the section “Assessing Risks,” pp. 84–86,
+which explains the risks faced by project managers. The section
+“Analysis,” pp. 86–89, shows how to compute probabilities. Be
+sure to understand Examples 2.4 and 2.5 and Solved Problem 1.
+
+ Diagram the network of interrelated activities in a project.
+
+See “Defining the Work Breakdown Structure,” pp. 73–74, and
+“Diagramming the Network,” pp. 74–76. Figure 2.2 and Example 2.1
+are important for achieving this learning goal.
+
+ Identify the sequence of critical activities that determines the
+
+duration of a project. Study the section “Developing the Schedule,”
+pp. 77–80, and Example 2.2 for an understanding of the critical path.
+
+ Define the options available to alleviate resource problems. See
+the section “Monitoring and Controlling Projects,” pp. 89–90.
+
+MyOMLab helps you develop analytical skills and assesses your progress with
+multiple problems on identifying the critical path, calculating an activity’s slack, expected
+time, variance, the project’s expected completion time, probability of completing it by a
+certain date, and minimum-cost schedule.
+MyOMLab Resources
+
+Titles
+
+Link to the Book
+
+Video
+
+Project Management at the Phoenician
+Nantucket Nectars: ERP
+
+Entire chapter.
+Deﬁning and Organizing Projects
+
+Active Model Exercise
+
+2.1 Gantt Chart
+2.2 Cost Analysis
+2.3 Probability Analysis
+
+Developing the Schedule ; Active Model Example (p. 105)
+Analyzing Cost-Time Trade-Offs ; Example 2.3 (pp. 82–84)
+Assessing Risks ; Exercise 2.5 (p. 89)
+
+OM Explorer Solvers
+
+Single Time Estimates
+Three Time Estimates
+Project Budgeting
+
+Developing the Schedule; Example 2.2 (pp. 78–79)
+Assessing Risks; Example 2.4 (p. 87); Solved Problem 1 (pp. 92–95)
+Monitoring and Controlling Projects
+
+POM for Windows
+
+Single Time Estimates
+Triple Time Estimates
+Crashing
+
+Developing the Schedule; Example 2.2 (pp. 78–79)
+Assessing Risks; Example 2.4 (p. 87); Solved Problem 1 (pp. 92–95)
+Analyzing Cost-Time Trade-Offs; Example 2.3 (pp. 82–84); Solved
+Problem 2 (pp. 95–96)
+Monitoring and Controlling Projects
+Assessing Risks
+
+Cost Budgeting
+Mean/Standard Deviation Given
+SimQuick Simulation Exercises
+
+Software development company
+
+Assessing Risks
+
+Microsoft Project
+
+Free Trial
+
+Planning Projects; Figure 2.5 (p. 80)
+
+SmartDraw
+
+Free Trial
+
+Diagramming the Network
+
+Virtual Tours
+
+Reiger Orgelbau Pipe Organ Factory
+and Alaskan Way Viaduct
+
+Planning Projects Assessing Risks; Monitoring and Controlling
+Projects
+
+MyOMLab Supplements
+
+E. Simulation
+H. Measuring Output Rates
+I. Learning Curve Analysis
+
+Assessing Risks
+Diagramming the Network
+Diagramming the Network
+
+Internet Exercises
+
+Olympic Movement, London 2012, and
+Ch2M Hill
+
+Planning Projects Deﬁning and Organizing Projects
+
+Key Equations
+Image Library
+
+92
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+Key Equations
+1.
+
+Start and finish times:
+t
+ES
+EF
+LF
+LS
+
+2.
+
+=
+=
+=
+=
+=
+
+estimated time duration of the activity
+latest of the EF times of all activities immediately preceding activity
+ES + t
+earliest of the LS times of all activities immediately following activity
+LF - t
+
+Activity slack:
+S = LS - ES or S = LF - EF
+
+3.
+
+Project costs:
+Crash cost per period =
+=
+
+4.
+
+Crash cost - Normal cost
+Normal time - Crash time
+CC - NC
+NT - CT
+
+Activity time statistics:
+t e = mean of an activity>s beta distribution
+a + 4m + b
+6
+s2 = variance of the activity time
+
+te =
+
+s2 = a
+5.
+
+b - a 2
+b
+6
+
+z-transformation formula:
+z =
+
+T - TE
+sP
+
+where
+T = due date for the project
+
+TE = g 1expected activity times on the critical path 2
+= mean of normal distribution of critical path time
+sP = standard deviation of critical path time distribution
+
+Key Terms
+activity 73
+activity-on-node (AON) network 75
+activity slack 79
+close out 90
+crash cost (CC) 81
+crash time (CT) 81
+critical path 77
+critical path method (CPM) 74
+earliest finish time (EF) 77
+earliest start time (ES) 77
+
+Gantt chart 80
+latest finish time (LF) 77
+latest start time (LS) 77
+minimum-cost schedule 82
+most likely time (m) 86
+network diagram 74
+normal cost (NC) 81
+normal time (NT) 81
+optimistic time (a) 86
+path 77
+
+pessimistic time (b) 86
+precedence relationship 74
+program 71
+program evaluation and review
+technique (PERT) 74
+project 70
+project management 71
+risk-management plan 84
+work breakdown structure
+(WBS) 73
+
+Solved Problem 1
+An advertising project manager developed the network diagram shown in Figure 2.10 for a new advertising campaign. In addition, the manager gathered the time information for each activity, as shown
+in the accompanying table.
+
+MANAGING EFFECTIVE PROJECTS
+
+93
+
+CHAPTER 2
+
+TIME ESTIMATES (WEEKS)
+Activity
+
+Optimistic
+
+Most Likely
+
+Pessimistic
+
+Immediate Predecessor(s)
+
+A
+
+1
+
+4
+
+7
+
+—
+
+B
+
+2
+
+6
+
+7
+
+—
+
+C
+
+3
+
+3
+
+6
+
+B
+
+D
+
+6
+
+13
+
+14
+
+A
+
+E
+
+3
+
+6
+
+12
+
+A, C
+
+F
+
+6
+
+8
+
+16
+
+B
+
+G
+
+1
+
+5
+
+6
+
+E, F
+
+ FIGURE 2.10
+Network Diagram for the
+Advertising Project
+
+a. Calculate the expected time and variance for each activity.
+b.
+
+c. What is the probability of completing the project within 23 weeks?
+SOLUTION
+
+A
+
+B
+F
+
+T - TE
+23 - 20
+=
+= 1.52
+z =
+sP
+23.88
+Using the Normal Distribution appendix, we find that the probability of completing the project in 23 weeks or fewer is 0.9357. Because the length of path B–F–G is close to that of the critical
+path and has a large variance, it might well become the critical path during the project.
+The expected time and variance for each activity are calculated as follows:
+te =
+Activity
+
+c.
+
+E
+C
+
+Start
+
+a. We first calculate the z-value:
+
+b.
+
+a + 4m + b
+6
+
+Expected Time (weeks)
+
+Variance (s 2)
+
+A
+
+4.0
+
+1.00
+
+B
+
+5.5
+
+0.69
+
+C
+
+3.5
+
+0.25
+
+D
+
+12.0
+
+1.78
+
+E
+
+6.5
+
+2.25
+
+F
+
+9.0
+
+2.78
+
+G
+
+4.5
+
+0.69
+
+We need to calculate the earliest start, latest start, earliest finish, and latest finish times for
+each activity. Starting with activities A and B, we proceed from the beginning of the network
+and move to the end, calculating the earliest start and finish times:
+Activity
+
+Earliest Start (weeks)
+
+Earliest Finish (weeks)
+
+A
+
+0
+
+0 + 4.0 = 4.0
+
+B
+
+0
+
+0 + 5.5 = 5.5
+
+C
+
+5.5
+
+5.5 + 3.5 = 9.0
+
+D
+
+4.0
+
+4.0 + 12.0 = 16.0
+
+E
+
+9.0
+
+9.0 + 6.5 = 15.5
+
+F
+
+5.5
+
+5.5 + 9.0 = 14.5
+
+G
+
+15.5
+
+15.5 + 4.5 = 20.0
+
+Finish
+
+D
+
+Calculate the activity slacks and determine the critical path, using the
+expected activity times.
+
+G
+
+94
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+Based on expected times, the earliest finish for the project is week 20, when activity G has been
+completed. Using that as a target date, we can work backward through the network, calculating the
+latest start and finish times (shown graphically in Figure 2.11):
+
+Activity
+
+Latest Start
+(weeks)
+
+Latest Finish
+(weeks)
+
+G
+
+15.5
+
+20.0
+
+F
+
+6.5
+
+15.5
+
+E
+
+9.0
+
+15.5
+
+D
+
+8.0
+
+20.0
+
+C
+
+5.5
+
+9.0
+
+B
+
+0.0
+
+5.5
+
+A
+
+4.0
+
+8.0
+
+ FIGURE 2.11
+Network Diagram with
+All Time Estimates Needed
+to Compute Slack
+
+4.0
+8.0
+
+0.0
+4.0
+
+A
+4.0
+
+9.0
+9.0
+
+5.5
+5.5
+
+B
+5.5
+
+12.0
+
+16.0
+20.0
+
+4.0
+8.0
+
+Start
+
+0.0
+0.0
+
+D
+
+C
+3.5
+
+15.5
+15.5
+
+F
+9.0
+
+6.5
+
+15.5
+15.5
+
+Finish
+
+9.0
+9.0
+
+5.5
+5.5
+
+5.5
+6.5
+
+E
+
+G
+4.5
+
+20.0
+20.0
+
+14.5
+15.5
+
+We now calculate the activity slacks and determine which activities are on the critical path:
+
+START (WEEKS)
+
+FINISH (WEEKS)
+
+Activity
+
+Earliest
+
+Latest
+
+Earliest
+
+Latest
+
+Slack
+
+Critical Activity
+
+A
+
+0.0
+
+4.0
+
+4.0
+
+8.0
+
+4.0
+
+No
+
+B
+
+0.0
+
+0.0
+
+5.5
+
+5.5
+
+0.0
+
+Yes
+
+C
+
+5.5
+
+5.5
+
+9.0
+
+9.0
+
+0.0
+
+Yes
+
+D
+
+4.0
+
+8.0
+
+16.0
+
+20.0
+
+4.0
+
+No
+
+E
+
+9.0
+
+9.0
+
+15.5
+
+15.5
+
+0.0
+
+Yes
+
+F
+
+5.5
+
+6.5
+
+14.5
+
+15.5
+
+1.0
+
+No
+
+G
+
+15.5
+
+15.5
+
+20.0
+
+20.0
+
+0.0
+
+Yes
+
+MANAGING EFFECTIVE PROJECTS
+
+95
+
+CHAPTER 2
+
+The paths, and their total expected times and variances, are
+Path
+
+Total Variance (s 2P )
+
+Total Expected Time (weeks)
+4 + 12 = 16
+
+1.00 + 1.78 = 2.78
+
+4 + 6.5 + 4.5 = 15
+
+1.00 + 2.25 + 0.69 = 3.94
+
+5.5 + 3.5 + 6.5 + 4.5 = 20
+
+0.69 + 0.25 + 2.25 + 0.69 = 3.88
+
+5.5 + 9 + 4.5 = 19
+
+0.69 + 2.78 + 0.69 = 4.16
+
+A–D
+A–E–G
+B–C–E–G
+B–F–G
+
+The critical path is B–C–E–G, with a total expected time of 20 weeks. However, path B–F–G is
+19 weeks and has a large variance.
+
+Solved Problem 2
+Your company has just received an order from a good customer for a specially designed electric
+motor. The contract states that, starting on the thirteenth day from now, your firm will experience
+a penalty of $100 per day until the job is completed. Indirect project costs amount to $200 per day.
+The data on direct costs and activity precedence relationships are given in Table 2.2.
+
+TABLE 2.2
+
+ELECTRIC MOTOR PROJECT DATA
+
+Activity
+
+Normal Time
+(days)
+
+A
+
+4
+
+1,000
+
+3
+
+1,300
+
+None
+
+B
+
+7
+
+1,400
+
+4
+
+2,000
+
+None
+
+C
+
+5
+
+2,000
+
+4
+
+2,700
+
+None
+
+D
+
+6
+
+1,200
+
+5
+
+1,400
+
+A
+
+E
+
+3
+
+900
+
+2
+
+1,100
+
+B
+
+F
+
+11
+
+2,500
+
+6
+
+3,750
+
+C
+
+G
+
+4
+
+800
+
+3
+
+1,450
+
+D, E
+
+H
+
+3
+
+300
+
+1
+
+500
+
+F, G
+
+Normal Cost ($)
+
+Crash Time (days)
+
+Crash Cost ($)
+
+A
+4
+
+a. Draw the project network diagram.
+b.
+
+Immediate
+Predecessor(s)
+
+D
+6
+
+What completion date would you recommend?
+
+SOLUTION
+a. The network diagram, including normal activity times, for this
+procedure is shown in Figure 2.12. Keep the following points in
+mind while constructing a network diagram.
+1.
+2.
+3.
+4.
+5.
+
+Start
+
+B
+7
+
+E
+3
+
+C
+5
+
+F
+11
+
+Always have start and ﬁnish nodes.
+Try to avoid crossing paths to keep the diagram simple.
+Use only one arrow to directly connect any two nodes.
+Put the activities with no predecessors at the left and point the arrows from left to right.
+Be prepared to revise the diagram several times before you come up with a correct and
+uncluttered diagram.
+
+G
+4
+
+Finish
+H
+3
+
+ FIGURE 2.12
+Network Diagram for the
+Electric Motor Project
+
+96
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+b.
+
+With these activity durations, the project will be completed in 19 days and incur a $700 penalty. Determining a good completion date requires the use of the minimum-cost schedule
+procedure. Using the data provided in Table 2.2, you can determine the maximum crashtime reduction and crash cost per day for each activity. For example, for activity A
+Maximum crash time = Normal time - Crash time =
+4 days - 3 days = 1 day
+Crash cost per day =
+
+Crash cost - Normal cost
+CC - NC
+=
+=
+Normal time - Crash time
+NT - CT
+$1,300 - $1,000
+= $300
+4 days - 3 days
+
+Activity
+
+Crash Cost per Day ($)
+
+Maximum Time Reduction (days)
+
+A
+
+300
+
+1
+
+B
+
+200
+
+3
+
+C
+
+700
+
+1
+
+D
+
+200
+
+1
+
+E
+
+200
+
+1
+
+F
+
+250
+
+5
+
+G
+
+650
+
+1
+
+H
+
+100
+
+2
+
+Table 2.3 summarizes the analysis and the resultant project duration and total cost. The
+critical path is C–F–H at 19 days, which is the longest path in the network. The cheapest of
+these acvtivities to crash is H, which costs only an extra $100 per day to crash. Doing so saves
+$200 + $100 = $300 per day in indirect and penalty costs. If you crash this activity for two days
+(the maximum), the lengths of the paths are now
+A–D–G–H: 15 days, B–E–G–H: 15 days, and C–F–H: 17 days
+The critical path is still C–F–H. The next cheapest critical activity to crash is F at $250 per day.
+You can crash F only two days because at that point you will have three critical paths. Further
+reductions in project duration will require simultaneous crashing of more than one activity (D,
+E, and F). The cost to do so, $650, exceeds the savings, $300. Consequently, you should stop. Note
+that every activity is critical. The project costs are minimized when the completion date is day 15.
+However, some goodwill costs may be associated with disappointing a customer who wants delivery in 12 days.
+
+TABLE 2.3
+
+PROJECT COST ANALYSIS
+
+Stage
+
+Crash
+Activity
+
+Time
+Reduction
+(days)
+
+Resulting
+Critical
+Path(s)
+
+Project
+Duration
+(days)
+
+Project
+Direct Costs,
+Last Trial ($)
+
+Crash Cost
+Added ($)
+
+Total
+Indirect
+Costs ($)
+
+Total
+Penalty
+Costs ($)
+
+Total
+Project
+Costs ($)
+
+0
+
+—
+
+—
+
+C–F–H
+
+19
+
+10,100
+
+—
+
+3,800
+
+700
+
+14,600
+
+1
+
+H
+
+2
+
+C–F–H
+
+17
+
+10,100
+
+200
+
+3,400
+
+500
+
+14,200
+
+2
+
+F
+
+2
+
+A–D–G–H
+
+15
+
+10,300
+
+500
+
+3,000
+
+300
+
+14,100
+
+B–E–G–H
+C–F–H
+
+MANAGING EFFECTIVE PROJECTS
+
+CHAPTER 2
+
+97
+
+Discussion Questions
+1.
+
+Define risk as it applies to projects.What are the major
+sources of risk in a project?
+
+2.
+
+One of your colleagues comments that software is the
+ultimate key to project management success. How would
+you respond?
+
+3.
+
+Explain how to determine the slack for each activity in a
+project. Why is it important for managers to know where
+the slack is in their projects?
+
+Problems
+The OM Explorer and POM for Windows software is available
+to all students using the 10th edition of this textbook. Go to
+www.pearsonglobaleditions.com/krajewski to download
+these computer packages. If you purchased MyOMLab, you
+also have access to Active Models software and significant help
+in doing the following problems. Check with your instructor
+on how best to use these resources. In many cases, the instructor wants you to understand how to do the calculations by
+hand. At the least, the software provides a check on your calculations. When calculations are particularly complex and the
+goal is interpreting the results in making decisions, the software replaces entirely the manual calculations.
+1.
+
+b. Find the critical path.
+3.
+
+A project for improving a billing process has the following
+precedence relationships and activity times:
+
+Consider the following data for a project:
+Activity
+
+Activity Time (days)
+
+Immediate Predecessor(s)
+
+A
+
+2
+
+—
+
+B
+
+4
+
+A
+
+C
+
+5
+
+A
+
+D
+
+2
+
+B
+
+E
+
+1
+
+B
+
+Activity
+
+Activity Time (weeks)
+
+Immediate Predecessor(s)
+
+F
+
+8
+
+B, C
+
+A
+
+3
+
+—
+
+G
+
+3
+
+D, E
+
+B
+
+11
+
+—
+
+H
+
+5
+
+F
+
+C
+
+7
+
+A
+
+I
+
+4
+
+F
+
+D
+
+13
+
+B, C
+
+J
+
+7
+
+G, H, I
+
+E
+
+10
+
+B
+
+F
+
+6
+
+D
+
+a. How much slack is in each of the activities G, H, and I?
+
+G
+
+5
+
+E
+
+b. Draw the network diagram.
+
+H
+
+8
+
+F, G
+
+c. Calculate the critical path for this project.
+4.
+
+a. Draw the network diagram.
+
+2.
+
+a. Draw the network diagram.
+
+The following information is known about a project.
+
+b. Calculate the slack for each activity. Which activities
+are on the critical path?
+
+Activity
+
+Activity Time (days)
+
+Immediate Predecessor(s)
+
+The following information is available about a project:
+
+A
+
+6
+
+—
+
+Activity
+
+Activity Time (days)
+
+Immediate Predecessor(s)
+
+B
+
+1
+
+A
+
+A
+
+2
+
+—
+
+C
+
+4
+
+A
+
+B
+
+5
+
+—
+
+D
+
+3
+
+B, C
+
+C
+
+4
+
+—
+
+E
+
+4
+
+D
+
+D
+
+4
+
+—
+
+F
+
+5
+
+E
+
+E
+
+8
+
+A
+
+F
+
+3
+
+B, C, D
+
+G
+
+8
+
+E
+
+G
+
+4
+
+E, F
+
+H
+
+7
+
+F
+
+b. Determine the critical path and project duration.
+
+I
+
+3
+
+G
+
+c. Calculate the slack for each activity.
+
+J
+
+3
+
+G
+
+K
+
+3
+
+H
+
+a. Draw the network diagram for this project.
+
+98
+5.
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+Barbara Gordon, the project manager for Web Ventures,
+Inc., compiled a table showing time estimates
+for each of the activities of a project to upgrade the
+company’s Web page, including optimistic, most
+likely, and pessimistic.
+a. Calculate the expected time, te , for each activity.
+b. Calculate the variance, s 2, for each activity.
+Activity
+
+Optimistic
+(days)
+
+Most Likely
+(days)
+
+Pessimistic
+(days)
+
+A
+
+2
+
+7
+
+19
+
+B
+
+11
+
+16
+
+17
+
+C
+
+1
+
+5
+
+16
+
+D
+
+5
+
+10
+
+20
+
+E
+
+2
+
+5
+
+6
+
+b. Calculate the slack for each activity and determine the
+critical path. How long will the project take?
+8. Recently, you were assigned to manage a project for
+your company. You have constructed a network diagram
+depicting the various activities in the project (Figure 2.13).
+In addition, you have asked your team to estimate the
+amount of time that they would expect each of the activities to take.Their responses are shown in the following
+table:
+
+C
+
+A
+
+Start
+
+6.
+
+Consider the following information for a project to add a
+drive-thru window at Crestview Bank.
+
+Finish
+
+D
+
+B
+
+E
+
+Activity
+
+Activity Time (weeks)
+
+Immediate Predecessor(s)
+
+A
+
+5
+
+—
+
+B
+
+2
+
+—
+
+C
+
+6
+
+—
+
+D
+
+2
+
+A, B
+
+Activity
+
+Optimistic
+
+Most Likely
+
+Pessimistic
+
+E
+
+7
+
+B
+
+A
+
+5
+
+7
+
+10
+
+F
+
+3
+
+D, C
+
+B
+
+4
+
+7
+
+11
+
+G
+
+9
+
+E, C
+
+C
+
+4
+
+7
+
+8
+
+H
+
+11
+
+F, G
+
+D
+
+2
+
+3
+
+6
+
+a. Draw the network diagram for this project.
+
+E
+
+3
+
+8
+
+10
+
+ FIGURE 2.13
+Network Diagram for Your Company
+
+TIME ESTIMATES (DAYS)
+
+b. Specify the critical path.
+a. What is the expected completion time of the project?
+
+c. Calculate the slack for activities A and D.
+7.
+
+b. What is the probability of completing the project in
+20 days?
+
+The following information has been gathered for a
+project:
+Activity
+
+Activity Time (weeks)
+
+Immediate Predecessor(s)
+
+c. What is the probability of completing the project in
+16 days?
+9.
+
+Consider the following data for a project never before
+attempted by your company:
+
+A
+
+3
+
+—
+
+B
+
+7
+
+A
+
+Activity
+
+C
+
+9
+
+B
+
+A
+
+5
+
+—
+
+D
+
+2
+
+B
+
+B
+
+2
+
+—
+
+E
+
+15
+
+D
+
+C
+
+3
+
+A
+
+F
+
+9
+
+C, D
+
+D
+
+5
+
+B
+
+G
+
+13
+
+F, E
+
+E
+
+3
+
+C, D
+
+F
+
+7
+
+D
+
+a. Draw the network diagram.
+
+Expected Time te (weeks)
+
+Immediate Predecessor(s)
+
+MANAGING EFFECTIVE PROJECTS
+
+a. Draw the network diagram for this project.
+b. Identify the critical path and estimate the project’s
+duration.
+c. Calculate the slack for each activity.
+10. In Solved Problem 1, estimate the probability that the
+noncritical path B–F–G will take more than 20 weeks.
+Hint: Subtract from 1.0 the probability that B–F–G will
+take 20 weeks or less.
+11. The director of continuing education at Bluebird University just approved the planning for a sales training
+seminar. Her administrative assistant identified the various activities that must be done and their relationships to
+each other, as shown in Table 2.4.
+
+TABLE 2.4
+
+Description
+
+99
+
+The director wants to conduct the seminar 45 working days from now. What is the probability that everything will be ready in time?
+12. Table 2.5 contains information about an environmental
+clean-up project. Shorten the project three weeks by
+finding the minimum-cost schedule. Assume that project
+indirect costs and penalty costs are negligible. Identify
+activities to crash while minimizing the additional
+crash costs.
+
+TABLE 2.5
+
+ENVIRONMENTAL PROJECT DATA
+
+Activity
+
+Normal
+Time
+(weeks)
+
+A
+
+7
+
+6
+
+200
+
+None
+
+Immediate Predecessor(s)
+
+B
+
+12
+
+9
+
+250
+
+None
+
+C
+
+7
+
+6
+
+250
+
+A
+
+ACTIVITIES FOR THE SALES TRAINING SEMINAR
+
+Activity
+
+CHAPTER 2
+
+Crash
+Time Cost to Crash
+(weeks) ($ per week)
+
+Immediate
+Predecessor(s)
+
+A
+
+Design brochure and course
+announcement
+
+—
+
+D
+
+6
+
+5
+
+300
+
+A
+
+B
+
+Identify prospective teachers
+
+—
+
+E
+
+1
+
+1
+
+—
+
+B
+
+C
+
+Prepare detailed outline of
+course
+
+—
+
+F
+
+1
+
+1
+
+—
+
+C, D
+
+D
+
+Send brochure and student
+applications
+
+A
+
+G
+
+3
+
+1
+
+200
+
+D, E
+
+H
+
+3
+
+2
+
+350
+
+F
+
+E
+
+Send teacher applications
+
+B
+
+I
+
+2
+
+2
+
+—
+
+G
+
+F
+
+Select teacher for course
+
+C, E
+
+G
+
+Accept students
+
+D
+
+H
+
+Select text for course
+
+F
+
+I
+
+Order and receive texts
+
+G, H
+
+Activity
+
+Activity Time (days)
+
+Immediate Predecessor(s)
+
+J
+
+Prepare room for class
+
+G
+
+A
+
+6
+
+—
+
+B
+
+1
+
+—
+
+C
+
+2
+
+A
+
+D
+
+2
+
+B
+
+E
+
+6
+
+C, D
+
+13. Paul Silver, owner of Sculptures International, just initiated a new art project. The following data are available for
+the project:
+
+Because of the uncertainty in planning the new
+course, the assistant also has supplied the following time
+estimates for each activity:
+
+TIME ESTIMATES (DAYS)
+Activity
+
+a. Draw the network diagram for the project.
+
+Optimistic
+
+Most Likely
+
+Pessimistic
+
+A
+
+5
+
+7
+
+9
+
+B
+
+5
+
+8
+
+11
+
+C
+
+2
+
+4
+
+5
+
+D
+
+12
+
+18
+
+25
+
+E
+
+7
+
+10
+
+11
+
+F
+
+2
+
+4
+
+5
+
+G
+
+5
+
+7
+
+10
+
+a. What is the project’s duration if only normal times are
+used?
+
+H
+
+6
+
+7
+
+10
+
+b. What is the minimum-cost schedule?
+
+I
+
+9
+
+11
+
+16
+
+J
+
+4
+
+4
+
+4
+
+c. What is the critical path for the minimum-cost
+schedule?
+
+b. Determine the project’s critical path and duration.
+c. What is the slack for each activity?
+14. The Advanced Tech Company has a project to design an
+integrated information database for a major bank. Data
+for the project are given in Table 2.6. Indirect project
+costs amount to $300 per day. The company will incur a
+$150 per day penalty for each day the project lasts beyond
+day 14.
+
+100
+
+PART 1
+
+TABLE 2.6
+
+COMPETING WITH OPERATIONS
+
+DATABASE DESIGN PROJECT DATA
+
+Activity
+
+Normal Time (days)
+
+Normal Cost ($)
+
+Crash Time (days)
+
+Crash Cost ($)
+
+Immediate Predecessor(s)
+
+A
+
+6
+
+1,000
+
+5
+
+1,200
+
+—
+
+B
+
+4
+
+800
+
+2
+
+2,000
+
+—
+
+C
+
+3
+
+600
+
+2
+
+900
+
+A, B
+
+D
+
+2
+
+1,500
+
+1
+
+2,000
+
+B
+
+E
+
+6
+
+900
+
+4
+
+1,200
+
+C, D
+
+F
+
+2
+
+1,300
+
+1
+
+1,400
+
+E
+
+G
+
+4
+
+900
+
+4
+
+900
+
+E
+
+H
+
+4
+
+500
+
+2
+
+900
+
+G
+
+15. You are the manager of a project to improve a billing
+process at your firm. Table 2.7 contains the data you will
+need to conduct a cost analysis of the project. Indirect
+costs are $1,800 per week, and penalty costs are $1,400
+per week after week 12.
+a. What is the minimum-cost schedule for this project?
+
+16. Table 2.8 contains data for the installation of new equipment in a manufacturing process at Excello Corporation.
+Your company is responsible for the installation project.
+Indirect costs are $15,000 per week, and a penalty cost
+of $9,000 per week will be incurred by your company for
+every week the project is delayed beyond week 9.
+a. What is the shortest time duration for this project
+regardless of cost?
+
+b. What is the difference in total project costs between
+the earliest completion time of the project using
+“normal” times and the minimum-cost schedule
+you derived in part (a)?
+
+b. What is the minimum total cost associated with
+completing the project in 9 weeks?
+c. What is the total time of the minimum-cost schedule?
+
+TABLE 2.7
+
+DATA FOR THE BILLING PROCESS PROJECT
+
+Activity
+
+Immediate Predecessor(s)
+
+Normal Time (weeks)
+
+Crash Time (weeks)
+
+Normal Cost ($)
+
+Crash Cost ($)
+
+A
+
+—
+
+4
+
+1
+
+5,500
+
+7,500
+
+B
+
+—
+
+5
+
+3
+
+8,500
+
+10,500
+
+C
+
+A
+
+1
+
+1
+
+4,000
+
+4,000
+
+D
+
+B
+
+6
+
+3
+
+6,000
+
+12,500
+
+E
+
+B, C
+
+7
+
+6
+
+3,500
+
+7,500
+
+F
+
+D
+
+7
+
+6
+
+4,500
+
+7,500
+
+TABLE 2.8
+
+DATA FOR THE EQUIPMENT INSTALLATION PROJECT
+
+Activity
+
+Immediate Predecessor(s)
+
+Normal Time (weeks)
+
+Crash Time (weeks)
+
+Normal Cost ($)
+
+Crash Cost ($)
+
+A
+
+—
+
+2
+
+1
+
+7,000
+
+10,000
+
+B
+
+—
+
+2
+
+2
+
+3,000
+
+3,000
+
+C
+
+A
+
+3
+
+1
+
+12,000
+
+40,000
+
+D
+
+B
+
+3
+
+2
+
+12,000
+
+28,000
+
+E
+
+C
+
+1
+
+1
+
+8,000
+
+8,000
+
+F
+
+D, E
+
+5
+
+3
+
+5,000
+
+15,000
+
+G
+
+E
+
+3
+
+2
+
+9,000
+
+18,000
+
+MANAGING EFFECTIVE PROJECTS
+
+17. Gabrielle Kramer, owner of Pet Paradise, is opening a new
+store in Columbus, Ohio. Her major concern is the hiring
+of a manager and several associates who are animal lovers. She also has to coordinate the renovation of a building that was previously owned by a chic clothing store.
+Kramer has gathered the data shown in Table 2.9.
+
+101
+
+CHAPTER 2
+
+D
+
+A
+
+E
+
+G
+
+B
+
+F
+
+H
+
+a. How long is the project expected to take?
+b. Suppose that Kramer has a personal goal of completing the project in 14 weeks. What is the probability that
+it will happen this quickly?
+18. The diagram in Figure 2.14 was developed for a project
+that you are managing. Suppose that you are interested
+in finding ways to speed up the project at minimal additional cost. Determine the schedule for completing the
+project in 25 days at minimum cost. Penalty and projectoverhead costs are negligible. Time and cost data for each
+activity are shown in Table 2.10.
+
+TABLE 2.9
+
+Start
+
+C
+
+Finish
+
+I
+
+ FIGURE 2.14
+Network Diagram for Problem 18
+
+DATA FOR THE PET PARADISE PROJECT
+TIME (WEEKS)
+
+Activity
+
+Description
+
+Immediate Predecessor(s)
+
+a
+
+m
+
+b
+
+A
+
+Interview for new manager
+
+—
+
+1
+
+3
+
+6
+
+B
+
+Renovate building
+
+—
+
+6
+
+9
+
+12
+
+C
+
+Place ad for associates and interview applicants
+
+—
+
+6
+
+8
+
+16
+
+D
+
+Have new manager prospects visit
+
+A
+
+2
+
+3
+
+4
+
+E
+
+Purchase equipment for new store and install
+
+B
+
+1
+
+3
+
+11
+
+F
+
+Check employee applicant references and make final selection
+
+C
+
+5
+
+5
+
+5
+
+G
+
+Check references for new manager and make final selection
+
+D
+
+1
+
+1
+
+1
+
+H
+
+Hold orientation meetings and do payroll paperwork
+
+E, F, G
+
+3
+
+3
+
+3
+
+TABLE 2.10
+
+PROJECT ACTIVITY AND COST DATA
+NORMAL
+
+CRASH
+
+Activity
+
+Time (days)
+
+Cost ($)
+
+Time (days)
+
+Cost ($)
+
+A
+
+12
+
+1,300
+
+11
+
+1,900
+
+B
+
+13
+
+1,050
+
+9
+
+1,500
+
+C
+
+18
+
+3,000
+
+16
+
+4,500
+
+D
+
+9
+
+2,000
+
+5
+
+3,000
+
+E
+
+12
+
+650
+
+10
+
+1,100
+
+F
+
+8
+
+700
+
+7
+
+1,050
+
+G
+
+8
+
+1,550
+
+6
+
+1,950
+
+H
+
+2
+
+600
+
+1
+
+800
+
+I
+
+4
+
+2,200
+
+2
+
+4,000
+
+102
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+19. Reliable Garage is completing production of the J2000 kit
+car. The following data are available for the project:
+
+Activity
+
+Activity Time (days)
+
+Immediate Predecessor(s)
+
+A
+
+10
+
+—
+
+B
+
+11
+
+—
+
+C
+
+9
+
+A, B
+
+D
+
+5
+
+A, B
+
+E
+
+8
+
+A, B
+
+Activity
+
+Activity Time (days)
+
+Immediate Predecessor(s)
+
+A
+
+2
+
+—
+
+B
+
+6
+
+A
+
+C
+
+4
+
+B
+
+D
+
+5
+
+C
+
+E
+
+7
+
+C
+
+F
+
+13
+
+C, E
+
+F
+
+5
+
+C
+
+G
+
+5
+
+C, D
+
+G
+
+5
+
+F
+
+H
+
+10
+
+G
+
+H
+
+3
+
+D, E, G
+
+I
+
+6
+
+F, G
+
+a. Draw the network diagram for the project.
+
+J
+
+9
+
+E, H
+
+b. Determine the project’s critical path and duration.
+
+K
+
+11
+
+I, J
+
+c. What is the slack for each activity?
+
+a. Draw the network diagram for this project.
+
+20. The following information concerns a new project your
+company is undertaking:
+
+b. Determine the critical path and project completion
+time.
+
+Advanced Problems
+21. Consider the office renovation project data in Table 2.11.
+A “zero” time estimate means that the activity could take
+a very small amount of time and should be treated as a
+numeric zero in the analysis.
+
+TABLE 2.11
+
+a. Based on the critical path, find the probability of completing the office renovation project by 40 days.
+b. Find the date by which you would be 85 percent sure
+of completing the project.
+
+DATA FOR THE OFFICE RENOVATION PROJECT
+TIME ESTIMATES (DAYS)
+
+Activity
+
+Optimistic
+
+Most Likely
+
+Pessimistic
+
+Immediate Predecessor(s)
+
+START
+
+0
+
+0
+
+0
+
+—
+
+A
+
+6
+
+10
+
+14
+
+START
+
+B
+
+0
+
+1
+
+2
+
+A
+
+C
+
+17
+
+20
+
+30
+
+A
+
+D
+
+4
+
+5
+
+6
+
+B
+
+E
+
+2
+
+3
+
+5
+
+D
+
+F
+
+7
+
+10
+
+13
+
+C
+
+G
+
+1
+
+2
+
+4
+
+D
+
+H
+
+1
+
+2
+
+5
+
+G
+
+I
+
+2
+
+2
+
+2
+
+C, G
+
+J
+
+1
+
+3
+
+5
+
+I
+
+K
+
+0
+
+1
+
+3
+
+H
+
+L
+
+0
+
+2
+
+4
+
+J, K
+
+FINISH
+
+0
+
+0
+
+0
+
+E, F, L
+
+MANAGING EFFECTIVE PROJECTS
+
+22. The project manager of Good Public Relations gathered the data shown in Table 2.12 for a new advertising
+campaign.
+
+103
+
+b. What is the probability that the project will take more
+than 37 weeks?
+c. Consider the path A–E–G–H–J. What is the probability
+that this path will exceed 37 weeks?
+
+a. How long is the project likely to take?
+
+TABLE 2.12
+
+CHAPTER 2
+
+ACTIVITY DATA FOR ADVERTISING PROJECT
+TIME ESTIMATES (WEEKS)
+
+Activity
+
+Optimistic
+
+Most Likely
+
+Pessimistic
+
+Immediate Predecessor(s)
+
+A
+
+7
+
+10
+
+13
+
+START
+
+B
+
+4
+
+8
+
+16
+
+START
+
+C
+
+7
+
+8
+
+9
+
+START
+
+D
+
+1
+
+2
+
+4
+
+B
+
+E
+
+7
+
+10
+
+11
+
+A, C
+
+F
+
+4
+
+6
+
+7
+
+D, E
+
+G
+
+1
+
+3
+
+6
+
+D, E
+
+H
+
+1
+
+5
+
+7
+
+F, G
+
+I
+
+1
+
+4
+
+6
+
+G
+
+J
+
+3
+
+5
+
+9
+
+H
+
+K
+
+3
+
+3
+
+3
+
+H
+
+23. You are in charge of a project at the local community center. The center needs to remodel one of the rooms in time
+for the start of a new program. Delays in the project mean
+that the center must rent other space at a nearby church
+at additional cost. Time and cost data for your project are
+contained in Table 2.13. Your interest is in minimizing
+the cost of the project to the community center.
+
+TABLE 2.13
+
+a. Using the normal times for each activity, what is the
+earliest date you can complete the project?
+b. Suppose the variable overhead costs are $50 per day
+for your project. Also, suppose that the center must
+pay $40 per day for a temporary room on day 15 or
+beyond. Find the minimum-cost project schedule.
+
+DATA FOR THE COMMUNITY CENTER PROJECT
+
+Activity
+
+Normal Time (days)
+
+Normal Cost ($)
+
+Crash Time (days)
+
+Crash Cost ($)
+
+Immediate Predecessor(s)
+
+START
+
+0
+
+0
+
+0
+
+0
+
+—
+
+A
+
+10
+
+50
+
+8
+
+150
+
+START
+
+B
+
+4
+
+40
+
+2
+
+200
+
+START
+
+C
+
+7
+
+70
+
+6
+
+160
+
+B
+
+D
+
+2
+
+20
+
+1
+
+50
+
+A, C
+
+E
+
+3
+
+30
+
+3
+
+30
+
+A, C
+
+F
+
+8
+
+80
+
+5
+
+290
+
+B
+
+G
+
+5
+
+50
+
+4
+
+180
+
+D
+
+H
+
+6
+
+60
+
+3
+
+180
+
+E, F
+
+FINISH
+
+0
+
+0
+
+0
+
+0
+
+G, H
+
+104
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+24. The information in Table 2.14 is available for a large fundraising project.
+a. Determine the critical path and the expected completion time of the project.
+b. Plot the total project cost, starting from day 1 to the
+expected completion date of the project, assuming the
+earliest start times for each activity. Compare that result to a similar plot for the latest start times. What implication does the time differential have for cash flows
+and project scheduling?
+
+TABLE 2.14
+
+25. You are the project manager of the software installation project in Table 2.15. You would like to find the
+minimum-cost schedule for your project. There is a
+$1,000-per-week penalty for each week the project is
+delayed beyond week 25. In addition, your project
+team determined that indirect project costs are
+$2,500 per week.
+a. What would be your target completion week?
+b. How much would you save in total project costs with
+your schedule?
+
+FUND-RAISING PROJECT DATA
+
+Activity
+
+Activity Time (days)
+
+Activity Cost ($)
+
+Immediate Predecessor(s)
+
+A
+
+3
+
+100
+
+—
+
+B
+
+4
+
+150
+
+—
+
+C
+
+2
+
+125
+
+A
+
+D
+
+5
+
+175
+
+B
+
+E
+
+3
+
+150
+
+B
+
+F
+
+4
+
+200
+
+C, D
+
+G
+
+6
+
+75
+
+C
+
+H
+
+2
+
+50
+
+C, D, E
+
+I
+
+1
+
+100
+
+E
+
+J
+
+4
+
+75
+
+D, E
+
+K
+
+3
+
+150
+
+F, G
+
+L
+
+3
+
+150
+
+G, H, I
+
+M
+
+2
+
+100
+
+I, J
+
+N
+
+4
+
+175
+
+K, M
+
+O
+
+1
+
+200
+
+H, M
+
+P
+
+5
+
+150
+
+N, L, O
+
+TABLE 2.15
+Activity
+
+DATA FOR SOFTWARE INSTALLATION PROJECT
+Immediate Predecessors
+
+Normal Time (weeks)
+
+Normal Cost ($)
+
+Crash Time (weeks)
+
+Crash Cost ($)
+
+A
+
+—
+
+5
+
+2,000
+
+3
+
+4,000
+
+B
+
+—
+
+8
+
+5,000
+
+7
+
+8,000
+
+C
+
+A
+
+10
+
+10,000
+
+8
+
+12,000
+
+D
+
+A, B
+
+4
+
+3,000
+
+3
+
+7,000
+
+E
+
+B
+
+3
+
+4,000
+
+2
+
+5,000
+
+F
+
+D
+
+9
+
+8,000
+
+6
+
+14,000
+
+G
+
+E, F
+
+2
+
+2,000
+
+2
+
+2,000
+
+H
+
+G
+
+8
+
+6,000
+
+5
+
+9,000
+
+I
+
+C, F
+
+9
+
+7,000
+
+7
+
+15,000
+
+MANAGING EFFECTIVE PROJECTS
+
+26. Consider the project described in Table 2.16.
+
+b. You are interested in completing your project as soon as
+possible. You have only one option. Suppose you could
+
+Activity
+
+105
+
+assign Employee A, currently assigned to activity G, to
+help Employee B, currently assigned to activity F. Each
+week that Employee A helps Employee B will result in
+activity G increasing its time by one week and activity F
+reducing its time by one week. How many weeks should
+Employee A work on activity F?
+
+a. If you start the project immediately, when will it be
+finished?
+
+TABLE 2.16
+
+CHAPTER 2
+
+PROJECT DATA FOR PROBLEM 26
+Activity Time (weeks)
+
+Immediate Predecessor(s)
+
+START
+
+0
+
+—
+
+A
+
+3
+
+START
+
+B
+
+4
+
+START
+
+C
+
+4
+
+B
+
+D
+
+4
+
+A
+
+E
+
+5
+
+A, B
+
+F
+
+6
+
+D, E
+
+G
+
+2
+
+C, E
+
+FINISH
+
+0
+
+F, G
+
+Active Model Exercise
+This Active Model appears in MyOMLab. It allows you to evaluate the sensitivity of the project time to changes in activity
+times and activity predecessors.
+QUESTIONS
+1.
+
+What happens when you increase activity A by one week
+after it becomes critical?
+
+2.
+
+Activity F is not critical. Use the scroll bar to determine
+how many weeks you can increase activity F until it
+becomes critical.
+
+Gantt Chart Using Data from Example 2.2
+
+3.
+
+Activity B and activity K are critical activities. Describe the
+difference that occurs on the graph when you increase
+activity B versus when you increase activity K.
+
+4. Activity A is not critical. How many weeks can you increase activity A until it becomes critical? What happens
+when activity A becomes critical?
+5.
+
+Suppose that building codes may change and, as a result,
+activity C would have to be completed before activity D
+could be started. How would this affect the project?
+
+106
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+VIDEO CASE
+
+Project Management at the Phoenician
+
+The Phoenician in Phoenix, Arizona, is part of Starwood’s Luxury Collection and its only AAA Five Diamond Award resort in the southwestern United
+States. Sophistication, elegance, and excellence only begin to describe the
+guest experience at the hotel. Guests can dine in one of nine restaurants,
+relax poolside, play tennis, take in 27 holes of golf on three 9-hole courses,
+or relax with a variety of soothing spa treatments at the 22,000-square-foot
+Centre for Well-Being.
+The Phoenician recently embarked on an ambitious $38 million spa
+and golf renovation program. The resort’s golf and spa programs historically
+earned high marks from surveys in their industries over the years, but the environment was changing. Evidence of this change was seen in the explosive
+growth of new golf courses and spas in the Southwest region. Phoenix alone
+has over 275 golf courses, and the Southwest boasts the largest concentration of new luxury spas anywhere. The Phoenician’s facilities, while worldclass and highly rated, were more than 15 years old. The hotel’s recently
+awarded Five Diamond status renewed emphasis on bringing every process
+and service at the property up to Five Diamond level.
+The decision to renovate the golf course and existing spa became not
+a question of whether to undertake the projects, but to what degree they
+needed to be pursued. Key considerations centered on (1) whether to build
+basic facilities or commit to the grandiose luxury level, (2) having a domestic versus international reputation, and (3) developing creative packaging of
+the new facilities to attract loyal guests, such as a spa and golf “country
+club-like” membership program. Such a program would be limited to about
+600 spa/golf memberships, with a one-time fee of $65,000 each.
+
+Work Breakdown Structure
+
+The company’s senior management considered three options for the
+Centre for Well-Being spa. First, the existing space in the heart of the resort
+could be renovated. This option would require relocating the spa to another
+part of the resort and offering limited treatments during this time, thereby
+reducing spa revenues significantly. With option 2, hilly terrain directly behind the resort could be carved out to create a new mountainside facility with
+sweeping vistas. This option meant the closure of one of the hotel’s buildings
+housing 60 guest rooms and suites during the construction period. The existing spa could remain open, however. Under option 3, a parking structure on
+existing hotel property could be used, having the least impact on revenues.
+The first option was seen as a short-term fix, while the remaining two were
+viewed as having longer-term potential.
+Additional discussion centered on the type of spa to be built. Recent
+acquisition of the Bliss spa brand for Starwood’s W Hotels was an option,
+offering day spa amenities and an indulgence atmosphere. The second option
+was to remain a holistic resort spa with an emphasis on health and restoration. The third option was to become a destination spa with dedicated guest
+stays and week-long programs. Day spas are the fastest-growing category,
+with few destination spas.
+The Phoenician management team, with assistance from Starwood
+Field Operations and Corporate offices, prepared an extensive analysis of
+strengths, weaknesses, opportunities, and threats to better understand
+the environment. The result of this analysis was used by the team to identify the set of activities necessary for each option. The Corporate Design
+and Construction group developed architectural and engineering plans, as
+
+Activity Time (days)
+
+Activity Precedence Relationships
+
+Project Conception
+A. Kick-off meeting
+B. Creation of spa specifications
+
+2
+30
+
+A
+
+C. Preliminary site characterizations
+
+10
+
+B
+
+D. Subsurface investigation
+
+10
+
+C
+
+5
+
+D
+
+10
+
+E
+
+G. Initial designs
+
+70
+
+B
+
+H. Preliminary zoning compliance plan
+
+15
+
+C, G
+
+I. Final designs
+
+18
+
+H
+
+5
+
+I
+
+K. Construction documentation and landscape package
+
+80
+
+F, I
+
+L. Acquisition of contractor estimates and bids
+
+90
+
+J, K
+
+60
+
+L
+
+Geotechnical Investigation
+
+E. Laboratory testing
+F. Geologic hazard assessments
+Design Development
+
+J. Owner approval of designs
+Documentation and Cost Estimation
+
+Decision
+M. Owner approval of one of the three projects
+
+MANAGING EFFECTIVE PROJECTS
+
+CHAPTER 2
+
+107
+
+well as the work breakdown structure and diagrams showing the critical path for the possible project options. The work breakdown structure,
+activity times, and activity precedence relationships are shown in the table
+on the previous page.
+
+1. Coordinating departments in a major project is always a challenge.
+Which departments within the Starwood organization likely played a role
+in each of the following project related activities?
+a. Defining and organizing the project
+b. Planning the project
+c. Monitoring and controlling the project
+2. Many times, project decision makers do not rely solely on financial hurdles, such as return on investment or internal rates of return, but place
+a lot of emphasis on intangible factors. Which are the salient intangible
+factors associated with selecting one of the three options for the spa?
+3. Timing is always a challenge in managing projects. Construct a network
+diagram for the spa selection process. How soon can The Phoenician
+management make a decision on the spa?
+
+CASE
+
+Pearson
+
+QUESTIONS
+
+When the Phoenician, a luxury hotel in Phoenix, Arizona, sought to redesign its Center for Well-Being, its management team created a work
+breakdown structure in order to compare different project options and
+choose the best one.
+
+The Pert Mustang
+
+Roberts Auto Sales and Service (RASAS) consists of three car dealerships that
+sell and service several makes of American and Japanese cars, two auto parts
+stores, a large body shop and car painting business, and an auto salvage yard.
+Vicky Roberts, owner of RASAS, went into the car business when she inherited
+a Ford dealership from her father. She was able to capitalize on her knowledge
+and experience to build her business into the diversified and successful miniempire it is today. Her motto, “Sell ‘em today, repair ‘em tomorrow!” reflects a
+strategy that she refers to in private as “Get ‘em coming and going.”
+Roberts has always retained a soft spot in her heart for high-performance
+Mustangs and just acquired a 1965 Shelby Mustang GT 350 that needs a lot
+of restoration. She also notes the public’s growing interest in the restoration of
+vintage automobiles. Roberts is thinking of expanding into the vintage car restoration business and needs help in assessing the feasibility of such a move.
+She wants to restore her 1965 Shelby Mustang to mint condition, or as close
+to mint condition as possible. If she decides to go into the car restoring business, she can use the Mustang as an exhibit in sales and advertising and take
+it to auto shows to attract business for the new shop.
+Roberts believes that many people want the thrill of restoring an old
+car themselves, but they do not have the time to run down all the old parts.
+Still, others just want to own a vintage auto because it is different and many
+of them have plenty of money to pay someone to restore an auto for them.
+Roberts wants the new business to appeal to both types of people.
+For the first group, she envisions serving as a parts broker for NOS (“new
+old stock”), new parts that were manufactured many years ago and are still
+packaged in their original cartons. It can be a time-consuming process to find
+the right part. RASAS could also machine new parts to replicate those that
+are hard to find or that no longer exist.
+In addition, RASAS could assemble a library of parts and body manuals
+for old cars to serve as an information resource for do-it-yourself restorers.
+The do-it-yourselfers could come to RASAS for help in compiling parts lists,
+and RASAS could acquire the parts for them. For others, RASAS would take
+charge of the entire restoration.
+Roberts asked the director of service operations to take a good look at
+her Mustang and determine what needs to be done to restore it to the condition it was in when it came from the factory more than 40 years ago. She
+
+wants to restore this car in time to exhibit it at the Detroit Auto Show. If the
+car gets a lot of press, it will be a real public relations coup for RASAS—
+especially if Roberts decides to enter this new venture. Even if she does not,
+the car will be a showpiece for the rest of the business.
+Roberts asked the director of service operations to prepare a report
+about what is involved in restoring the car and whether it can be done in
+time for the Detroit show in 45 working days using PERT/CPM. The parts
+manager, the body shop manager, and the chief mechanic have provided the
+following estimates of times and activities that need to be done, as well as
+cost estimates:
+a. Order all needed material and parts (upholstery, windshield, carburetor,
+and oil pump). Time: 2 days. Cost (telephone calls and labor): $100.
+b. Receive upholstery material for seat covers. Cannot be done until order
+is placed. Time: 30 days. Cost: $2,100.
+c. Receive windshield. Cannot be done until order is placed. Time:
+10 days. Cost: $800.
+d. Receive carburetor and oil pump. Cannot be done until order is placed.
+Time: 7 days. Cost: $1,750.
+e. Remove chrome from body. Can be done immediately. Time: 1 day.
+Cost: $200.
+f. Remove body (doors, hood, trunk, and fenders) from frame. Cannot be
+done until chrome is removed. Time: 1 day. Cost: $300.
+g. Have fenders repaired by body shop. Cannot be done until body is
+removed from frame. Time: 4 days. Cost: $1,000.
+h. Repair doors, trunk, and hood. Cannot be done until body is removed
+from frame. Time: 6 days. Cost: $1,500.
+i. Pull engine from chassis. Do after body is removed from frame. Time:
+1 day. Cost: $200.
+j. Remove rust from frame. Do after the engine has been pulled from the
+chassis. Time: 3 days. Cost $900.
+k. Regrind engine valves. Do after the engine has been pulled from the
+chassis. Time: 5 days. Cost: $1,000.
+
+108
+
+l.
+
+m.
+n.
+o.
+
+p.
+
+q.
+r.
+
+s.
+t.
+u.
+v.
+
+PART 1
+
+COMPETING WITH OPERATIONS
+
+Replace carburetor and oil pump. Do after engine has been pulled from
+chassis and after carburetor and oil pump have been received. Time:
+1 day. Cost: $200.
+Rechrome the chrome parts. Chrome must have been removed from
+the body first. Time: 3 days. Cost: $210.
+Reinstall engine. Do after valves are reground and carburetor and oil
+pump have been installed. Time: 1 day. Cost: $200.
+Put doors, hood, and trunk back on frame. The doors, hood, and trunk
+must have been repaired first. The frame must have had its rust removed first. Time: 1 day. Cost: $240.
+Rebuild transmission and replace brakes. Do so after the engine has
+been reinstalled and the doors, hood, and trunk are back on the frame.
+Time: 4 days. Cost: $2,000.
+Replace windshield. Windshield must have been received. Time: 1 day.
+Cost: $100.
+Put fenders back on. The fenders must have been repaired first,
+the transmission rebuilt, and the brakes replaced. Time: 1 day. Cost:
+$100.
+Paint car. Cannot be done until the fenders are back on and windshield
+replaced. Time: 4 days. Cost: $1,700.
+Reupholster interior of car. Must have received upholstery material first.
+Car must have been painted first. Time: 7 days. Cost: $2,400.
+Put chrome parts back on. Car must have been painted and chrome
+parts rechromed first. Time: 1 day. Cost: $100.
+Pull car to the Detroit Auto Show. Must have completed reupholstery of interior and have put the chrome parts back on. Time: 2 days.
+Cost: $1,000.
+
+Roberts wants to limit expenditures on this project to what could be
+recovered by selling the restored car. She has already spent $50,000 to acquire the car. In addition, she wants a brief report on some of the aspects of
+the proposed business, such as how it fits in with RASAS’s other businesses
+and what RASAS’s operations task should be with regard to cost, quality,
+customer service, and flexibility.
+
+In the restoration business there are various categories of restoration.
+A basic restoration gets the car looking great and running, but a mint condition
+restoration puts the car back in original condition—as it was “when it rolled
+off the line.” When restored cars are resold, a car in mint condition commands
+a much higher price than one that is just a basic restoration. As cars are restored, they can also be customized. That is, something is put on the car that
+could not have been on the original. Roberts wants a mint condition restoration
+for her Mustang, without customization. (The proposed new business would
+accept any kind of restoration a customer wanted.)
+The total budget cannot exceed $70,000 including the $50,000 Roberts
+has already spent. In addition, Roberts cannot spend more than $3,600 in
+any week given her present financial position. Even though much of the work
+will be done by Roberts’s own employees, labor and materials costs must be
+considered. All relevant costs have been included in the cost estimates.
+
+QUESTIONS
+1.
+
+Using the information provided, prepare the report that Vicky Roberts
+requested, assuming that the project will begin immediately. Assume
+45 working days are available to complete the project, including transporting the car to Detroit before the auto show begins. Your report
+should briefly discuss the aspects of the proposed new business, such
+as the competitive priorities that Roberts asked about.
+2. Construct a table containing the project activities using the letter assigned to each activity, the time estimates, and the precedence relationships from which you will assemble the network diagram.
+3. Draw a network diagram of the project similar to Figure 2.4. Determine
+the activities on the critical path and the estimated slack for each activity.
+4. Prepare a project budget showing the cost of each activity and the total
+for the project. Can the project be completed within the budget? Will the
+project require more than $3,600 in any week? To answer this question, assume that activities B, C, and D must be paid for when the item
+is received (the earliest finish time for the activity). Assume that the
+costs of all other activities that span more than one week can be prorated. Each week contains five work days. If problems exist, how might
+Roberts overcome them?
+
+Source: This case was prepared by and is used by permission of Dr. Sue P. Siferd, Professor Emerita, Arizona State University (Updated September, 2007).
+
+Selected References
+Goldratt, E. M. Critical Chain. Great Barrington, MA: North River,
+1997.
+Hartvigsen, David. SimQuick: Process Simulation with Excel. 2nd ed.
+Upper Saddle River, NJ: Prentice Hall, 2004.
+Kerzner, Harold. Advanced Project Management: Best Practices on
+Implementation, 2nd ed. New York: John Wiley & Sons, 2004.
+Kerzner, Harold. Project Management: A Systems Approach to Planning,
+Scheduling, and Controlling, 10th ed. New York: John Wiley & Sons,
+2009.
+Lewis, J. P. Mastering Project Management, 2nd ed. New York:
+McGraw-Hill, 2001.
+Mantel Jr., Samuel J., Jack R. Meredith, Scott M. Shafer, and Margaret
+M. Sutton. Project Management in Practice, 3rd ed. New York: John
+Wiley & Sons, 2007.
+
+Meredith, Jack R., and Samuel J. Mantel, Project Management: A Managerial Approach, 6th ed. New York: John Wiley & Sons, 2005.
+Muir, Nancy C. Microsoft Project 2007 for Dummies, New York: John
+Wiley & Sons, 2006.
+Nicholas, John M, and Herman Stein. Project Management for Business, Engineering, and Technology, 3rd ed. Burlington, MA: Butterworth-Heinemann, 2008.
+“A Guide to Project Management Body of Knowledge,” 2008. Available
+from the Project Management Institute at www.pmi.org.
+Srinivasan, Mandyam, Darren Jones, and Alex Miller. “CORPS
+Capabilities.” APICS Magazine (March 2005), pp. 46–50.
+
+

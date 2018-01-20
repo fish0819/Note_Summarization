@@ -11,7 +11,7 @@ retstr = io.StringIO()
 laparams = LAParams()
 device = TextConverter(rsrcmgr, retstr, codec = 'UTF-8', laparams = laparams)
 # fp = open('Subject Index.pdf', 'rb')
-fp = open('Chapter 1.pdf', 'rb')
+fp = open('Contents.pdf', 'rb')
 interpreter = PDFPageInterpreter(rsrcmgr, device)
 maxpages = 0
 pagenos = set()
@@ -34,37 +34,20 @@ SentenceList = senTokenizer.tokenize(text) #corpus
 
 i = 0
 while i < len(SentenceList):
-	while 1:
-		if re.search('\.[A-Z]\w', SentenceList[i]) == None and '' not in SentenceList[i]:
-			i += 1
-			break
-		if re.search('\.[A-Z]\w', SentenceList[i]) != None:
-			result = re.search('\.[A-Z]\w', SentenceList[i]).group(0)
-			print (result)
-			if '' in SentenceList[i] and SentenceList[i].find('') < SentenceList[i].find(result):
-				prev = SentenceList[i][:SentenceList[i].find('')]
-				post = SentenceList[i][SentenceList[i].find('') + 1:]
-			else:
-				prev = SentenceList[i][:SentenceList[i].find(result) + 1]
-				post = SentenceList[i][SentenceList[i].find(result) + 1:]
-			SentenceList[i] = prev
-			i += 1
-			SentenceList.insert(i, post)
-		if '' in SentenceList[i]:
-			prev = SentenceList[i][:SentenceList[i].find('')]
-			post = SentenceList[i][SentenceList[i].find('') + 1:]
-			SentenceList[i] = prev
-			i += 1
-			SentenceList.insert(i, post)
+	if '' in SentenceList[i]:
+		prev = SentenceList[i][:SentenceList[i].find('')]
+		post = SentenceList[i][SentenceList[i].find('') + 1:]
+		SentenceList[i] = prev
 		i += 1
-
+		SentenceList.insert(i, post)
+	i += 1
 
 # for i in range(len(SentenceList)):
 # 	print (i, '\t', SentenceList[i])
 # print (SentenceList)
 
 
-with open ('Book.txt', 'w', encoding = 'UTF-8') as outFile:
+with open ('Contents.txt', 'w', encoding = 'UTF-8') as outFile:
 	for sentence in SentenceList:
 		try:
 			# while sentence[0] == ' ':

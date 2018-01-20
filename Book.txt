@@ -1,0 +1,992 @@
+ 21The seventh novel in the Harry Potter series was released on July 21, 2007 and became an instant best seller around the globe.
+Because the book had to be delivered in a tight time window to the customers, Scholastic coordinated its publishing and distribution processes in USA months in advance of the release date.
+Bizuayehu Tesfaye/AP Photos1PART 1 Competing with OperationsUSING OPERATIONS TO COMPETEScholastic and Harry PotterScholastic is the world’s largest publisher and distributor of children’s books and educational materials.
+Founded in 1920, it had $1.9 billion in revenues in fiscal 2011 with offices in 16 countries including North America, Europe, Southeast Asia, Latin America, the Middle East, Australia, New Zealand, and Africa.
+Scholastic started planning in early 2007 for the worldwide release of the eagerly awaited seventh book Harry Potter and the Deathly Hallows in the ac-claimed series by J.K. Rowling on the boy wizard.
+When the author finished the book in spring 2007, Scholastic’s printers R.R.
+Donnelly & Sons and Quebecor World worked around the clock to make sure that the book would be ready by the release date.
+To save time in loading and unloading, Scholastic bypassed its own warehouses and required its truckers, Yellow Transportation and JB Hunt Transport Services, to use the same size trailers and pallets to ship books  directly from six printing sites to big retailers like Barnes & Noble and Amazon.com.
+This fleet of trucks, if lined up bumper-to-bumper, would stretch for 15 miles.
+GPS transponders were used to alert Scholastic by e-mail if the driver or the trailer veered off the designated routes.
+The timing was particularly tricky for  e-tailers, who had to directly ship books in advance for individual orders to arrive simultaneously around the country in order to minimize the risk of someone  leaking the book’s ending.
+22 PART 1     COMPETING WITH OPERATIONSSince close to 90 percent of sales of such special books occur in the first week, they get special treatment to save time, money, space, and work.
+Scho-lastic had to customize, coordinate, and synchronize its operations and supply chain processes across multiple partners at the printing, warehousing, distribu-tion, and retailing locations to ensure that the last book in the Harry Potter series reached the final customers no more than a few hours before the scheduled  July 21, 12:01 A.M. release deadline.
+LEARNING GOALS After reading this chapter, you should be able to:processAny activity or group of activities that takes one or more inputs, transforms them, and provides one or more outputs for its customers.operationA group of resources performing all or part of one or more processes.supply chainAn interrelated series of pro-cesses within and across firms that produces a service or product to the satisfaction of customers.supply chain managementThe synchronization of a firm’s processes with those of its sup-pliers and customers to match the flow of materials, services, and information with customer demand.1The terms supply chain and value chain are sometimes used interchangeably.operations managementThe systematic design, direction, and control of processes that transform inputs into services and products for internal, as well as external, customers.Operations management refers to the systematic design, direction, and control of pro-cesses that transform inputs into services and products for internal, as well as external customers.This book deals with managing those fundamental activities and processes that organizations use to produce goods and services that people use every day.
+A process is any activity or group of activities that takes one or more inputs, transforms them, and provides one or more outputs for its customers.
+For organizational purposes, processes tend to be clustered together into opera-tions.
+An operation is a group of resources performing all or part of one or more processes.
+Pro-cesses can be linked together to form a supply chain, which is the interrelated series of processes within a firm and across different firms that produce a service or product to the satisfaction of cus-tomers.1 A firm can have multiple supply chains, which vary by the product or service provided.
+Supply chain management is the synchronization of a firm’s processes with those of its suppliers and customers to match the flow of materials, services, and information with customer demand.
+For example, Scholastic must schedule the printing of a very large quantity of books in a timely fashion, receive orders from its largest customers, directly load and dispatch a fleet of trucks by specific destination while bypassing regular warehouses, keep track of their progress using tech-nology, and finally, bill their customers and collect payment.
+The operational planning at Scholas-tic, along with internal and external coordination within its supply chain, provides one example of designing customized processes for competitive operations.
+Operations and Supply Chain Management  across the OrganizationBroadly speaking, operations and supply chain management underlie all departments and func-tions in a business.
+Whether you aspire to manage a department or a particular process within it, or you just want to understand how the process you are a part of fits into the overall fabric of the business, you need to understand the principles of operations and supply chain management.
+Operations serve as an excellent career path to upper management positions in many orga-nizations.
+The reason is that operations managers are responsible for key decisions that affect the success of the organization.
+In manufacturing firms, the head of operations usually holds the  USING OPERATIONS TO COMPETE      CHAPTER 1 23title chief operations officer (COO) or vice president of manufacturing (or of production or operations).
+The corresponding title in a service or-ganization might be COO or vice president (or  director) of operations.
+Reporting to the head of operations are the managers of departments, such as customer service, production and inventory control, and quality assurance.
+Figure 1.1 shows operations as one of the key functions within an organization.
+The circular relationships in Figure 1.1 highlight the im-portance of the coordination among the three mainline functions of any business, namely, (1) operations, (2) marketing, and (3) finance.
+Each function is unique and has its own knowledge and skill areas, pri-mary responsibilities, processes, and decision domains.
+From an exter-nal perspective, finance generates resources, capital, and funds from investors and sales of its goods and services in the marketplace.
+Based on business strategy, the finance and operations functions then decide how to invest these resources and convert them into physical assets and material inputs.
+Operations subsequently transforms these mate-rial and service inputs into product and service outputs.
+These outputs must match the characteristics that can be sold in the selected markets by marketing.
+Marketing is responsible for producing sales revenue of the outputs, which become returns to investors and capital for support-ing operations.
+Functions such as accounting, information systems, human resources, and engineering make the firm complete by provid-ing essential information, services, and other managerial support.
+These relationships provide direction for the business as a whole, and are aligned to the same strategic intent.
+It is important to understand the entire circle, and not just the individual functional areas.
+How well these functions work together determines the effectiveness of the organization.
+Functions should be integrated and should pursue a common strategy.
+Success depends on how well they are able to do so.
+No part of this circle can be dismissed or minimized without loss of effectiveness, and regardless of how departments and functions are individually managed, they are always linked together through processes.
+Thus, a firm competes not only by offering new services and products, creative marketing, and skillful finance, but also through its unique competencies in operations and sound management of core processes.
+Historical Evolution of  Operations and Supply Chain ManagementThe history of modern operations and supply chain management is rich and over two hundred years old, even though its practice has been around in one form or another for centuries.
+James Watt invented the steam engine in 1785.
+The subsequent establishment of railroads facilitated efficient movement of goods throughout Europe, and eventually even in distant colonies such as India.
+With the invention of the cot-ton gin in 1794, Eli Whitney introduced the concept of interchangeable parts.
+It revolutionized the art of machine-based manufacturing, and coupled with the invention of the steam engine, lead to the great in-dustrial revolution in England and the rest of Europe.
+The textile industry was one of the earliest industries to be mechanized.
+The industrial revolution gradually spread to the United States and the rest of the world in the nineteenth century, and was accompanied by such great innovations as the internal combustion engine, steam-powered ships, metallurgy of iron making, large-scale production of chemicals, and invention of ma-chine tools, among others.
+The foundations of modern manufacturing and technological breakthroughs were also inspired by the creation of a mechanical computer by Charles Babbage in the early part of the nineteenth century.
+He also pioneered the concept of division of labor, which laid the foundation for scientific management of operations and supply chain management that was further improved upon by Frederick Taylor in 1911.
+FinanceAcquires financialresources and capitalfor inputsOperationsTranslatesmaterials andservices intooutputsMarketingGenerates salesof outputsSupport Functions• Accounting• Information Systems• Human Resources• EngineeringSalesRevenueMaterial &Service InputsProduct &Service Outputs왖 FIGURE 1.1 Integration between Different Functional Areas of a BusinessHenry Ford  with a Model T in Buffalo, New York, in 1921.
+The Ford Motor Company, founded in 1903, produced about one million Model T’s in 1921.
+AFP/Newscom24 PART 1     COMPETING WITH OPERATIONSThree other landmark events from the twentieth century define the history of operations and supply chain management.
+First is the invention of the assembly line for the Model T car by Henry Ford in 1909.
+The era of mass production was born, where complex products like automobiles could be manufactured in large numbers at affordable prices through repetitive manufacturing.
+Second, Alfred Sloan in the 1930s introduced the idea of strategic planning for achieving product proliferation and variety, with the newly founded General Motors Corporation offering “a car for every purse and purpose.” Finally, with the publication of the Toyota Production System in 1978, Taiichi Ohno laid the groundwork for removing wasteful activities from an organization, a con-cept that we explore further in this book while learning about lean systems.
+The recent history of operations and supply chains over the past three decades has been steeped in technological advances.
+The 1980s were characterized by wide availability of com-puter aided design (CAD), computer aided manufacturing (CAM), and automation.
+Information technology applications started playing an increasingly important role in 1990s, and started con-necting the firm with its extended enterprise through Enterprise Resource Planning Systems and outsourced technology hosting for supply chain solutions.
+Service organizations like Federal Ex-press, United Parcel Service (UPS), and Walmart also became sophisticated users of information technology in operations, logistics, and management of supply chains.
+The new millennium has seen an acceleration of this trend, along with an increased focus on sustainability and the natural environment.
+We cover all these ideas and topical areas in greater detail throughout this book.A Process ViewYou might wonder why we begin by looking at processes, rather than at departments or even the firm.
+The reason is that a process view of the firm provides a much more relevant picture of the way firms actually work.
+Departments typically have their own set of objectives, a set of resources with capabilities to achieve those objectives, and managers and employees responsible for perfor-mance.
+Some processes, such as billing, may be so specific that they are contained wholly within a single department, such as accounting.
+The concept of a process, however, can be much broader.
+A process can have its own set of objectives, involve a work flow that cuts across departmental boundaries, and require resources from several departments.
+You will see examples throughout this text of companies that discov-ered how to use their processes to gain a competitive advantage.
+You will notice that the key to success in many organizations is a keen understanding of how their processes work, since an or-ganization is only as effective as its processes.
+Therefore, operations management is relevant and important for all students, regardless of major, because all departments have processes that must be managed effectively to gain a competitive advantage.
+How Processes WorkFigure 1.2 shows how processes work in an organization.
+Any process has inputs and outputs.
+Inputs can include a combination of human resources (workers and managers), capital (equipment and facilities), purchased materials and services, land, and energy.
+The numbered circles in Figure 1.2 represent operations through which services, products, or customers pass and where processes are performed.
+The arrows represent flows, and can cross because one job or customer can have differ-ent requirements (and thus a different flow pattern) than the next job or customer.
+Processes provide outputs to customers.
+These outputs may often be services (that can take the form of information) or tan-gible products.
+Every process and every person in an organiza-tion has customers.
+Some are external customers, who may be end users or intermediaries (e.g., manufacturers, financial insti-tutions, or retailers) buying the firm’s finished services or prod-ucts.
+Others are internal customers, who may be employees in the firm whose process inputs are actually the outputs of earlier processes managed within the firm.
+Either way, processes must be managed with the customer in mind.
+In a similar fashion, every process and every person in an or-ganization relies on suppliers.
+External suppliers may be other businesses or individuals who provide the resources, services, products, and materials for the firm’s short-term and long-term needs.
+Processes also have internal suppliers, who may be em-ployees or processes that supply important information or materials.external customersA customer who is either an end user or an intermediary (e.g., manufacturers, financial institutions, or retailers) buying the firm’s finished services or products.internal customersOne or more employees or pro-cesses that rely on inputs from other employees or processes in order to perform their work.external suppliersThe businesses or individuals who provide the resources, ser-vices, products, and materials for the firm’s short-term and long-term needs.internal suppliersThe employees or processes that supply important information or materials to a firm’s processes.
+External environmentInternal and externalcustomersProcesses andoperations21435Information onperformanceOutputs• Goods• ServicesInputs• Workers• Managers• Equipment• Facilities• Materials• Land• Energy왔 FIGURE 1.2 Processes and Operations USING OPERATIONS TO COMPETE      CHAPTER 1 25Inputs and outputs vary depending on the service or product provided.
+For example, inputs at a jewelry store include merchandise, the store building, registers, the jeweler, and customers;  outputs to external customers are services and sold merchandise.
+Inputs to a factory manufactur-ing blue jeans include denim, machines, the plant, workers, managers, and services provided by outside consultants; outputs are clothing and supporting services.
+The fundamental role of in-puts, processes, and customer outputs holds true for processes at all organizations.
+Figure 1.2 can represent a whole firm, a department, a small group, or even a single individ-ual.
+Each one has inputs and uses processes at various operations to provide outputs.
+The dashed lines represent two special types of input: participation by customers and information on perfor-mance from both internal and external sources.
+Participation by customers occurs not only when they receive outputs, but also when they take an active part in the processes, such as when stu-dents participate in a class discussion.
+Information on performance includes internal reports on customer service or inventory levels and external information from market research, government reports, or telephone calls from suppliers.
+Managers need all types of information to manage pro-cesses most effectively.
+Nested ProcessesProcesses can be broken down into subprocesses, which in turn can be broken down further into still more subprocesses.
+We refer to this concept of a process within a process as a nested process.
+It may be helpful to separate one part of a process from another for several reasons.
+One person or one department may be unable to perform all parts of the process, or different parts of the process may require different skills.
+Some parts of the process may be designed for routine work while other parts may be geared for customized work.
+The concept of nested processes is illustrated in greater detail in Chapter 4, “Analyzing Processes,” where we reinforce the need to understand and improve activities within a business and each process’s inputs and outputs.
+Service and Manufacturing ProcessesTwo major types of processes are (1) service and (2) manufacturing.
+Service processes pervade the business world and have a prominent place in our discussion of operations management.
+Manufacturing processes are also important; without them the products we enjoy as part of our daily lives would not exist.
+In addition, manufacturing gives rise to service opportunities.
+Differences Why do we distinguish between service and manufacturing processes?
+The answer lies at the heart of the design of competitive processes.
+While Figure 1.3 shows several distinctions between service and manufacturing processes along a continuum, the two key differences that we discuss in detail are (1) the nature of their output and (2) the degree of customer contact.
+In general, manufacturing processes also have longer response times, are more capital intensive, and their quality can be measured more easily than those of service processes.
+Manufacturing processes convert materials into goods that have a physical form we call products.
+For example, an assembly line produces a 350 Z sports car, and a tailor pro-duces an outfit for the rack of an upscale clothing store.
+The transformation processes change the materials on one or more of the following dimensions: 1.
+Physical properties 2.
+Shape 3.
+Size (e.g., length, breadth, and height of a rectangular block of wood) 4.
+Surface finish 5.
+Joining parts and materialsThe outputs from manufacturing processes can be produced, stored, and transported in anticipa-tion of future demand.
+If a process does not change the properties of materials on at least one of these five dimen-sions, it is considered a service (or nonmanufacturing) process.
+Service processes tend to pro-duce intangible, perishable outputs.
+For example, the output from the auto loan process of a bank would be a car loan, and an output of the order fulfillment process of the U.S.
+Postal Service is the delivery of your letter.
+The outputs of service processes typically cannot be held in a finished goods inventory to insulate the process from erratic customer demands.nested processThe concept of a process within a process.• Physical, durable output• Output can be inventoried• Low customer contact• Long response time• Capital intensive• Quality easily measuredMore like amanufacturingprocess• Intangible, perishable output• Output cannot be inventoried• High customer contact• Short response time• Labor intensive• Quality not easily measuredMore likea serviceprocess왖 FIGURE 1.3 Continuum of Characteristics of Manufacturing and Service Processes26 PART 1     COMPETING WITH OPERATIONSA second key difference between service processes and manufacturing processes is degree of customer contact.
+Service processes tend to have a higher degree of customer contact.
+Customers may take an active role in the process itself, as in the case of shopping in a supermarket, or they may be in close contact with the service provider to communicate specific needs, as in the case of a medical clinic.
+Manufacturing processes tend to have less customer contact.
+For example, wash-ing machines are ultimately produced to meet retail forecasts.
+The process requires little informa-tion from the ultimate consumers (you and me), except indirectly through market surveys and market focus groups.
+Even though the distinction between service and manufacturing processes on the basis of customer contact is not perfect, the important point is that managers must recog-nize the degree of customer contact required when designing processes.
+Similarities At the level of the firm, service providers do not just offer services and manufac-turers do not just offer products.
+Patrons of a restaurant expect good service and good food.
+A customer purchasing a new computer expects a good product as well as a good warranty, main-tenance, replacement, and financial services.
+Further, even though service processes do not keep finished goods inventories, they do inventory their inputs.
+For example, hospitals keep inventories of medical supplies and ma-terials needed for day-to-day operations.
+Some manufacturing processes, on the other hand, do not inventory their outputs because they are too costly.
+Such would be the case with low-volume customized products (e.g., tailored suits) or products with short shelf lives (e.g., daily newspapers).
+When you look at what is being done at the process level, it is much easier to see whether the process is providing a service or manufacturing a product.
+However, this clarity is lost when the whole company is classified as either a manufacturer or a service provider because it often per-forms both types of processes.
+For example, the process of cooking a hamburger at a McDonald’s is a manufacturing process because it changes the material’s physical properties (dimension 1), as is the process of assembling the hamburger with the bun (dimension 5).
+However, most of the other processes visible or invisible to McDonald’s customers are service processes.
+You can debate whether to call the whole McDonald’s organization a service provider or a manufacturer, whereas classifications at the process level are much less ambiguous.
+The Supply Chain ViewMost services or products are produced through a series of interrelated business activities.
+Each activity in a process should add value to the preceding activities; waste and unnecessary cost should be eliminated.
+Our process view of a firm is helpful for understanding how services or products are produced and why cross-functional coordination is important, but it does not shed any light on the strategic benefits of the processes.
+The missing strategic insight is that processes must add value for customers throughout the supply chain.
+The concept of supply chains rein-forces the link between processes and performance, which includes a firm’s internal processes as well as those of its external customers and suppliers.
+It also focuses attention on the two main types of processes in the supply chain, namely (1) core processes and (2) support processes.
+Figure 1.4 shows the links between the core and support processes in a firm and a firm’s external customers and suppliers within its supply chain.
+External customersExternal suppliersSupport ProcessesSupplierrelationshipprocessNewservice/productdevelopmentCustomerrelationshipprocessOrderfulfillmentprocess왖 FIGURE 1.4 Supply Chain Linkages Showing Work and Information Flows USING OPERATIONS TO COMPETE      CHAPTER 1 27Core ProcessesA core process is a set of activities that delivers value to external customers.
+Managers of these processes and their employees interact with external customers and build relationships with them, develop new services and products, interact with external suppliers, and produce the ser-vice or product for the external customer.
+Examples include a hotel’s reservation handling, a new car design for an auto manufacturer, or Web-based purchasing for an online retailer like amazon.com.
+Of course, each of the core processes has nested processes within it.
+In this text we focus on four core processes: 1.
+Supplier Relationship Process.
+Employees in the supplier relationship process select the sup-pliers of services, materials, and information and facilitate the timely and efficient flow of these items into the firm.
+Working effectively with suppliers can add significant value to the services or products of the firm.
+For example, negotiating fair prices, scheduling on-time deliveries, and gaining ideas and insights from critical suppliers are just a few of the ways to create value.
+2.
+New Service/Product Development Process.
+Employees in the new service/product develop-ment process design and develop new services or products.
+The services or products may be developed to external customer specifications or conceived from inputs received from the market in general.
+3.
+Order Fulfillment Process.
+The order fulfillment process includes the activities required to produce and deliver the service or product to the external customer.
+4.
+Customer Relationship Process, sometimes referred to as customer relationship management.
+Employees involved in the customer relationship process identify, attract, and build rela-tionships with external customers, and facilitate the placement of orders by customers.
+Tradi-tional functions, such as marketing and sales, may be a part of this process.
+Support ProcessesA support process provides vital resources and inputs to the core processes and is essential to the management of the business.
+Firms have many support processes.
+Examples include budgeting, recruiting, and scheduling.
+Support processes provide key resources, capabilities, or other inputs that allow the core processes to function.
+The Human Resources function in an organization provides many support processes such as recruiting and hiring workers who are needed at different levels of the organization, training the workers for skills and knowledge needed to properly execute their assigned responsibilities, and establishing incentive and compensation plans that reward employees for their performance.
+The legal department puts in place support processes that ensure that the firm is in compliance with the rules and regulations under which the business operates.
+The Accounting function supports processes that track how the firm’s financial resources are being created and allocated over time, while the Information Systems function is responsible for the movement and processing of data and information needed to make business decisions.
+Support processes from different functional areas like Accounting, Engineering, Human Resources, and Information Systems are therefore  vital to the execution of core processes highlighted in Figure 1.4.
+Operations StrategyOperations strategy specifies the means by which operations implements corporate strategy and helps to build a customer-driven firm.
+It links long-term and short-term operations deci-sions to corporate strategy and develops the capabilities the firm needs to be competitive.
+It is at the heart of managing processes and supply chains.
+A firm’s internal processes are only build-ing blocks: They need to be organized to ultimately be effective in a competitive environment.
+Operations strategy is the linchpin that brings these processes together to form supply chains that extend beyond the walls of the firm, encompassing suppliers as well as customers.
+Since customers constantly desire change, the firm’s operations strategy must be driven by the needs of its customers.
+Developing a customer-driven operations strategy begins with corporate strategy, which, as shown in Figure 1.5, coordinates the firm’s overall goals with its core processes.
+It determines the markets the firm will serve and the responses the firm will make to changes in the environment.
+It provides the resources to develop the firm’s core competencies and core processes, and it identifies the strategy the firm will employ in international markets.
+Based on corporate strategy,  a market analysis categorizes the firm’s customers, identifies their needs, and assesses competi-tors’ strengths.
+This information is used to develop competitive priorities.
+These priorities help managers develop the services or products and the processes needed to be competitive in the core processA set of activities that delivers value to external customers.supplier relationship processA process that selects the sup-pliers of services, materials, and information and facilitates the timely and efficient flow of these items into the firm.new service/product  development processA process that designs and develops new services or prod-ucts from inputs received from external customer specifications or from the market in general through the customer relationship process.order fulfillment processA process that includes the ac-tivities required to produce and deliver the service or product to the external customer.customer relationship processA process that identifies, attracts, and builds relationships with external customers, and facili-tates the placement of orders by customers, sometimes referred to as customer relationship management.support processA process that provides vital  resources and inputs to the  core processes and therefore  is essential to the management  of the business.operations strategyThe means by which operations implements the firm’s corporate strategy and helps to build a customer-driven firm.
+28 PART 1     COMPETING WITH OPERATIONS marketplace.
+Competitive priorities are important to the design of existing as well as new services or products, the processes that will deliver them, and the operations strategy that will develop the firm’s capabilities to fulfill them.
+Developing a firm’s operations strategy is a continuous process because the firm’s capabilities to meet the competitive priorities must be periodically checked and any gaps in performance must be addressed in the operations strategy.
+Corporate StrategyCorporate strategy provides an overall direction that serves as the framework for carrying out all the organization’s functions.
+It specifies the business or businesses the company will pursue, iso-lates new opportunities and threats in the environment, and identifies growth objectives.
+Developing a corporate strategy involves four considerations: (1) monitoring and adjusting to changes in the business environment, (2) identifying and developing the firm’s core competen-cies, (3) developing the firm’s core processes, and (4) developing the firm's global strategies.Environmental Scanning The external business environment in which a firm competes changes continually and an organization needs to adapt to those changes.
+Adaptation begins with environmental scanning, the process by which managers monitor trends in the environ-ment (e.g., the industry, the marketplace, and society) for potential opportunities or threats.
+A crucial reason for environmental scanning is to stay ahead of the competition.
+Competitors may be gaining an edge by broadening service or product lines, improving quality, or lowering costs.
+New entrants into the market or competitors that offer substitutes for a firm’s service or product may threaten continued profitability.
+Other important environmental concerns include economic trends, technological changes, political conditions, social changes (i.e., attitudes to-ward work), and the availability of vital resources.
+For example, car manufacturers recognize that dwindling oil reserves will eventually require alternative fuels for their cars.
+Consequently, they have designed prototype cars that use hydrogen or electric power as supplements to gaso-line as a fuel.
+YesNoPerformanceGap?Corporate Strategy• Environmental scanning• Core competencies• Core processes• Global strategiesMarket Analysis• Market segmentation• Needs assessmentCompetitive Priorities• Cost• Quality• Time• FlexibilityNew Service/Product Development• Design• Analysis• Development• Full launchDecisions• Managing processes• Managing supply chainsOperations StrategyCompetitive Capabilities• Current• Needed• Planned왘 FIGURE 1.5 Connection Between  Corporate Strategy and Key Operations Management Decisions USING OPERATIONS TO COMPETE      CHAPTER 1 29Developing Core Competencies Good managerial skill alone cannot overcome environmental changes.
+Firms succeed by taking advantage of what they do particularly well—that is, the or-ganization’s unique strengths.
+Core competencies are the unique resources and strengths that an organization’s management considers when formulating strategy.
+They reflect the collective learning of the organization, especially in how to coordinate processes and integrate technologies.
+These competencies include the following: 1.
+Workforce.
+A well-trained and flexible workforce allows organizations to respond to market needs in a timely fashion.
+This competency is particularly important in service organizations, where customers come in direct contact with employees.
+2.
+Facilities.
+Having well-located facilities (offices, stores, and plants) is a primary advantage be-cause of the long lead time needed to build new ones.
+In addition, flexible facilities that can handle a variety of services or products at different levels of volume provide a competitive advantage.
+3.
+Market and Financial Know-How.
+An organization that can easily attract capital from stock sales, market and distribute its services or products, or differentiate them from similar ser-vices or products on the market has a competitive edge.
+4.
+Systems and Technology.
+Organizations with expertise in information systems have an edge in industries that are data intensive, such as banking.
+Particularly advantageous is expertise in Internet technologies and applications, such as business-to-consumer and business-to-business systems.
+Having the patents on a new technology is also a big advantage.
+Developing Core Processes A firm’s core competencies should drive its core processes: cus-tomer relationship, new service/product development, order fulfillment, and supplier relation-ship.
+Many companies have all four processes, while others focus on a subset of them to better match their core competencies, since they find it difficult to be good at all four processes and still be competitive.
+For instance, in the credit card business within the banking industry, some com-panies primarily specialize in finding custom-ers and maintaining relationships with them.
+American Airlines’s credit card program reaches out and achieves a special affinity to customers  through its marketing database.
+On the other hand, specialized credit card companies, such as  CapitalOne, focus on service innovation by creating new features and pricing programs.
+Finally, many companies are taking over the order fulfillment process by managing the processing of credit card transactions and call centers.
+The important point is that every firm must evaluate its core competen-cies and choose to focus on those processes that provide it the greatest competitive strength.
+Global Strategies Identifying opportunities and threats today requires a global perspective.
+A global strategy may include buying foreign ser-vices or parts, combating threats from foreign com-petitors, or planning ways to enter markets beyond traditional national boundaries.
+Although warding off threats from global competitors is necessary, firms should also actively seek to penetrate foreign markets.
+Two effective global strategies are (1) stra-tegic alliances and (2) locating abroad.
+One way for a firm to open foreign markets is to create a strategic alliance.
+A strategic alliance is an agreement with another firm that may take one of three forms.
+One form of strategic alliance is the col-laborative effort, which often arises when one firm has core competencies that another needs but is un-willing (or unable) to duplicate.
+Such arrangements commonly arise out of buyer–supplier relationships.
+core competenciesThe unique resources and strengths that an organization’s management considers when formulating strategy.lead timeThe elapsed time between the receipt of a customer order and filling it.
+Romeo Gacad/AFP/Getty Images/NewscomThe popular smiling red bee, the mascot of Jollibee, welcomes customers at an outlet in Manila.
+What began from a two ice cream parlors in Manila in 1975, Jollibee has grown into the biggest Philippines fast-food company employing over 26,000 people in over 1,000 stores in seven countries.
+By catering to local tastes and preferences, Jollibee took 65 percent of the fiercely competitive Philippine fast-food market, pushing the world giant McDonald’s into second place.
+30 PART 1     COMPETING WITH OPERATIONSAnother form of strategic alliance is the joint venture, in which two firms agree to produce a service or product jointly.
+This approach is often used by firms to gain access to foreign markets.
+For ex-ample, to get access to the large Chinese market, General Motors (GM) and Volkswagen (VW) each developed joint ventures with Shanghai Automotive Industry Corporation or SAIC.2 The Chinese partner is a large manufacturer of automobiles, producing more than 600,000 cars with GM and VW.
+In 2010, SAIC upped its total share to 51% in Shanghai GM, which is now among the top three pas-senger vehicle producers in mainland China.
+Finally, technology licensing is a form of strategic alli-ance in which one company licenses its service or production methods to another.
+Licenses may be used to gain access to foreign markets.
+Another way to enter global markets is to locate operations in a foreign country.
+However, managers must recognize that what works well in their home country might not work well elsewhere.
+The economic and political environment or customers’ needs may be significantly  different.
+For example, the family-owned chain Jollibee Foods Corporation has become the dominant fast-food chain in the Philippines by catering to a local preference for sweet and spicy flavors, which it incorporates into its fried chicken, spaghetti, and burgers.
+Jollibee’s strength is its creative marketing programs and an understanding of local tastes and claims that its burger is similar to the one a Filipino would cook at home.
+McDonald’s responded by introducing its own Filipino-style spicy burger, but competition is stiff.
+This example shows that to be suc-cessful, corporate strategies must recognize customs, preferences, and economic conditions in other countries.
+Locating abroad is a key decision in the design of supply chains because it affects the flow of materials, information, and employees in support of the firm’s core processes.
+Chapter 10,  “Designing Effective Supply Chains,” and Chapter 11, “Locating Facilities,” offer more in-depth discussion of these other implications.
+Market AnalysisOne key to successfully formulating a customer-driven operations strategy for both service and manufacturing firms is to understand what the customer wants and how to provide it.
+A market analysis first divides the firm’s customers into market segments and then identifies the needs of each segment.
+In this section, we examine the process of market analysis and we define and dis-cuss the concepts of market segmentation and needs assessment.
+Market Segmentation Market segmentation is the process of identifying groups of custom-ers with enough in common to warrant the design and provision of services or products that the group wants and needs.
+To identify market segments, the analyst must determine the character-istics that clearly differentiate each segment.
+The company can then develop a sound marketing program and an effective operating strategy to support it.
+For instance, The Gap, Inc., a major provider of casual clothes, targets teenagers and young adults while the parents or guardians of infants through 12-year-olds are the primary targets for its GapKids stores.
+At one time, managers thought of customers as a homogeneous mass market, but now realize that two customers may use the same product for different reasons.
+Identifying the key factors in each market segment is the starting point in devising a customer-driven operations strategy.
+Needs Assessment The second step in market analysis is to make a needs assessment, which identifies the needs of each segment and assesses how well competitors are addressing those needs.
+Each market segment’s needs can be related to the service or product and its supply chain.
+Market needs should include both the tangible and intangible attributes and features of products and services that a customer desires.
+Market needs may be grouped as follows: 쐍 Service or Product Needs.
+Attributes of the service or product, such as price, quality, and de-gree of customization.
+쐍 Delivery System Needs.
+Attributes of the processes and the supporting systems, and resources needed to deliver the service or product, such as availability, convenience, courtesy, safety, accuracy, reliability, delivery speed, and delivery dependability.
+쐍 Volume Needs.
+Attributes of the demand for the service or product, such as high or low vol-ume, degree of variability in volume, and degree of predictability in volume.
+쐍 Other Needs.
+Other attributes, such as reputation and number of years in business, after-sale technical support, ability to invest in international financial markets, and competent legal services.2Alex Taylor, “Shanghai Auto Wants to Be the World's Next Great Car Company,” Fortune (October 4, 2004), pp.
+103–110.
+USING OPERATIONS TO COMPETE      CHAPTER 1 31Once it makes this assessment, the firm can incorporate the needs of customers into the design of the service or product and the supply chain that must deliver it.
+We further discuss these new service and product development-related issues in Chapter 12, “Integrating the Supply Chain.”Competitive Priorities and CapabilitiesA customer-driven operations strategy requires a cross-functional effort by all areas of the firm to understand the needs of the firm’s external customers and to specify the operating capabilities the firm requires to outperform its competitors.
+Such a strategy also addresses the needs of internal customers because the overall performance of the firm depends upon the performance of its core and supporting processes, which must be coordinated to provide the overall desirable outcome for the external customer.
+Competitive priorities are the critical operational dimensions a process or supply chain must possess to satisfy internal or external customers, both now and in the future.
+Competitive priori-ties are planned for processes and the supply chain created from them.
+They must be present to maintain or build market share or to allow other internal processes to be successful.
+Not all com-petitive priorities are critical for a given process; management selects those that are most impor-tant.
+Competitive capabilities are the cost, quality, time, and flexibility dimensions that a process or supply chain actually possesses and is able to deliver.
+When the capability falls short of the pri-ority attached to it, management must find ways to close the gap or else revise the priority.
+We focus on nine broad competitive priorities that fall into the four capability groups of cost, quality, time, and flexibility.
+Table 1.1 provides definitions and examples of these competitive pri-orities, as well as how firms achieve them at the process level.
+At times, management may emphasize a cluster of competitive priorities together.
+For ex-ample, many companies focus on the competitive priorities of delivery speed and development speed for their processes, a strategy called time-based competition.
+To implement the strategy, managers carefully define the steps and time needed to deliver a service or produce a product and then critically analyze each step to determine whether they can save time without hurting quality.
+To link to corporate strategy, management assigns selected competitive priorities to each process (and the supply chains created from them) that are consistent with the needs of external as well as internal customers.
+Competitive priorities may change over time.
+For example, consider a high-volume standardized product, such as color ink-jet desktop print-ers.
+In the early stages of the ramp-up period when the printers had just entered the mass market, the manufactur-ing processes required consistent quality, delivery speed, and volume flexibility.
+In the later stages of the ramp-up when demand was high, the competitive priorities became low-cost operations, consistent quality, and on-time de-livery.
+Competitive priorities must change and evolve over time along with changing business conditions and cus-tomer preferences.
+Order Winners and QualifiersCompetitive priorities focus on what operations can do to help a firm be more competitive, and are in response to what the market wants.
+Another useful way to examine a firm’s ability to be successful in the marketplace is to identify the order winners and order qualifiers.
+An order winner is a criterion that customers use to differentiate the services or products of one firm from those of another.
+Order winners can include price (which is supported by low-cost operations) and other dimensions of quality, time, and flexibility.
+However, order win-ners also include criteria not directly related to the firm’s operations, such as after-sale support (Are maintenance service contracts available?
+Is there a return policy?
+); technical support (What help do I get if something goes wrong?
+How knowledgeable are the technicians?
+); and reputa-tion (How long has this company been in business?
+Have other customers been satisfied with the service or product?).
+It may take good performance on a subset of the order-winner criteria, cutting across operational as well as nonoperational criteria, to make a sale.
+Order winners are derived from the considerations customers use when deciding which firm to purchase a service or product from in a given market segment.
+Sometimes customers demand a certain level of demonstrated performance before even contemplating a service or product.
+competitive prioritiesThe critical dimensions that a process or supply chain must possess to satisfy its internal or external customers, both now  and in the future.competitive capabilitiesThe cost, quality, time, and  flexibility dimensions that a  process or supply chain actually possesses and is able to deliver.time-based competitionA strategy that focuses on the competitive priorities of delivery speed and development speed.
+The lavish interior lobby decor of the Ritz Carlton resort in Palm Beach, Florida, USAAmerica/Alamyorder winnerA criterion customers use to differentiate the services or products of one firm from those of another.
+32 PART 1     COMPETING WITH OPERATIONSTABLE 1.1  DEFINITIONS, PROCESS CONSIDERATIONS, AND EXAMPLES OF COMPETITIVE PRIORITIESCostDefinitionProcesses ConsiderationsExample1.
+Low-cost operationsDelivering a service or a prod-uct at the lowest possible cost to the satisfaction of external or internal customers of the process or supply chainTo reduce costs, processes must be designed  and operated to make them efficient using rigorous process analysis that addresses workforce,  methods, scrap or rework, overhead, and other  factors, such as investments in new automated  facilities or technologies to lower the cost per  unit of the service or product.
+Costco achieves low costs by designing all processes for efficiency, stacking products on pallets in warehouse-type stores, and negotiating aggressively with their suppliers.
+Costco can provide low prices to its custom-ers because they have designed operations for low cost.
+Quality2.
+Top qualityDelivering an outstanding ser-vice or productTo deliver top quality, a service process may require a high level of customer contact, and high levels of helpfulness, courtesy, and availability of servers.
+It may require superior product features, close toler-ances, and greater durability from a manufacturing process.
+Rolex is known globally for creating precision timepieces.3.
+Consistent qualityProducing services or products that meet design specifications on a consistent basisProcesses must be designed and monitored to reduce errors, prevent defects, and achieve similar outcomes over time, regardless of the “level” of quality.
+McDonald’s standardizes work methods, staff training processes, and procurement of raw materials to achieve the same consistent product and process quality from one store to the next.Time4.
+Delivery speedQuickly filling a customer’s orderDesign processes to reduce lead time (elapsed time between the receipt of a customer order and filling it) through keeping backup capacity cushions, storing inventory, and using premier transportation options.
+Dell engineered its customer relationship, order fulfillment, and supplier relationship processes to create an integrated and an agile supply chain that delivers reliable and inexpensive computers to its customers with short lead times.5.
+On-time deliveryMeeting delivery-time promisesAlong with processes that reduce lead time, planning processes (forecasting, appointments, order promis-ing, scheduling, and capacity planning) are used to increase percent of customer orders shipped when promised (95% is often a typical goal).
+United Parcel Services (UPS) uses its expertise in logistics and warehousing pro-cesses to deliver a very large volume of ship-ments on-time across the globe.6.
+Development speedQuickly introducing a new ser-vice or a productProcesses aim to achieve cross-functional integration and involvement of critical external suppliers in the service or product development process.
+Zara is known for its ability to bring fashionable clothing designs from the  runway to market quickly.Flexibility7.
+CustomizationSatisfying the unique needs of each customer by changing service or product designsProcesses with a customization strategy typically have low volume, close customer contact, and an ability to reconfigure processes to meet diverse types of customer needs.
+Ritz Carlton customizes services to indi-vidual guest preferences.8.
+VarietyHandling a wide assortment of services or products efficientlyProcesses supporting variety must be capable  of larger volumes than processes supporting  customization.
+Services or products are not  necessarily unique to specific customers and  may have repetitive demands.
+Amazon.com uses information technology and streamlined customer relationship and order fulfillment processes to reliably deliver a vast variety of items to its customers.9.
+Volume flexibilityAccelerating or decelerating the rate of production of services or products quickly to handle large fluctuations in demandProcesses must be designed for excess capacity and excess inventory to handle demand fluctuations that can vary in cycles from days to months.
+This priority could also be met with a strategy that adjusts capacity without accumulation of inventory or excess capacity.
+The United States Post Office (USPS) can have severe demand peak fluctuations at large postal facilities where processes are flexibly designed for receiving, sorting, and dispatching mail to numerous branch locations.
+USING OPERATIONS TO COMPETE      CHAPTER 1 33 Minimal level required from a set of criteria for a firm to do business in a particular market seg-ment is called an order qualifier.
+Fulfilling the order qualifier will not ensure competitive success; it will only position the firm to compete in the market.
+From an operations perspective, under-standing which competitive priorities are order qualifiers and which ones are order winners is im-portant for the investments made in the design and management of processes and supply chains.
+Figure 1.6 shows how order winners and qualifiers are related to achieving the competi-tive priorities of a firm.
+If a minimum threshold level is not met for an order-qualifying dimen-sion (consistent quality, for example) by a firm, then it would get disqualified from even being considered further by its customers.
+For example, there is a level of quality consistency that is mini-mally tolerable by customers in the auto industry.
+When the subcompact car Yugo built by Zastava  Corporation could not sustain the minimal level of quality, consistency, and reliability ex-pected by customers, it had to exit the U.S. car market in 1991 despite offer-ing very low prices (order winner) of under $4,000.
+However, once the firm qualifies by attaining consistent quality beyond the threshold, it may only gain additional sales at a very low rate by in-vesting further in improving that order-qualifying dimension.
+In contrast, for an order-winning dimension (i.e., low price driven by low-cost operations), a firm can reasonably expect to gain appreciably greater sales and market share by continuously lowering its prices as long as the order qualifier (i.e., consistent quality) is being adequately met.
+Toyota Corolla and Honda Civic have successfully followed this route in the marketplace to become leaders in their target mar-ket segment.
+Order winners and qualifiers are often used in competitive bidding.
+For example, before a buyer considers a bid, suppliers may be required to document their ability to provide consistent quality as measured by adherence to the design specifications for the service or component they are supplying (order qualifier).
+Once qualified, the supplier may eventually be selected by the buyer on the basis of low prices (order winner) and the reputation of the supplier (order winner).
+Using Competitive Priorities: An Airline ExampleTo get a better understanding of how com-panies use competitive priorities, let us look at a major airline.
+We will consider two market segments: (1) first-class pas-sengers and (2) coach passengers.
+Core services for both market segments are tick-eting and seat selection, baggage handling, and transportation to the customer’s des-tination.
+The peripheral services are quite different across the two market segments.
+First-class passengers require separate air-port lounges; preferred treatment during check-in, boarding, and deplaning; more comfortable seats; better meals and bever-ages; more personal attention (cabin at-tendants who refer to customers by name); more frequent service from attendants; high levels of courtesy; and low volumes of passengers (adding to the feeling of be-ing special).
+Coach passengers are satisfied with standardized services (no surprises), courteous flight attendants, and low prices.
+Both market segments expect the airline to hold to its schedule.
+Consequently, we can say that the competitive priorities for the order qualifierMinimal level required from a set of criteria for a firm to do business in a particular market segment.
+LowHighSales ($)Order WinnerLowHighSales ($)Order QualifierAchievement of competitive priorityAchievement of competitive priorityThreshold왖 FIGURE 1.6 Relationship of Order Winners and Order Qualifiers to  Competitive PrioritiesOne of the competitive priorities of airline companies is on-time delivery of their services.
+Being able to repair and maintain planes rapidly to avoid delays is a crucial aspect of this.
+Newscom34 PART 1     COMPETING WITH OPERATIONSfirst-class segment are top quality and on-time delivery, whereas the competitive priorities for the coach segment are low-cost operations, consistent quality, and on-time delivery.The airline knows what its collective capabilities must be as a firm, but how does that get communicated to each of its core processes?
+Let us focus on the four core processes: (1) customer relationship, (2) new service/product development, (3) order fulfillment, and (4) supplier relation-ship.
+Competitive priorities are assigned to each core process to achieve the service required to provide complete customer satisfaction.
+Table 1.2 shows some possible assignments, just to give you an idea of how this works.
+TABLE 1.2  COMPETITIVE PRIORITIES ACROSS DIFFERENT CORE PROCESSES FOR AN AIRLINECORE PROCESSESPrioritySupplier RelationshipNew Service DevelopmentOrder FulfillmentCustomer RelationshipLow Cost OperationsCosts of acquiring inputs  must be kept to a minimum  to allow for competitive  pricing.Airlines compete on price  and must keep operating  costs in check.Top QualityNew services must be care-fully designed because the future of the airline industry depends on them.High quality meal and  beverage service delivered  by experienced cabin  attendants ensures that the service provided to first- class passengers is kept  top notch.High levels of customer  contact and lounge  service for the first-class passengers.Consistent QualityQuality of the inputs must  adhere to the required  specifications.
+In addition, information provided to  suppliers must be accurate.
+Once the quality level is set, it is important to achieve it every time.The information and  service must be error free.Delivery SpeedCustomers want immediate information regarding  flight schedules and other ticketing information.On time deliveryInputs must be delivered to tight schedules.The airline strives to arrive  at destinations on schedule, otherwise passengers might miss connections to other flights.Development SpeedIt is important to get to the market fast to preempt the competition.CustomizationThe process must be able to create unique services.VarietyMany different inputs must  be acquired, including  maintenance items, meals  and beverages.Maintenance operations  are required for a variety of aircraft models.The process must be  capable of handling the  service needs of all  market segments and  promotional programs.Volume FlexibilityThe process must be able to handle variations in supply quantities efficiently.
+USING OPERATIONS TO COMPETE      CHAPTER 1 35Operations Strategy as a Pattern of DecisionsOperations strategy translates service or product plans and competitive priorities for each market segment into decisions affecting the supply chains that support those market segments.
+Even if it is not formally stated, the current operations strategy for any firm is really the pattern of decisions that have been made for its processes and supply chains.
+As we have previously seen in  Figure 1.5,  corporate strategy provides the umbrella for key operations management decisions that con-tribute to the development of the firm’s ability to compete successfully in the marketplace.
+Once managers determine the competitive priorities for a process, it is necessary to assess the com-petitive capabilities of the process.
+Any gap between a competitive priority and the capability to achieve that competitive priority must be closed by an effective operations strategy.
+Developing capabilities and closing gaps is the thrust of operations strategy.
+To dem-onstrate how this works, suppose the management of a bank’s credit card division decides to  embark on a marketing campaign to significantly increase its business, while keeping costs low.
+A key process in this division is billing and payments.
+The division receives credit transactions from the merchants, pays the merchants, assembles and sends the bills to the credit card hold-ers, and processes payments.
+The new marketing effort is expected to significantly increase the volume of bills and payments.
+In assessing the capabilities, the process must have to serve the bank’s customers and to meet the challenges of the new market campaign; management assigns the following competitive priorities for the billing and payments process: 쐍 Low-Cost Operations.
+It is important to maintain low costs in the processing of the bills because profit margins are tight.
+쐍 Consistent Quality.
+The process must consistently produce bills, make payments to the merchants, and record payments from the credit card holders accurately.
+쐍 Delivery Speed.
+Merchants want to be paid for the credit purchases quickly.
+쐍 Volume Flexibility.
+The marketing campaign is expected to generate many more transactions in a shorter period of time.
+Management assumed that customers would avoid doing business with a bank that could not pro-duce accurate bills or payments.
+Consequently, consistent quality is an order qualifier for this process.
+Is the billing and payment process up to the competitive challenge?
+Table 1.3 shows how to match capabilities to priorities and uncover any gaps in the credit card division’s operations strat-egy.
+The procedure for assessing an operations strategy begins with identifying good measures for each priority.
+The more quantitative the measures are, the better.
+Data are gathered for each mea-sure to determine the current capabilities of the process.
+Gaps are identified by comparing each capability to management’s target values for the measures, and unacceptable gaps are closed by appropriate actions.
+The credit card division shows significant gaps in the process’s capability for low-cost operations.
+Management’s remedy is to redesign the process in ways that reduce costs but will not impair the other competitive priorities.
+Likewise, for volume flexibility, management realized that a high level of utilization is not conducive for processing quick surges in volumes while maintaining delivery speed.
+The recommended actions will help build a capability for meeting more volatile demands.
+TABLE 1.3  OPERATIONS STRATEGY ASSESSMENT OF THE BILLING AND PAYMENT PROCESSCompetitive PriorityMeasureCapabilityGapActionLow-cost operations쐍  Cost per billing statement쐍 $0.0813쐍 Target is $0.06쐍  Eliminate microfilming and storage of billing statements쐍 Weekly postage쐍 $17,000쐍 Target is $14,000쐍  Develop Web-based process for posting billsConsistent quality쐍  Percent errors in bill information쐍 0.90%쐍 Acceptable쐍 No action쐍  Percent errors in posting payments쐍 0.74%쐍 Acceptable쐍 No actionDelivery speed쐍  Lead time to process mer-chant payments쐍 48 hours쐍 Acceptable쐍 No actionVolume flexibility쐍 Utilization쐍 98%쐍  Too high to support rapid increase in volumes쐍  Acquire temporary employees쐍 Improve work methods36 PART 1     COMPETING WITH OPERATIONSTrends in Operations ManagementSeveral trends are currently having a great impact on operations management: productivity im-provement; global competition; and ethical, workforce diversity, and environmental issues.
+Ac-celerating change in the form of information technology, e-commerce, robotics, and the Internet is dramatically affecting the design of new services and products as well as a firm’s sales, order fulfillment, and purchasing processes.
+In this section, we look at these trends and their challenges for operations managers.
+Productivity ImprovementProductivity is a basic measure of performance for economies, industries, firms, and processes.
+Improving productivity is a major trend in operations management because all firms face pres-sures to improve their processes and supply chains so as to compete with their domestic and for-eign competitors.
+Productivity is the value of outputs (services and products) produced divided by the values of input resources (wages, cost of equipment, and so on) used:Productivity = OutputInputManufacturing employment peaked at just below 20 million in mid-1979, and shrunk by nearly 8 million from 1979 to 2011.3 However, the manufacturing productivity in the United States has climbed steadily, as more manufacturing capacity and output has been achieved  efficiently with a leaner work force.
+It is interesting and even surprising to compare productivity  improvements in the service and manufacturing sectors.
+In the United States, employment in the service sector has grown rapidly, outstripping the manufacturing sector.
+It now employs about 90 percent of the workforce.
+But service-sector productivity gains have been much lower.
+If productivity growth in the service sector stagnates, so does the overall standard of living regardless of which part of the world you live in.
+Other major industrial countries, such as Japan and Germany, are experiencing the same problem.
+Yet, signs of improvement are ap-pearing.
+The surge of investment across national boundaries can stimulate productivity gains by exposing firms to greater competition.
+Increased investment in information technology by service providers also increases productivity.
+Measuring Productivity As a manager, how do you measure the productivity of your processes?
+Many measures are available.
+For example, value of output can be measured by what the cus-tomer pays or simply by the number of units produced or customers served.
+The value of inputs can be judged by their cost or simply by the number of hours worked.
+Managers usually pick several reasonable measures and monitor trends to spot areas needing improvement.
+For example, a manager at an insurance firm might measure office productivity as the number of insurance policies processed per employee per week.
+A manager at a carpet company might measure the productivity of installers as the number of square yards of carpet installed per hour.
+Both measures reflect labor productivity, which is an index of the output per person or per hour worked.
+Similar measures may be used for machine productivity, where the denominator is the number of machines.
+Accounting for several inputs simultaneously is also possible.
+Multifactor pro-ductivity is an index of the output provided by more than one of the resources used in production; it may be the value of the output divided by the sum of labor, materials, and overhead costs.
+Here is an example:productivityThe value of outputs (services and products) produced divided by the values of input resources (wages, costs of equipment, and so on).
+Productivity CalculationsEXAMPLE 1.1Calculate the productivity for the following operations:a.
+Three employees process 600 insurance policies in a week.
+They work 8 hours per day, 5 days per week.b.
+A team of workers makes 400 units of a product, which is sold in the market for $10 each.
+The accounting department reports that for this job the actual costs are $400 for labor, $1,000 for materials, and $300 for overhead.
+MyOMLabTutor 1.1 in MyOMLab  provides a new example for calculating productivity.3 Paul Wiseman, “Despite China’s Might, US Factories Maintain Edge,” The State and The Associated Press (January 31, 2011).
+USING OPERATIONS TO COMPETE      CHAPTER 1 37The Role of Management The way processes are man-aged plays a key role in productivity improvement.
+Man-agers must examine productivity from the level of the supply chain because it is the collective performance of individual processes that makes the difference.
+The chal-lenge is to increase the value of output relative to the cost of input.
+If processes can generate more output or output of better quality using the same amount of input, pro-ductivity increases.
+If they can maintain the same level of output while reducing the use of resources, productivity also increases.
+Global CompetitionMost businesses realize that, to prosper, they must view customers, suppliers, facility locations, and competitors in global terms.
+Firms have found that they can increase their market penetration by locating their production facilities in foreign countries because it gives them a lo-cal presence that reduces customer aversion to buying imports.
+Globalization also allows firms to balance cash flows from other regions of the world when economic conditions are less robust in the home country.
+Sonoco, a $4-billion-a-year industrial and consumer packaging company in Hartsville, South Carolina, has 335 locations worldwide in Australia, China, Europe, Mexico, New Zea-land, and Russia, with 41 industrial product manufactur-ing facilities and 6 paper mills in Europe alone.
+These global operations resulted in international sales and in-come growth even as domestic sales were stumbling dur-ing 2007.
+How did Sonoco do it?4 Locating operations in countries with favorable tax laws is one reason.
+Lower tax rates in Italy and Canada helped in padding the earnings margin.
+Another reason was a weak dollar, whereby a $46 million boost came from turning foreign currencies into dollars as Sonoco exported such items as snack bag pack-aging, and tubes and cores used to hold tape and textiles, to operations it owned in foreign countries.
+The exchange SOLUTIONa.
+Labor productivity = Policies processedEmployee hours   = 600 policies(3 employees) (40 hours/employee) = 5 policies/hourb.
+Multifactor productivity = Value of outputLabor cost+Materials cost+Overhead cost = (400 units) ($10/unit)$400 +  $1,000 + $300 = $4,000$1,700 = 2.35DECISION POINTWe want multifactor productivity to be as high as possible.
+These measures must be compared with perfor-mance levels in prior periods and with future goals.
+If they do not live up to expectations, the process should be investigated for improvement opportunities.
+Sonoco is a leading global manufacturer of industrial and consumer packaging goods with more than 300 locations in 35 countries serving 85 nations.PR Newswire/Associated Press4 Ben Werner, “Sonoco Holding Its Own,” The State (February 7, 2008); www.sonoco.com, 2008.
+38 PART 1     COMPETING WITH OPERATIONSrate difference was more than enough to counter the added expense of increased raw materials, shipping, and energy costs in the United States.
+Most products today are composites of materials and services from all over the world.
+Your Gap polo shirt is sewn in Honduras from cloth cut in the United States.
+Sitting in a Cineplex the-ater (Canadian), you munch a Nestle’s Crunch bar (Swiss) while watching a Columbia Pictures movie (Japanese).
+Five developments spurred the need for sound global strategies: (1) improved transportation and communications technologies, (2) loosened regulations on financial institu-tions, (3) increased demand for imported services and goods, (4) reduced import quotas and other international trade barriers due to the formation of regional trading blocks, such as the European Union (EU) and the North American Free Trade Agreement (NAFTA), and (5) comparative cost advantages.
+Comparative Cost Advantages China and India have traditionally been the sources for low-cost, but skilled, labor, even though the cost advantage is diminishing as these countries become eco-nomically stronger.
+In the late 1990s, companies manufactured products in China to grab a foot-hold in a huge market, or to get cheap labor to produce low-tech products despite doubts about the quality of the workforce and poor roads and rail systems.
+Today, however, China’s new facto-ries, such as those in the Pudong industrial zone in Shanghai, produce a wide variety of products that are sold overseas in the United States and other regions of the world.
+U.S. manufacturers have increasingly abandoned low profit margin sectors like consumer electronics, shoes, and toys to emerging nations such as China and Indonesia.
+Instead, they are focusing on making expensive goods like computer chips, advanced machinery, and health care products that are complex and which require specialized labor.
+Foreign companies have opened tens of thousands of new facilities in China over the past decade.
+Many goods the United States imports from China now come from foreign-owned com-panies with operations there.
+These companies include telephone makers, such as Nokia and  Motorola, and nearly all of the big footwear and clothing brands.
+Many more major manufactur-ers are there as well.
+The implications for competition are enormous.
+Companies that do not have operations in China are finding it difficult to compete on the basis of low prices with companies that do.
+Instead, they must focus on speed and small production runs.
+What China is to manufacturing, India is to service.
+As with the manufacturing companies, the cost of labor is a key factor.
+Indian software companies have grown sophisticated in their ap-plications and offer a big advantage in cost.
+The computer services industry is also affected.
+Back-office operations are affected for the same reason.
+Many firms are using Indian companies for ac-counting and bookkeeping, preparing tax returns, and processing insurance claims.
+Many tech com-panies, such as Intel and Microsoft, are opening significant research and development (R&D) op-erations in India.
+Disadvantages of Globalization Of course, op-erations in other countries can have disadvan-tages.
+A firm may have to relinquish proprietary technology if it turns over some of its component manufacturing to offshore suppliers or if suppli-ers need the firm’s technology to achieve desired quality and cost goals.
+Political risks may also be involved.
+Each nation can exercise its sovereignty over the people and property within its borders.
+The extreme case is nationalization, in which a government may take over a firm’s assets without paying compensation.
+Exxon and other large mul-tinational oil firms are scaling back operations in Venezuela due to nationalization concerns.
+Fur-ther, a firm may actually alienate customers back home if jobs are lost to offshore operations.
+Employee skills may be lower in foreign coun-tries, requiring additional training time.
+South Korean firms moved much of their sports shoe production to low-wage Indonesia and China, but they still manufacture hiking shoes and in-line roller skates in South Korea because of the greater Shortage of components from suppliers prevented Nintendo from meeting the customer demand for its popular Wii game system.
+Yuriko Nakao/Reuters/Corbis USING OPERATIONS TO COMPETE      CHAPTER 1 39skills required.
+In addition, when a firm’s operations are scattered globally, customer response times can be longer.
+We discuss these issues in more depth in Chapter 10, “Designing Effective Supply Chains,” because they should be considered when making decisions about outsourcing.
+Coordinating components from a wide array of suppliers can be challenging, as Nintendo found out in the production and worldwide distribution of its Wii game systems.5 Despite twice increas-ing capacity since April 2007 to 1.8 million Wii’s a month, Nintendo could only ship the completed units to retailers like Best Buy, Costco, and Circuit City in limited quantities that did not meet the large demand through the 2007 holiday season and beyond.
+In addition, as Managerial  Practice 1.1 shows, catastrophic events such as the Japanese earthquake affect production and operations in Europe and United States because connected supply chains can spread disruptions rapidly and quickly across international borders.
+Strong global competition affects industries everywhere.
+For example, U.S. manufacturers of steel, appliances, household durable goods, machinery, and chemicals have seen their market share decline in both domestic and international markets.
+With the value of world trade in ser-vices now at more than $2 trillion per year, banking, data processing, airlines, and consulting ser-vices are beginning to face many of the same international pressures.
+Regional trading blocs, such as EU and NAFTA, further change the competitive landscape in both services and manufacturing.
+Regardless of which area of the world you live in, the challenge is to produce services or products that can compete in a global market, and to design the processes that can make it happen.
+Ethical, Workforce Diversity, and Environmental IssuesBusinesses face more ethical quandaries than ever before, intensified by an increasing global presence and rapid technological change.
+As companies locate new operations and acquire more 5 Peter Svensson, “GameStop to Sell Rain Checks for Wii,” The State (December 18, 2007).
+MANAGERIAL PRACTICEJapanese Earthquake and its Supply Chain ImpactNortheast Touhoku district of Japan was struck by a set of massive earthquakes on the afternoon of March 11, 2011, which were soon followed by a huge tsunami that sent waves higher than 33 feet in the port city of Sendai 80 miles away and travelling at the speed of a jetliner.
+At nearly 9.0 on the Richter scale, it was one of the largest recorded earthquakes to hit Japan.
+It shifted the Earth’s axis by 6 inches with an impact that was felt 250 miles inland in Tokyo, and which moved Eastern Japan 13 feet toward North America.
+Apart from huge loss of life and hazards of nuclear radiation arising from the crippled Daiichi Nuclear Reactors in Fukushima, the damage to the manufacturing plants in Japan exposed the hazards of interconnected global supply chains and their impact on factories located half way around the globe.
+The impact of the earthquake was particularly acute on industries that rely on cutting edge electronic parts sourced from Japan.
+Shin-Etsu Chemi-cal Company is the world’s largest producer of silicon wafers and supplies 20 percent of the global capacity.
+Its centralized plant located 40 miles from the Fukushima nuclear facility was damaged in the earthquake, causing ripple effects at Intel and Toshiba that purchase wafers from Shin-Etsu.
+Similarly, a shortage of automotive sensors from Hitachi has slowed or halted production of vehicles in Germany, Spain, and France, while Chrysler is reducing over-time at factories in Mexico and Canada to conserve parts from Japan.
+Even worse, General Motors stopped production altogether at a plant in Louisiana and Ford closed a truck plant in Kentucky due to the quake.
+The supply of vehicles such as Toyota’s Prius and Lexus will be limited in the United States because of production disruptions in its Japanese factories.
+China has been affected too, where ZTE Corporation is facing shortages of batteries and LCD screens for its cell phones.
+Similarly, Lenovo in China is looking at reduced supplies of components from Japan for assembly of its tablet computers.
+These disruptions due to reliance on small concentrated network of suppli-ers in Japan and globally connected production and logistics systems have caused worker layoffs an increase in prices of affected products, and eco-nomic losses that have been felt around the world.
+Sources: Don Lee and David Pearson, “Disaster in Japan exposes supply chain weakness,” The State (April 8, 2011), B6-B7; “Chrysler reduces overtime to help Japan,” The Associated Press (April 8, 2011) printed in The State (April 6, 2011), B7; Krishna Dhir, “From the Editor,” Decision Line, vol.
+42, no.
+2, 3.
+Following the strong earthquakes and tsunami, flames and smoke rise from a petroleum refining plant next to a heating power station in Shiogama, Miyagi Prefecture, northern Japan, about 220 km north of Tokyo.1.1Kimimasa Mayama/EPA/Landov40 PART 1     COMPETING WITH OPERATIONSsuppliers and customers in other countries, potential ethical dilemmas arise when  business is conducted by different rules.
+Some countries are more sensitive than others about conflicts of interest, bribery, discrimination against minorities and women, minimum-wage levels, and unsafe workplaces.
+Managers must decide whether to design and operate processes that do more than just meet local stan-dards.
+In addition, technological change brings debates about data protection and customer privacy.
+In an electronic world, businesses are geographically far from their customers, so a reputation of trust is paramount.
+In the past, many people viewed environmental problems, such as toxic waste, poisoned drinking water, poor air quality, and climate change as quality-of-life issues; now, many people and businesses see them as survival issues.
+The automobile industry has seen innovation in electric and hybrid cars in response to environmental concerns and economic benefits arising from using less expensive fuels.
+Industrial nations face a particular burden because their combined popula-tions consume proportionally much larger resources.
+Just seven nations, includ-ing the United States and Japan, produce almost half of all greenhouse gases.
+Now China and India have added to that total carbon footprint because of their vast economic and manufacturing expansion over the past decade.
+Apart from government initiatives, large multinational companies have a responsibility as well for creating environmentally conscious practices, and can do so profitably.
+For instance, Timberland has over 110 stores in China because of strong demand for its boots, shoes, clothes, and outdoor gear in that country.
+It highlights its environmental credentials and corporate social responsibility through investments such as the reforestation efforts in north-ern China’s Horqin Desert.
+Timberland hopes to double the number of stores over the next 3 years by environmentally differentiating itself from the com-petition.
+We discuss these issues in greater detail in Chapter 13, “Managing Sustainable Supply Chains.”The challenge is clear: Issues of ethics, workforce diversity, and the environ-ment are becoming part of every manager’s job.
+When designing and operating processes, managers should consider integrity, respect for the individual, and cus-tomer satisfaction along with more conventional performance measures such as productivity, quality, cost, and profit.
+Operations Management as a Set of DecisionsIn this text, we cover the major decisions operations managers make in practice.
+At the strategic level, operations managers are involved in the development of new capabilities and the mainte-nance of existing capabilities to best serve the firm’s external customers.
+Operations managers design new processes that have strategic implications, and they are deeply involved in the de-velopment and organization of supply chains that link external suppliers and external customers to the firm’s internal processes.
+Operations managers are often responsible for key performance measures such as cost and quality.
+These decisions have strategic impact because they affect the processes the firm uses to gain a competitive edge.
+The operations manager’s decisions should reflect corporate strategy.
+Plans, policies, and actions should be linked to those in other functional areas to support the firm’s overall goals and objectives.
+These links are facilitated by taking a process view of a firm.
+Regardless of whether you aspire to be an operations manager, or you just want to use the principles of opera-tions management to become a more effective manager, remember that effective management of people, capital, information, and materials is critical to the success of any process and any supply chain.
+As you study operations management, keep two principles in mind: 1.
+Each part of an organization, not just the operations function, must design and operate pro-cesses that are part of a supply chain and deal with quality, technology, and staffing issues.
+2.
+Each function of an organization has its own identity and yet is connected with operations through shared processes.
+Great strategic decisions lead nowhere if the tactical decisions that support them are wrong.
+Operations managers are also involved in tactical decisions, including process improvement and performance measurement, managing and planning projects, generating production and staffing plans, managing inventories, and scheduling resources.
+You will find numerous examples of these decisions, and the implications of making them, throughout this text.
+You will also learn about A Chinese consumer looks at Timberland products at a department store in Shanghai, China, Novem-ber 11, 2010.
+Timberland seeks to benefit from rising incomes in the worlds fastest-growing major economy, and will also invest in its Hong Kong shops.
+Weng lei/AP Photos USING OPERATIONS TO COMPETE      CHAPTER 1 41the decision-making tools practicing managers use to recognize and define the problem and then choose the best solution.Computerized Decision-Making ToolsMyOMLab contains a unique set of decision tools we call OM Explorer.
+This package contains powerful Excel-based computer routines to solve problems often encountered in practice.
+OM Explorer also has several tutors that provide coaching for all of the difficult analytical techniques in this text, and can be accessed from the drop-down menu.
+MyOMLab also contains POM for Windows, which is an extensive set of useful decision-making tools to complete your arsenal for solving operations problems, many Active Models (spreadsheets designed to help you learn more about important decision-making techniques), and a spreadsheet-based simulation package called SimQuick.
+Addressing the Challenges in Operations ManagementHow can firms meet challenges today and in the future?
+One way is to recognize challenges as opportunities to improve existing processes and supply chains or to create new, innovative ones.
+The management of processes and supply chains goes beyond designing them; it requires the ability to ensure they achieve their goals.
+Firms should manage their processes and supply chains to maximize their competitiveness in the markets they serve.
+We share this philosophy of operations management, as illustrated in Figure 1.7.
+We use this figure at the start of each chap-ter to show how the topic of the chapter fits into our philosophy of operations management.
+In addition, this text also contains several chapter supplements that are not explicitly shown in Figure 1.7.
+The figure shows that all effective operations decisions follow from a sound operations strat-egy.
+Consequently, our text has three major parts: “Part 1: Competing with Operations,” Part 2: “Designing and Managing Processes,” and “Part 3: Designing and Managing Supply Chains.” The flow of topics reflects our approach of first understanding how a firm’s operations can help pro-vide a solid foundation for competitiveness before tackling the essential process design decisions that will support its strategies.
+Each part begins with a strategy discussion to support the decisions in that part.
+Once it is clear how firms design and improve processes, and how they implement those designs, we examine the design and operation of supply chains that link processes, whether they are internal or external to the firm.
+The performance of the supply chains determines the firm’s outcomes, which include the services or products the firm produces, the financial results, and feedback from the firm’s customers.
+These outcomes, which are considered in the firm’s stra-tegic plan, are discussed throughout this text.
+Part 1: Competing with OperationsThe concluding chapter of Part 1 is a discussion of the methods and tools of project management.
+Project management is an effective approach to implementing operations strategy through the introduction of new services or products as well as any changes to a firm’s processes or supply chains.
+Supplement A, “Decision Making Models,” follows this chapter and covers some basic de-cision techniques that apply to multiple chapters.
+Part 2: Designing and Managing ProcessesIn Part 2, we focus on analyzing processes and how they can be improved to meet the goals of the operations strategy.
+We begin by addressing the strategic aspects of process design and then present a six-step systematic approach to process analysis.
+Each chapter in this part deals with some aspect of that approach.
+We discuss the tools that help managers analyze processes, and we reveal the methods firms use to measure process performance and qual-ity.
+These methods provide the foundation for programs such as Six Sigma and total quality management.
+Determining the best process capacity with effective constraint management and making processes “lean” by eliminating activities that do not add value while improving those that do are also key decisions in the redesign of processes.
+The activities involved in managing processes are Competing with OperationsDesigning and ManagingSupply ChainsDesigning and ManagingProcessesUsing Operations to CompeteManaging Effective ProjectsManaging InventoriesDesigning EffectiveSupply ChainsLocating FacilitiesIntegrating the Supply ChainManaging SustainableSupply ChainsForecasting DemandPlanning and SchedulingOperationsPlanning Sufficient ResourcesDeveloping a Process StrategyAnalyzing ProcessesManaging QualityPlanning CapacityManaging Process ConstraintsDesigning Lean Systems왖 FIGURE 1.7 Managing Processes and Supply ChainsMyOMLab42 PART 1     COMPETING WITH OPERATIONSessential for providing significant benefits to the firm.
+Effective management of its processes can allow a firm to reduce its costs and also increase customer satisfaction.
+Part 3: Designing and Managing Supply ChainsThe management of supply chains is based upon process management and operations strategy.
+In Part 2, we focus on individual processes.
+The focus of Part 3, however, is on supply chains involving processes both internal and external to the firm and the tools that enhance their ex-ecution.
+We begin this part with a look at managing inventory in supply chains.
+We follow that with understanding how the design of supply chains and major strategic decisions, such as out-sourcing, inventory placement, and locating facilities affect performance.
+We also look at con-temporary issues surrounding supply chain integration and the impact of supply chains on the environment.
+We follow that with chapters focused on three key planning activities for the ef-fective operation of supply chains: (1) forecasting, (2) operations planning and scheduling, and (3) resource planning.
+Adding Value with Process Innovation in Supply ChainsIt is important to note that the effective operation of a firm and its supply chain is as important as the design and implementation of its processes.
+Process innovation can make a big difference even in a low-growth industry.
+Examining processes from the perspective of the value they add is an important part of a successful manager’s agenda, as is gaining an understanding of how core processes and related supply chains are linked to their competitive priorities, markets, and the operations strategy of a firm.
+As illustrated by Zara in Managerial Practice 1.2, who says operations management does not make a difference?MANAGERIAL PRACTICEZara–“Fast Fashion” Operational InnovationZara, the flagship brand of Inditex, was founded in 1963 by Amancio Ortega who started the business with 5,000 pesetas.
+In 1975, he opened his first Zara store in Spain.
+The innovation ethos that has always been consistent with Zara has been Ortega’s view that modern women desire fashionable and good quality clothes, and Ortega has always believed that this requires opera-tional innovations that will quickly translate catwalk and celebrity endorsed fashions into new in-demand clothes, which provide Zara with a competitive advantage over its rivals.
+By 2009, Zara had over 1,425 stores globally oper-ating on either owned-joint venture or franchise arrangements.
+Its major pres-ence remains within the European regions (78%) and the Americas (11% of stores), but it also has a presence in Middle East, Africa, and the Asia Pacific.
+The principle that underpins “fast fashion” is the reduction of lead times to get the product from concept to consumer.
+Zara’s products and clothes are recognized as being fashionable, meeting the current (in-demand) fash-ion trends and tastes for their customers.
+Frequently, these tastes may vary by geographical region with scope for country and even regional variances.
+Zara’s global fashion retail operating geographical regions are: Europe, North and South America, The Middle East, Africa and the Asia Pacific.
+As the clothes market is typically volatile due to quick changes in fash-ion, the Zara operational innovation allows for short life cycles, as the company understands that products will only be temporally fashionable.
+This is an im-portant aspect of Zara’s operations that typifies their continued success.
+The nature of Zara’s market and likely order winners for Zara are that its designs are fashionable and are developed to meet fashion trends and tastes of customers who require fashion not durability.
+Zara’s market is based on translating catwalk fashion quickly, while in-demand for a relatively short period of time, and for continuous replenishment with the next must-have fashion design.
+Zara customers appreciate design exclusivity; they want a product with a short life cycle as this also contributes to its exclusivity.
+With this in mind, stores are stocked with new designs twice weekly, and collections are small and often sell out, which adds to the air of exclusivity and the reduction of the need for markdowns or sale items.
+Some of the operational innovations that have enable Zara to remain competitive for nearly 40 years is their vertical integrated business model which covers design, production, marketing and sales.
+Zara controls its entire production chain, whereas it main competitors Gap and H&M outsource all of their production.
+Zara’s “fast fashion” operational innovation and speed of response supply is typically a remarkable 3 weeks in comparison to the competitors’ 3–9 months.
+This provides the company with significant competitive advantages over their main rivals.
+It also ensures that production is more closely aligned to demand, in the right locations, while also keeping inventory markdowns and sale items to a minimum.
+Zara’s “fast-fashion” operational innovation and speed of response supply is typically 3 weeks compared to 3-9 months for the competition.
+1.2© Leo Mason/CorbisSource: Barnes, L. & Lea-Greenwood, G. (2010) Fast Fashion in the Retail Store Environment.
+International Journal of Retail & Distribution Management 38(10): 760–772.
+Lopez, C. & Fan, Y.
+(2009) Internationalisation of the Spanish Fashion brand Zara.
+Journal of Fashion Marketing and Management 13(2): 279–296.
+Rohwedder, C. & Johnson, K. (2008) Pace Setting Zara seeks more speed to fight its rising cheap-chic rivals.
+The Wall Street Journal.
+February (20) B1.
+USING OPERATIONS TO COMPETE      CHAPTER 1 43The topics in this text will help you meet operations challenges and achieve operational in-novation regardless of your chosen career path.
+MyOMLab ResourcesTitlesLink to the BookVideoOperations as a Competitive Weapon at StarwoodA Process View; Operations Strategy as a  Pattern of DecisionsActive Model Exercise1.1 ProductivityTrends in Operations Management;  Example 1.1 (pp.
+36–37); Solved Problem 2 (pp.
+44–45); Solved Problem 1 (p. 44) OM Explorer Tutors1.1 Productivity MeasuresTrends in Operations Management;  Example 1.1 (pp.
+36–37); Solved Problem 2 (pp.
+44–45); Solved Problem 1 (p. 44)Tutor Exercises1.1 Ticket salesExample 1.1 (pp.
+36–37); Solved Problem 2 (pp.
+44–45);  Solved Problem 1 (p. 44)Virtual ToursL’Oréal CosmeticsEDS IndustriesEDS ServicesThe Supply Chain View; Trends in Operations ManagementA Process View; The Supply Chain ViewA Process View; The Supply Chain ViewInternet Exercises1.
+Coca-Cola and Nestlé2.
+Xerox3.
+L’Oréal4.
+Environment, Health, and Safety at XeroxThe Supply Chain View; Operations Strategy as a Pattern of DecisionsThe Supply Chain View; Competitive Priorities and CapabilitiesA Process View; Trends in Operations ManagementTrends in Operations ManagementAdditional CasesBSB, Inc., The Pizza Wars Come to CampusA Process View; The Supply Chain View;  Competitive  Priorities and CapabilitiesKey EquationsImage LibraryKey Equation 1.
+Productivity is the ratio of output to input:  Productivity = OutputInputMyOMLab helps you develop analytical skills and assesses your progress with multiple problems on labor and multifactor productivity.
+Review Figure 1.4 for the important supply chain linkage and information flows.
+The section “Operations and Supply Chain Management across the Organization,” pp.
+See the sections on “Operations Strategy” and “Corporate Strategy,” pp.
+The section “Competitive Priorities and Capabilities,” pp.
+31–34, discusses the important concept of order winners and qualifiers.
+The section “Operations Strategy as a Pattern of Decisions,” p. 35, shows how firms must identify gaps in their competitive priorities and build capabilities through related process and operational changes.
+The section “Trends in Operations Management,” pp.
+36–40, describes the pressures managers face for achieving productivity improvements, along with managing sustainability and work force diversity related issues in the face of global competition.
+44 PART 1     COMPETING WITH OPERATIONSKey Termscompetitive capabilities 31competitive priorities 31consistent quality 32core competencies 29core process 27customer relationship process 27customization 32delivery speed 32development speed 32external customers 24external suppliers 24internal customers 24internal suppliers 24lead time 29low-cost operations 32nested process 25new service/product development  process 27on-time delivery 32operation 22operations management 22operations strategy 27order fulfillment process 27order qualifier 33order winner 31process 22productivity 36supplier relationship process 27supply chain 22supply chain management 22support process 27time-based competition 31top quality 32variety 32volume flexibility 32Solved Problem 1Natalie Attire makes fashionable garments.
+During a particular week, employees worked 360 hours to produce a batch of 132 garments, of which 52 were “seconds” (meaning that they were flawed).
+Seconds are sold for $90 each at Attire’s Factory Outlet Store.
+The remaining 80 garments are sold to retail distribution at $200 each.
+What is the labor productivity ratio of this manufacturing process?SOLUTION Value of output = (52 defective*90>defective)+(80 garments*200>garment) = $20,680       Labor hours of input = 360 hoursLabor productivity = OutputInput = $20,680360 hours = $57.44 in sales per hourSolved Problem 2Student tuition at Boehring University is $150 per semester credit hour.
+The state supplements school revenue by $100 per semester credit hour.
+Average class size for a typical 3-credit course is 50 students.
+Labor costs are $4,000 per class, materials costs are $20 per student per class, and overhead costs are $25,000 per class.
+a.
+What is the multifactor productivity ratio for this course process?
+b.
+If instructors work an average of 14 hours per week for 16 weeks for each 3-credit class of 50 students, what is the labor productivity ratio?SOLUTION a. Multifactor productivity is the ratio of the value of output to the value of input resources.
+Value of output = a50 studentsclassba3 credit hoursstudentsba$150 tuition+$100 state supportcredit hourb =$37,500>class Value of inputs=Labor+Materials+Overhead =$4,000+($20>student*50 students>class)+$25,000 =$30,000>class Multifactor productivity=OutputInput=$37,500>class$30,000>class=1.25 USING OPERATIONS TO COMPETE      CHAPTER 1 45Discussion Questions 1.
+Wild West, Inc., is a regional telephone company that inherited nearly 100,000 employees and 50,000 retirees from AT&T.
+Wild West has a new mission: to diversify.
+It calls for a 10-year effort to enter the financial services, real estate, cable TV, home shopping, entertainment, and cel-lular communication services markets—and to compete with other telephone companies.
+Wild West plans to pro-vide cellular and fiber-optic communications services in markets with established competitors, such as the United Kingdom, and in markets with essentially no competition, such as Russia and former Eastern Bloc countries.
+a.
+What environmental forces could be at work that Wild West should consider?
+b.
+What types of strategic plans must Wild West make?
+Is the “do-nothing” option viable?
+If Wild West’s mission ap-pears too broad, which businesses would you trim first?
+c. What are the possible core competencies of Wild West?
+What weaknesses should it avoid or mitigate?
+2.
+Consider amazon.com, whose Web site enjoys millions of “hits” each day and puts customers in touch with millions of services and products.
+What are amazon.com’s competitive priorities and what should its operations strategy focus on?
+3.
+Although all nine of the competitive priorities discussed in this chapter are relevant to a company’s success in the marketplace, explain why a company should not necessarily try to excel in all of them.
+What determines the choice of the competitive priorities that a company should emphasize for its key processes?
+4.
+A local fast-food restaurant processes several customer or-ders at once.
+Service clerks cross paths, sometimes nearly colliding, while they trace different paths to fill customer orders.
+If customers order a special combination of top-pings on their hamburgers, they must wait quite some time while the special order is cooked.
+How would you modify the restaurant’s operations to achieve competitive advantage?
+Because demand surges at lunchtime, volume flexibility is a competitive priority in the fast-food busi-ness.
+How would you achieve volume flexibility?
+5.
+Suppose that you were conducting a market analysis for a new textbook about technology management.
+What would you need to know to identify a market segment?
+How would you make a needs assessment?
+What should be the collection of services and products?
+6.
+A local hospital declares that it is committed to provide care to patients arriving at the emergency unit in less than 15 minutes and that it will never turn away patients who need to be hospitalized for further medical care.
+What implications does this commitment have for strategic  operations management decisions (i.e., decisions relating to capacity and workforce)?
+7.
+You are designing a grocery delivery business.
+Via the In-ternet, your company will offer staples and frozen foods in a large metropolitan area and then deliver them within a customer-defined window of time.
+You plan to partner with two major food stores in the area.
+What should be your competitive priorities and what capabilities do you want to develop in your core and support processes?
+8.
+FedEx built its business on quick, dependable delivery of items being shipped by air from one business to another.
+Its early advantages included global tracking of shipments using Web technology.
+The advancement of Internet technology enabled competitors to become much more sophisticated in order tracking.
+In addition, the advent of Web-based businesses put pressure on increased ground transportation deliveries.
+Explain how this change in the environment has affected FedEx’s operations strategy, especially relative to UPS, which has a strong hold on the business-to-consumer ground delivery business.
+9.
+Kathryn Shoemaker established Grandmother’s Chicken Restaurant in Middlesburg 5 years ago.
+It features a unique recipe for chicken, “just like grandmother used to make.” The facility is homey, with relaxed and friendly service.
+Business has been good during the past 2 years, for both lunch and dinner.
+Customers normally wait about 15 minutes to be served, although complaints about service delays have increased recently.
+Shoemaker is cur-rently considering whether to expand the current facility or open a similar restaurant in neighboring Uniontown, which has been growing rapidly.
+a.
+What are the possible distinctive competencies of Grandmother’s?
+b.
+What environmental forces could be at work in Middlesburg and Uniontown that Shoemaker should consider?
+c. What types of strategic plans must Shoemaker make?
+10.
+Consider your last (or current) job.
+a.
+What activities did you perform?
+b.
+Was your position in accounting, finance, human re-sources, management information systems, marketing, operations, or other?
+Explain.
+c. How could you measure the customer value you were adding by performing your activities?
+d. Who were your customers (internal and external), and how did you interact with them?
+b.
+Labor productivity is the ratio of the value of output to labor hours.
+The value of output is the same as in part (a), or $37,500/class, soLabor hours of input = a14 hoursweekb a16 weeksclassb=224 hours/class Labor productivity = OutputInput = $37,500>class224 hours>class = $167.41>hour46 PART 1     COMPETING WITH OPERATIONS 11.
+Choosing which processes are core to a firm’s competitive position is a key strategic decision.
+For example, Nike, a popular sports shoe company, focuses on the customer relationship, new product development, and supplier rela-tionship processes and leaves the order fulfillment process to others.
+Allen Edmonds, a top-quality shoe company, considers all four processes to be core processes.
+What considerations would you make in determining which pro-cesses should be core to your manufacturing company?ProblemsThe OM Explorer and POM for Windows software is available to all students using the 10th edition of this textbook.
+Go to www.pearsonglobaleditions.com/krajewski to download these computer packages.
+If you purchased MyOMLab, you also have access to Active Models software and significant help in doing the following problems.
+Check with your instructor on how best to use these resources.
+In many cases, the instructor wants you to understand how to do the calculations by hand.
+At the least, the software provides a check on your calculations.
+When calculations are particularly complex and the goal is in-terpreting the results in making decision, the software entirely replaces the manual calculations.
+1.
+Alyssa’s Custom Cakes currently sells 5 birthday, 2 wed-ding, and 3 specialty cakes each month for $50, $150, and $100 each, respectively.
+The cost of labor is $50 per hour including benefits.
+It takes 90 minutes to produce a birth-day cake, 240 minutes to produce a wedding cake, and 60 minutes to produce a specialty cake.
+Alyssa’s current multifactor productivity ratio is 1.25. a.
+Use the multifactor productivity ratio provided to  calculate the average cost of the cakes produced.
+b.
+Based on your answer in part (a), is there a type of cake Alyssa should stop selling?
+c. Based solely on the labor productivity ratio, which cake should Alyssa try to sell the most?
+d. Calculate Alyssa’s labor productivity ratio in dollars per hour for each type of cake.
+2.
+Suds and Duds Laundry washed and pressed the following numbers of dress shirts per week.
+WeekWork CrewTotal HoursShirts1Sud and Dud24682Sud and Jud461303Sud, Dud, and Jud621524Sud, Dud, and Jud511255Dud and Jud45131 a.
+Calculate the labor productivity ratio for each week.
+b.
+Explain the labor productivity pattern exhibited by the data.
+3.
+The output of a process is valued at $100 per unit.
+The cost of labor is $50 per hour including benefits.
+The  accounting department provided the following information about the process for the past four weeks:Week 1Week 2Week 3Week 4Units Produced1,1241,3101,092981Labor ($)12,73514,84210,6039,526Material ($)21,04124,52320,44218,364Overhead ($)8,99210,4808,7367,848 a.
+Use the multifactor productivity ratio to see whether recent process improvements had any effect and, if so, when the effect was noticeable.
+b.
+Has labor productivity changed?
+Use the labor produc-tivity ratio to support your answer.
+4.
+CD players are produced on an automated assembly line process.
+The standard cost of CD players is $150 per unit (labor, $30; materials, $70; and overhead, $50).
+The sales price is $300 per unit.
+a.
+To achieve a 10 percent multifactor productivity im-provement by reducing materials costs only, by what percentage must these costs be reduced?
+b.
+To achieve a 10 percent multifactor productivity im-provement by reducing labor costs only, by what per-centage must these costs be reduced?
+c. To achieve a 10 percent multifactor productivity im-provement by reducing overhead costs only, by what percentage must these costs be reduced?
+5.
+(Refer to Solved Problem 2.)
+Coach Bjourn Toulouse led the Big Red Herrings to several disappointing football seasons.
+Only better recruiting will return the Big Red Herrings to winning form.
+Because of the current state of the program, Boehring University fans are unlikely to support increases in the $192 season ticket price.
+Improved recruitment will increase overhead costs to $30,000 per class section from the current $25,000 per class section.
+The university’s budget plan is to cover re-cruitment costs by increasing the average class size to 75 students.
+Labor costs will increase to $6,500 per 3-credit course.
+Material costs will be about $25 per student for each 3-credit course.
+Tuition will be $200 per semester credit, which is supplemented by state support of $100 per semester credit.
+a.
+What is the multifactor productivity ratio?
+Compared to the result obtained in Solved Problem 2, did produc-tivity increase or decrease for the course process?
+b.
+If instructors work an average of 20 hours per week for 16 weeks for each 3-credit class of 75 students, what is the labor productivity ratio?
+USING OPERATIONS TO COMPETE      CHAPTER 1 47Advanced Problems 6.
+Mariah Enterprises makes a variety of consumer  electronic products.
+Its camera manufacturing plant is considering choosing between two different processes, named Alpha and Beta, which can be used to make a com-ponent part.
+To make the correct decision, the managers would like to compare the labor and multifactor produc-tivity of process Alpha with that of process Beta.
+The value of process output for Alpha and Beta is $175 and $140 per unit, and the corresponding overhead costs are $6,000 and $5,000, respectively.
+PROCESS ALPHAPROCESS BETAProductABABOutput (units)50603080Labor ($)$1,200$1,400$1,000$2,000Material ($)$2,500$3,000$1,400$3,500 a.
+Which process, Alpha or Beta, is more productive?
+b.
+What conclusions can you draw from your analysis?
+7.
+Mack’s guitar fabrication shop produces low-cost, highly durable guitars for beginners.
+Typically, out of the 100 guitars that begin production each month, only 80 percent are considered good enough to sell.
+The other 20 percent are scrapped due to quality problems that are identified after they have completed the pro-duction process.
+Each guitar sells for $250.
+Because some of the production process is automated, each guitar only requires 10 labor hours.
+Each employee works an average 160 hours per month.
+Labor is paid at $10/hour, materials cost is $40/guitar, and overhead is $4,000.
+a.
+Calculate the labor and multifactor productivity ratios.
+b.
+After some study, the operations manager Darren Funk recommends three options to improve the com-pany’s  multifactor productivity: (1) increase the sales price by 10 percent, (2) improve quality so that only 10 percent are defective, or (3) reduce labor, material, and overhead costs by 10 percent.
+Which option has the greatest impact on the multifactor productivity measure?
+8.
+The Big Black Bird Company (BBBC) has a large order for special plastic-lined military uniforms to be used in an urgent military operation.
+Working the normal two shifts of 40 hours each per week, the BBBC production process usually produces 2,500 uniforms per week at a standard cost of $120 each.
+Seventy employees work the first shift and 30 employees work the second.
+The contract price is $200 per uniform.
+Because of the urgent need, BBBC is authorized to use around-the-clock production, 6 days per week.
+When each of the two shifts works 72 hours per week, production increases to 4,000 uniforms per week but at a cost of $144 each.
+a.
+Did the multifactor productivity ratio increase, de-crease, or remain the same?
+If it changed, by what per-centage did it change?
+b.
+Did weekly profits increase, decrease, or remain the same?
+c. Did the labor productivity ratio increase, decrease, or remain the same?
+If it changed, by what percentage did it change?
+9.
+The Morning Brew Coffee Shop sells Regular, Cappuccino, and Vienna blends of coffee.
+The shop’s current daily  labor cost is $320, the equipment cost is $125, and the overhead cost is $225.
+Daily demands, along with selling price and material costs per beverage, are given below.
+Regular CoffeeCappuccinoVienna coffeeBeverages sold350100150Price per beverage$2.00$3.00$4.00Material ($)$0.50$0.75$1.25  Harald Luckerbauer, the manager at Morning Brew Coffee Shop, would like to understand how adding Eiskaffee (a German coffee beverage of chilled coffee, milk, sweetener, and vanilla ice cream) will alter the shop’s productivity.
+His market research shows that Eiskaffee will bring in new customers and not cannibalize current demand.
+Assum-ing that the new equipment is purchased before Eiskaffee is added to the menu, Harald has developed new average daily demand and cost projections.
+The new equipment cost is $200, and the overhead cost is $350.
+Modified daily demands, as well as selling price and material costs per beverage for the new product line, are given below.
+Regular CoffeeCappuccinoVienna coffeeEiskaffeeBeverages sold35010015075Price per beverage$2.00$3.00$4.00$5.00Material ($)$0.50$0.75$1.25$1.50 a.
+Calculate the change in labor and multifactor produc-tivity if Eiskaffee is added to the menu.
+b.
+If everything else remains unchanged, how many units of Eiskaffee would have to be sold to ensure that the multifactor productivity increases from its current level?
+48 PART 1     COMPETING WITH OPERATIONSActive Model ExerciseThis Active Model appears in MyOMLab.
+It allows you to eval-uate the important elements of labor productivity.
+QUESTIONS 1.
+If an employee is hired, what will be the weekly number of policies processed if the productivity of five policies per hour is maintained?
+2.
+Suppose that, during the summer, the company works for only 4 days per week.
+What will be the weekly number of policies processed if the productivity of five policies per hour is maintained?
+3.
+If the insurance company can process 60 (10 percent) more policies per week, by what percentage will the pro-ductivity measure rise?
+4.
+Suppose the 8-hour day includes a 45-minute lunch.
+What is the revised productivity measure, excluding lunch?왘 ACTIVE MODEL 1.1 Labor Productivity Using Data from Example 1.1 USING OPERATIONS TO COMPETE      CHAPTER 1 49VIDEO CASEOperations as a Competitive Weapon at StarwoodStarwood is one of the world’s largest hotel companies, with more than 750 owned, managed, and franchised properties in more than 80 countries.
+The company’s lodging brands include The Luxury Collection, St. Regis, Shera-ton, Westin, Four Points, and W Hotels.
+Its hotels regularly appear on lists of top hotels around the world.
+On any given night, guests in the hotels may be individual leisure travelers, independent business guests, or part of a meet-ing or convention.
+When guests stay at a Starwood property as part of a meeting or con-vention, arrangements are typically made by a meeting planner.
+The meeting planner works with a location to arrange meeting facilities, banquet rooms, lodging, and events for participants.
+Prior to 2002, the company’s individual properties had their own approaches to convention planning, yet no consis-tent, coordinated program within or across brands made it easy for meeting planners to do business with Starwood.
+For example, paperwork for confirm-ing program details, rooms, and food and beverage requirements differed be-tween properties and brands.
+Some hotels had diagrams of meeting space, while others did not.
+Technology available for meeting rooms varied widely, and a hotel liaison was not always immediately available during the event in case a need arose.
+Recognizing that Starwood’s future growth and success relied heavily on its relationships with meeting planners, the company held focus groups to gather information about their needs and expectations.
+One clear priority emerged: consistency in the meeting planning process, whether that meeting was held at the Sheraton in New York, the Westin Kierland in Phoenix, or the W Hotel in Lakeshore, Chicago.
+Such a program could create consistency across all brands, and generate loyalty and increased revenues from those meeting planners who drive large volumes of business to Starwood properties annually.
+As a result of the meetings, Starwood created the Starwood Preferred Planner program.
+Every hotel property now has the same paperwork for the meeting planning process, and shares that paperwork electronically across properties and brands.
+Contracts were standardized and new standards cre-ated to recognize and reward frequent VIP meeting planners.
+Each meeting is assigned a “Star Meeting Concierge” whose sole responsibility is to antici-pate and fulfill any needs of the meeting planner during the event.
+Handheld Nextel radio phones are now issued at check-in to the meeting planners at no extra charge so that they have 24-hour access to the concierge.
+To measure the performance of the new process, Starwood set high internal targets for scores on the surveys given to meeting planners after their events concluded.
+For instance, at the Luxury Collection and St. Regis brands, individual meeting scores must be 4.55 on a 5-point scale.
+At the Westin and W Hotels, scores must be above 4.35 on the 5-point scale.
+Scores from Sheraton properties must exceed 4.30, and Four Points hotels have a target of 4.25 on the 5-point scale.
+Because the expectations for an airport location one-day meeting (not held at the St. Regis or Luxury Collection) differ from a multiday resort experience, the targets reflect those expectations.
+QUESTIONS 1.
+What are the key inputs and outputs associated with Starwood’s new meeting planning process?
+2.
+How does the meeting planning process at Starwood interact with the following core processes in their hotels?a.
+Customer relationship (internal and external)b.
+New service or product developmentc.
+Order fulfillmentd.
+Supplier relationshipCASETheorganicgrocer.comTheorganicgrocer.com is an online supplier of organically produced fruit and vegetables.
+Clients within a 50 km radius of Bangor in Wales are promised next-day delivery at a time and place selected by the customer.
+Maria Heales, a joint owner says, “Our business has been based on market research.
+We’ve done a great deal of background work to ensure our business model works.
+All the early signs suggested that people would order online if the quality was good, payment was secure, the price was right and delivery could be trusted….
+‘Dependability, reliability, timeliness, quality and price’ were the words that sung out,” she says.
+The service offering includes delivery, 9 A.M. to 9 P.M., six days a week; organic produce; and customer-specified date and time of delivery.
+All produce is direct from the market on the day of delivery from a chilled vehicle.
+The Web site is updated daily to reflect current price and in-season produce.
+“The key to our success,” Maria says, “is the sim-plicity of use of our Web site.”Vehicle route planning ensures deliveries are optimized, and aggre-gated stock ordering means only produce previously ordered by customers is purchased.
+Customers’ payments are made online using a secure, encrypted facility administered by a national bank.
+“But our business has grown, so we need to expand capacity and capability.
+We are no longer a fruit and ‘veg’ stall online!” Maria’s husband and business partner, Marcus, says.
+Their goal now is to expand their business to include regional franchising, product range expansion and, for example, birthday gifts, filled baskets, and ready-to-eat In 2002, Starwood standardized its operating processes so that it could measure, improve, and ultimately grow its convention business.
+Each meeting is assigned a Star Meeting Concierge who works closely with meeting planners.
+Pearson50 PART 1     COMPETING WITH OPERATIONSgourmet selections.
+Operating from a small “lock-up” unit on the fringe of town, expansion of the business would require considerable capital invest-ment.
+Moreover, the operations of the future business will be more complex.
+Currently, 95 percent of the customers are households, with the re-mainder being local restaurants.
+Approximately 20 percent of their customer base generates 80 percent of the profit.
+Theorganicgrocer.com has a finan-cial system—a computer application that Marcus modified to meet its needs.
+A separate computer package generates advertising material and mail-outs.
+This tends to be done by Maria when time permits.
+However, there is little market information to support strategic operations planning.
+Much of Maria and Marcus’s aspiration is based on the success of their current operations and the hope that the trend continues.
+Whilst there are several competitors supplying online vegetables, they do not offer organic products and they have limited products.
+They are, however, some 20 percent cheaper than  Theorganicgrocer.com.
+As business has grown, there have been complaints of damaged prod-ucts, and growth in customers has caused the average on-time deliveries (plus or minus 20 minutes) to fall from 95 percent to 75 percent.
+All this, Maria and Marcus argue, is more reason for expanding the business.
+Marcus enjoys the technical aspects of the online business, and spends much of his time modifying and improving the Web site.
+When necessary, he helps to consolidate customers’ orders.
+“I think my time is better spent on Web site development,” Marcus says; “It’s critical for the business if it  goes down or it isn’t showing current product information, then sales are jeopardized.” Presently, Maria takes responsibility for placing orders to their thirty suppliers.
+Maria and the delivery drivers pack customer orders into sal-vaged cardboard boxes that are of various sizes and often damaged.
+“But at least they are free!” she laughs.
+QUESTIONS 1.
+What are the comparative operational differences of a conventional “bricks and mortar” grocery to an online operation?
+What are the com-parative value chains for each system?
+2.
+What are the key processes in the online operation?
+3.
+Where are the possible operational problem areas of their online busi-ness, now and in the future?
+4.
+What operational improvements need to be taken now to improve competitiveness?Source: This fictional case was prepared by Dr. David Parker, The University of Queensland, Business School, as a basis of classroom discussion.
+Selected ReferencesChase, Richard B., and Uday M. Apte.
+“A History of Research in Service Operations: What’s the Big Idea?” Journal of Operations Manage-ment, vol.
+25, no.
+2 (2007), pp.
+375–386.
+Collis, David J. and Michael G. Rukstad.
+“Can You Say What Your Strat-egy Is?” Harvard Business Review, vol.
+86, no.
+4 (2008), pp.
+82–90.
+Fitzsimmons, James A., and Mona Fitzsimmons.
+Service Management.
+New York: McGraw-Hill, 2005.
+Gaimon, Cheryl.
+“The Management of Technology: A Production and Operations Management Perspective.” Production and Operations Management, vol.
+17, no.
+1 (2008), pp.
+1–11.
+Hammer, Michael.
+“Deep Change: How Operational Innovation Can Transform Your Company.” Harvard Business Review (April 2004), pp.
+85–93.
+Heineke, Janelle, and Mark Davis.
+“The Emergence of Service Opera-tions as an Academic Discipline.” Journal of Operations Manage-ment, vol.
+25, no.
+2 (2007), pp.
+364–374.
+Hill, Terry.
+Manufacturing Strategy: Text and Cases, 3rd ed.
+Home-wood, IL: Irwin/McGraw-Hill, 2000.
+Huckman, Robert S., and Darren E. Zinner.
+“Does Focus Improve Operational Performance?
+Lessons from the Management of Clinical Trials.” Strategic Management Journal, vol.
+29 (2008), pp.
+173–193.
+Kaplan, Robert S., and David P. Norton.
+Balanced Scoreboard.
+Boston, MA: Harvard Business School Press, 1997.
+Karmarkar, Uday.
+“Will You Survive the Services Revolution?” Harvard Business Review, vol.
+82 (2004), pp.
+100–108.
+King Jr., Neil.
+“A Whole New World.” Wall Street Journal (September 27, 2004).
+Meyer, Christopher and Andre Schwager.
+“Understanding customer experience.” Harvard Business Review, vol.
+85 (2007), pp.
+116–126.
+Neilson, Gary L., Karla L. Martin, and Elizabeth Powers.
+“The secrets to successful strategy execution.” Harvard Business Review, vol.
+86, no.
+6 (2008), pp.
+60–70.
+Pande, Peter S., Robert P. Neuman, and Roland R. Cavanagh.
+The Six Sigma Way.
+New York: McGraw-Hill, 2000.
+Porter, Michael.
+Competitive Advantage.
+New York: The Free Press, 1987.
+Porter, Michael E., and Mark R. Kramer.
+“Strategy and Society: The Link Between Competitive Advantage and Corporate Social Responsibil-ity.” Harvard Business Review, vol.
+84, no.
+12 (2006), pp.
+78–92.
+Powell, Bill.
+“It’s All Made in China Now.” Fortune (March 4, 2002), pp.
+121–128.
+Safizadeh, M. Hossein, Larry P. Ritzman, Deven Sharma, and Craig Wood.
+“An Empirical Analysis of the Product–Process Matrix.” Management Science, vol.
+42, no.
+11 (1996), pp.
+1576–1591.
+Skinner, Wickham.
+“Manufacturing—Missing Link in Corporate Strat-egy.” Harvard Business Review (May–June 1969), pp.
+136–145.
+Svensson, Peter.
+“GameStop to Sell Rain Checks for Wii.” The State (December 18, 2007).
+Voss, Chris, Aleda Roth, and Richard Chase.
+“Experience, Service  Operations Strategy, and Services as Destinations: Foundations and Exploratory Investigation” Production and Operations Man-agement, vol.
+17, no.
+3 (2008), pp.
+247–266.
+Ward, Peter T., and Rebecca Duray.
+“Manufacturing Strategy in Con-text: Environment, Competitive Strategy and Manufacturing Strat-egy.” Journal of Operations Management, vol.
+18 (2000), pp.
+123–138.
+Wiseman, Paul.
+“Despite China’s might, US factories maintain edge,” The State and The Associated Press (January 31, 2011).
+Womack, James P., Daniel T. Jones, and Daniel Roos.
+The Machine That Changed the World.
+New York: HarperPerennial, 1991.
