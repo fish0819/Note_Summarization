@@ -1,10 +1,24 @@
 import numpy
+from numpy import linalg # l2 norm
 
-SentenceList = []
-with open ('Supplement-A.txt', 'r', encoding = 'UTF-8') as inFile:
-	SentenceList = inFile.readlines()
-SentenceList = [s.replace('\n', '').strip() for s in SentenceList]
-print (SentenceList)
+List_x = [0, 1, 3, 2]
+List_y = [1, 1, 0, 1]
+
+dotProduct = numpy.dot(List_x, List_y)
+print ('dotProduct:', dotProduct)
+norm_x = linalg.norm(List_x)
+norm_y = linalg.norm(List_y)
+print ('norm_x', norm_x)
+print ('norm_y', norm_y)
+if norm_x * norm_y > 0:
+		print (dotProduct / norm_x * norm_y)
+else: print (0)
+
+# SentenceList = []
+# with open ('Supplement-A.txt', 'r', encoding = 'UTF-8') as inFile:
+# 	SentenceList = inFile.readlines()
+# SentenceList = [s.replace('\n', '').strip() for s in SentenceList]
+# print (SentenceList)
 
 # text = '      Hello world!\n  \n     What a good day.   '
 # print (text)
