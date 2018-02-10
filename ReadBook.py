@@ -11,7 +11,7 @@ retstr = io.StringIO()
 laparams = LAParams()
 device = TextConverter(rsrcmgr, retstr, codec = 'UTF-8', laparams = laparams)
 # fp = open('Subject Index.pdf', 'rb')
-fp = open('Chapter 1.pdf', 'rb')
+fp = open('book\\Chapter 1.pdf', 'rb')
 interpreter = PDFPageInterpreter(rsrcmgr, device)
 maxpages = 0
 pagenos = set()
@@ -64,7 +64,7 @@ while i < len(SentenceList):
 # print (SentenceList)
 
 
-with open ('Book.txt', 'w', encoding = 'UTF-8') as outFile:
+with open ('book\\Book.txt', 'w', encoding = 'UTF-8') as outFile:
 	for sentence in SentenceList:
 		try:
 			# while sentence[0] == ' ':

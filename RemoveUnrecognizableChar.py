@@ -1,7 +1,7 @@
 UnrecogCharList = ['', '', '', '', '', '', '']
 
 rawText = ''
-FILE_NAME = 'Supplement-A'
+FILE_NAME = 'book\\Supplement-A'
 with open (FILE_NAME + '_raw.txt', 'r', encoding = 'UTF-8') as inFile:
 	while True:
 		try:

@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy # average and standard deviation
 from numpy import linalg # l2 norm
+import math # check inf
 
 def CosineSim (List_x, List_y):
 	dotProduct = numpy.dot(List_x, List_y)
@@ -14,14 +15,14 @@ def CosineSim (List_x, List_y):
 	else: return 0
 
 ''' get content '''
-SentenceList = []
-with open ('Supplement-A.txt', 'r', encoding = 'UTF-8') as inFile:
-	SentenceList = inFile.readlines()
-SentenceList = [s.replace('\n', '').strip() for s in SentenceList]
-# nltk.download('punkt')
-# senTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-# SentenceList = senTokenizer.tokenize(text) #corpus
-
+with open ('book\\Supplement-A.txt', 'r', encoding = 'UTF-8') as inFile:
+	RawParagraphList = inFile.readlines()
+RawParagraphList = [s.replace('\n', '').strip() for s in RawParagraphList]
+#nltk.download('punkt')
+senTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+SentenceList = [] # corpus
+for para in RawParagraphList:
+	SentenceList += senTokenizer.tokenize(para)
 
 ''' TSF '''
 # parameter setting
@@ -44,35 +45,34 @@ for i in range(K - 1, (len(TFList) - K + 1)):
 		for b in range(a + 1, i + 1):
 			if a != b:
 				innerSim += CosineSim(TFList[a], TFList[b])
-				# print (CosineSim(TFList[a], TFList[b]))
 		for c in range(i + 1, i + K):
 			outerSim += CosineSim(TFList[a], TFList[c])
+	if innerSim == 0:
+		continue
+	dissim = (innerSim - outerSim) / innerSim
+	if math.isinf(dissim):
+		print ('inner:', innerSim)
+		print ('outer:', outerSim)
+		continue
 	InnerSimList.append([i, innerSim])
 	OuterSimList.append([i, outerSim])
-	if innerSim == 0:
-		print ('Error:', 'i =', i, 'innerSim == 0')
-		continue
-	# DissimList.append([i, (innerSim - outerSim) / outerSim])
-	DissimList.append({'i': i, 'dissim': (innerSim - outerSim) / outerSim})
+	DissimList.append({'i': i, 'dissim': dissim})
 
 avg_dissim = numpy.mean([d['dissim'] for d in DissimList])
 dev_dissim = numpy.std([d['dissim'] for d in DissimList])
 print ('Avg =', avg_dissim)
 print ('Dev =', dev_dissim)
 
-DISSIM_THRESHOLD = avg_dissim + 0.5 * dev_dissim # the threshold of the dissimilarity
-
-# for d in DissimList:
-# 	print (d)
+DISSIM_THRESHOLD = avg_dissim + 0.35 * dev_dissim # the threshold of the dissimilarity
 
 current_i = 0
 ParagrahList = []
 for d in DissimList:
 	if d['dissim'] > DISSIM_THRESHOLD:
-		ParagrahList.append(''.join(SentenceList[current_i:d['i'] + 1]))
+		ParagrahList.append(' '.join(SentenceList[current_i:d['i'] + 1]))
 		current_i = d['i'] + 1
-ParagrahList.append(''.join(SentenceList[current_i:]))
+ParagrahList.append(' '.join(SentenceList[current_i:]))
 
+print (len(ParagrahList))
 for p in ParagrahList:
-	print (p)
-	print ('\n\n')
+	print (p + '\n\n')
