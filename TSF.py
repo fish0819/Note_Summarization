@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import nltk.data # split text on sentences
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer

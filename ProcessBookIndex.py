@@ -6,13 +6,17 @@ FILE_NAME = 'book\\SubjectIndex.txt'
 with open (FILE_NAME, 'r', encoding = 'utf-8') as inFile:
 	Lines = inFile.readlines()
 
-pattern1 = '.*\D$'
-pattern2 = '^(\d)+$'
+pattern1 = '^\D+.*[^\dft]{1}$'
+pattern2 = '^(\d)+[ft]?$' # start with page number
+pattern3 = '.*(\d)[ft]?$' # page numbers followed by f have figures; followed by t have tables
+pattern4 = '\. See also'
 
 # s1 = 'USING OPERATIONS'
 # s2 = 'TO COMPETE 21'
 # s3 = '1'
-# m = re.match(pattern2, s3)
+# s4 = 'Bal Seal Engineering, 266f'
+# s5 = '303t'
+# m = re.match(pattern1, s4)
 # if m:
 # 	print (s3, m)
 
@@ -25,6 +29,8 @@ while lid < len(Lines):
 		del Lines[lid]
 		continue
 	if re.match(pattern2, Lines[lid]):
+		if Lines[lid - 1][-1] != ',':
+			Lines[lid - 1] += ','
 		Lines[lid - 1] += ' ' + Lines[lid]
 		del Lines[lid]
 		continue
@@ -37,6 +43,11 @@ while lid < len(Lines):
 		# print ('New:', Lines[lid])
 		del Lines[lid + 1]
 		m = re.match(pattern1, Lines[lid])
+	if '. See' in Lines[lid]:
+		print (Lines[lid])
+		Lines.insert(lid + 1, Lines[lid][Lines[lid].index('See'):])
+		Lines[lid] = Lines[lid][:Lines[lid].index('. See')]
+		lid += 1
 	lid += 1
 
 # for line in Lines:

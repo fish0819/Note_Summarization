@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-
 import os.path
 import csv
 from docx import *
@@ -22,7 +21,7 @@ NTerms = []
 TERM_FILE_NAME = 'note\\NTerms_w3.csv'
 FIELD_NAME = ['c', 'e']
 if os.path.isfile(TERM_FILE_NAME):
-	with open(TERM_FILE_NAME, newline = '') as termFile:
+	with open(TERM_FILE_NAME, newline = '', encoding = 'utf-8') as termFile:
 		reader = csv.DictReader(termFile)
 		for row in reader:
 			NTerms.append({'c': row['c'], 'e': row['e']})
@@ -108,8 +107,9 @@ for pid in range(len(NoteParagraphs)):
 				isPrevTerm = True
 				prev_i = i
 				prev_j = j
-				# print (resultSoup.select('tr.dash')[0].select('td.ennameW')[0].select('a')[0].text, '(from 學術名詞計辭書資訊網)\n')
 				term_e = resultSoup.select('tr.dash')[0].select('td.ennameW')[0].select('a')[0].text.lower()
+				if '{' in term_e: term_e = term_e[:term_e.index(' {')]
+				if '(' in term_e: term_e = term_e[:term_e.index(' (')]
 				if len(NTerms) == 0:
 					NTerms.append({'c': candidate_term, 'e': term_e})
 				elif not any(d['e'] == term_e for d in NTerms):
@@ -123,18 +123,17 @@ for pid in range(len(NoteParagraphs)):
 					isPrevTerm = True
 					prev_i = i
 					prev_j = j
-					# print (resultSoup.select('span.LangWithName')[0].select('span')[0].text, '(from 維基百科)\n')
 					term_e = resultSoup.select('span.LangWithName')[0].select('span')[0].text.lower()
+					if '{' in term_e: term_e = term_e[:term_e.index(' {')]
+					if '(' in term_e: term_e = term_e[:term_e.index(' (')]
 					if len(NTerms) == 0:
 						NTerms.append({'c': candidate_term, 'e': term_e})
 					elif not any(d['e'] == term_e for d in NTerms):
 						NTerms.append({'c': candidate_term, 'e': term_e})
 				else:
 					isPrevTerm = False
-					# print ('no result\n')
 
-
-with open(TERM_FILE_NAME, 'w', newline = '') as termFile:
+with open(TERM_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as termFile:
 	writer = csv.DictWriter(termFile, fieldnames = FIELD_NAME)
 	writer.writeheader()
 	for t in NTerms:
