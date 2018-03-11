@@ -55,7 +55,7 @@ for pid in range(len(NoteParagraphs)):
 		if NoteParagraphs[pid].content[i] in PunctuationList: # remove punctuation
 			Sequences[len(Sequences) - 1][0]  += ' '
 			continue
-		if (NoteParagraphs[pid].content[i] > u'\u4e00' and NoteParagraphs[pid].content[i] < u'\u9fff'): # determine if the char is chinese
+		if (NoteParagraphs[pid].content[i] >= u'\u4e00' and NoteParagraphs[pid].content[i] <= u'\u9fff'): # determine if the char is chinese
 			if prev != 'c':
 				prev = 'c'
 				Sequences.append([NoteParagraphs[pid].content[i], prev])
