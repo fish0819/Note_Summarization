@@ -1,14 +1,14 @@
 # -*- coding: UTF-8 -*-
-from googletrans import Translator
-translator = Translator()
-sen = '3. 計算the payoff table showing the payoff for each選項in each event'
-sen = translator.translate(sen).text
-print (sen)
 
-for i in range(10):
-	print (hex(ord(str(i))))
+# from googletrans import Translator
+# translator = Translator()
+# sen = '3. 計算the payoff table showing the payoff for each選項in each event'
+# sen = translator.translate(sen).text
+# print (sen)
+# for i in range(10):
+# 	print (hex(ord(str(i))))
 
-# coding: utf-8 
+
 # from nltk.tokenize import StanfordSegmenter
 # from nltk.parse.corenlp import CoreNLPParser
 

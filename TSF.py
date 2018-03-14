@@ -2,7 +2,6 @@
 import nltk.data # split text on sentences
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.metrics.pairwise import cosine_similarity
 import numpy # average and standard deviation
 from numpy import linalg # l2 norm
 import math # check inf

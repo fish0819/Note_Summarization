@@ -26,6 +26,9 @@ if os.path.isfile(TERM_FILE_NAME):
 		for row in reader:
 			NTerms.append({'c': row['c'], 'e': row['e']})
 
+with open('stopwords.txt', 'r', encoding = 'utf-8') as inFile:
+	StopWords = inFile.readlines()
+
 
 ''' read docx '''
 FILE_NAME = 'note\\生管_w3_黃慈方.docx'
@@ -45,10 +48,10 @@ for p in d.paragraphs:
 
 ''' segmentation '''
 # checking paragraphs may need '\t'
-PunctuationList = ['\t', '\n', '，', '。', '！', '？', '：', '（', '）', '、', ',', '.', '!', '?', ':', '(', ')', '…']
+PunctuationList = ['\t', '\n', '，', '。', '！', '？', '：', '（', '）', '、', ',', '.', '!', '?', ':', '(', ')', '…', '+', '=', '*', '/', '<', '>']
 for pid in range(len(NoteParagraphs)):
 	prev = '' # 'c' or 'e'
-	Sequences = [] # [sequence, lanuage]
+	Sequences = [] # [sequence, language]
 	PTerms = []
 	# split chinese and english sequences
 	for i in range(len(NoteParagraphs[pid].content)):
@@ -86,52 +89,94 @@ for pid in range(len(NoteParagraphs)):
 		if isPrevTerm and i <= prev_i + prev_j:
 			continue
 		hasGottenTerm = False
+		candidate_term = PTerms[i][0].lower()
+		# english keywords
 		if PTerms[i][1] == 'e':
-			continue
-		candidate_term = PTerms[i][0]
-		if any(d['c'] == candidate_term for d in NTerms):
-			continue
-		for j in range(5): # max: 5 terms (1 + 4)
-			if (i + j > len(PTerms) - 1) or (j > 2 and isPrevTerm == False):
-				break
-			if j > 0:
-				if PTerms[i + j][1] == 'e':
+			for j in range(5): # max: 5 terms (1 + 4)
+				if (i + j > len(PTerms) - 1) or (j > 2 and isPrevTerm == False):
 					break
-				candidate_term += PTerms[i + j][0]
-			# print (candidate_term)
-			# National Academy for Educational Research
-			NAER_URL = 'http://terms.naer.edu.tw/search/?q=' + candidate_term + '&field=ti&op=AND&group=&num=10'
-			request = requests.get(NAER_URL)
-			resultSoup = BeautifulSoup(request.text, 'lxml')
-			if '抱歉，目前查無相關資料' not in resultSoup.select('div.leftcolumn')[0].text and resultSoup.select('tr.dash')[0].select('td.zhtwnameW')[0].select('a')[0].text == candidate_term: # if term exists in NAER
-				isPrevTerm = True
-				prev_i = i
-				prev_j = j
-				term_e = resultSoup.select('tr.dash')[0].select('td.ennameW')[0].select('a')[0].text.lower()
-				if '{' in term_e: term_e = term_e[:term_e.index(' {')]
-				if '(' in term_e: term_e = term_e[:term_e.index(' (')]
-				if len(NTerms) == 0:
-					NTerms.append({'c': candidate_term, 'e': term_e})
-				elif not any(d['e'] == term_e for d in NTerms):
-					NTerms.append({'c': candidate_term, 'e': term_e})
-			else:
-				# Wiki
-				Wiki_URL = 'https://zh.wikipedia.org/wiki/' + candidate_term
+				if j > 0:
+					if PTerms[i + j][1] == 'c':
+						break
+					candidate_term += PTerms[i + j][0].lower()
+				if candidate_term in StopWords: continue
+				NAER_URL = 'http://terms.naer.edu.tw/search/?q=' + candidate_term + '&field=ti&op=AND&group=&num=10'
+				Wiki_URL = 'https://en.wikipedia.org/wiki/' + '_'.join(candidate_term.lower().split())
 				request = requests.get(Wiki_URL)
 				resultSoup = BeautifulSoup(request.text, 'lxml')
-				if '维基百科目前还没有与上述标题相同的条目' not in resultSoup.select('div#bodyContent')[0].text and len(resultSoup.select('span.LangWithName')) > 0:
+				if 'Wikipedia does not have an article with this exact name' not in resultSoup.select('div#content')[0].text:
 					isPrevTerm = True
-					prev_i = i
-					prev_j = j
-					term_e = resultSoup.select('span.LangWithName')[0].select('span')[0].text.lower()
-					if '{' in term_e: term_e = term_e[:term_e.index(' {')]
-					if '(' in term_e: term_e = term_e[:term_e.index(' (')]
+					term_e = candidate_term.lower()
+					term_c = ''
+					plang = resultSoup.select('div#p-lang')[0]
+					if len(plang) > 0:
+						interwikizh = plang.select('li.interlanguage-link.interwiki-zh')
+						if len(interwikizh) > 0:
+							chineselink = interwikizh[0].select('a.interlanguage-link-target')[0]
+							if len(chineselink) > 0:
+								term_sc = chineselink.attrs.get('title').split()[0]
+								Wiki_URL = 'https://zh.wikipedia.org/zh-tw/' + term_sc
+								request = requests.get(Wiki_URL)
+								resultSoup = BeautifulSoup(request.text, 'lxml')
+								term_c = resultSoup.select('h1#firstHeading')[0].text
+								for w in term_c:
+									if NoteParagraphs[pid].content[i] < u'\u4e00' and NoteParagraphs[pid].content[i] > u'\u9fff':
+										term_c = ''
+										break
+					if '{' in term_c: term_c = term_c[:term_c.index(' {')]
+					if '(' in term_c: term_c = term_c[:term_c.index(' (')]
 					if len(NTerms) == 0:
 						NTerms.append({'c': candidate_term, 'e': term_e})
 					elif not any(d['e'] == term_e for d in NTerms):
-						NTerms.append({'c': candidate_term, 'e': term_e})
+						NTerms.append({'c': term_c, 'e': term_e})
 				else:
 					isPrevTerm = False
+		# chinese keywords to english
+		else:
+			if any(d['c'] == candidate_term for d in NTerms):
+				continue
+			for j in range(5): # max: 5 terms (1 + 4)
+				if (i + j > len(PTerms) - 1) or (j > 2 and isPrevTerm == False):
+					break
+				if j > 0:
+					if PTerms[i + j][1] == 'e':
+						break
+					candidate_term += PTerms[i + j][0]
+				# print (candidate_term)
+				# National Academy for Educational Research
+				NAER_URL = 'http://terms.naer.edu.tw/search/?q=' + candidate_term + '&field=ti&op=AND&group=&num=10'
+				# request = requests.get(NAER_URL)
+				# resultSoup = BeautifulSoup(request.text, 'lxml')
+				# if '抱歉，目前查無相關資料' not in resultSoup.select('div.leftcolumn')[0].text and resultSoup.select('tr.dash')[0].select('td.zhtwnameW')[0].select('a')[0].text == candidate_term: # if term exists in NAER
+				# 	isPrevTerm = True
+				# 	prev_i = i
+				# 	prev_j = j
+				# 	term_e = resultSoup.select('tr.dash')[0].select('td.ennameW')[0].select('a')[0].text.lower()
+				# 	if '{' in term_e: term_e = term_e[:term_e.index(' {')]
+				# 	if '(' in term_e: term_e = term_e[:term_e.index(' (')]
+				# 	if len(NTerms) == 0:
+				# 		NTerms.append({'c': candidate_term, 'e': term_e})
+				# 	elif not any(d['e'] == term_e for d in NTerms):
+				# 		NTerms.append({'c': candidate_term, 'e': term_e})
+				if 1 == 2: pass
+				else:
+					# Wiki
+					Wiki_URL = 'https://zh.wikipedia.org/wiki/' + candidate_term
+					request = requests.get(Wiki_URL)
+					resultSoup = BeautifulSoup(request.text, 'lxml')
+					if '维基百科目前还没有与上述标题相同的条目' not in resultSoup.select('div#content')[0].text and len(resultSoup.select('span.LangWithName')) > 0:
+						isPrevTerm = True
+						prev_i = i
+						prev_j = j
+						term_e = resultSoup.select('span.LangWithName')[0].select('span')[0].text.lower()
+						if '{' in term_e: term_e = term_e[:term_e.index(' {')]
+						if '(' in term_e: term_e = term_e[:term_e.index(' (')]
+						if len(NTerms) == 0:
+							NTerms.append({'c': candidate_term, 'e': term_e})
+						elif not any(d['e'] == term_e for d in NTerms):
+							NTerms.append({'c': candidate_term, 'e': term_e})
+					else:
+						isPrevTerm = False
 
 with open(TERM_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as termFile:
 	writer = csv.DictWriter(termFile, fieldnames = FIELD_NAME)

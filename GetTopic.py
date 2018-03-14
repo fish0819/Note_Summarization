@@ -22,17 +22,17 @@ BA = [bt['abbr'] for bt in BTerms]
 nid = 0
 l = len(NTerms)
 while nid < l:
-	if NTerms[nid]['e'] not in BT and NTerms[nid]['e'] not in BA:
-		nid += 1
-		continue
-	Topics.append(NTerms[nid])
+	if NTerms[nid]['e'] in BT:
+		Topics.append({'term_e': NTerms[nid]['e'], 'abbr': BTerms[BT.index(NTerms[nid]['e'])]['abbr'], 'term_c': NTerms[nid]['c']})
+	elif NTerms[nid]['e'] in BA:
+		Topics.append({'term_e': BTerms[BA.index(NTerms[nid]['e'])]['term'], 'abbr': NTerms[nid]['e'], 'term_c': NTerms[nid]['c']})
 	nid += 1
 
 for t in Topics:
 	print (t)
 
 with open('Topics.csv', 'w', newline = '', encoding = 'utf-8') as termFile:
-	writer = csv.DictWriter(termFile, fieldnames = ['c', 'e'])
+	writer = csv.DictWriter(termFile, fieldnames = ['term_e', 'abbr', 'term_c'])
 	writer.writeheader()
 	for t in Topics:
 		writer.writerow(t)

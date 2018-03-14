@@ -29,16 +29,18 @@ Topics = []
 with open ('Topics.csv', 'r', encoding = 'utf-8') as termFile:
 	reader = csv.DictReader(termFile)
 	for row in reader:
-		Topics.append({'c': row['c'], 'e': row['e']})
+		Topics.append({'term_e': row['term_e'], 'abbr': row['abbr'], 'term_c': row['term_c']})
 
-# translate into english
+# translate into english and remove stop words
+with open ('stopwords.txt', 'r', encoding = 'utf-8') as inFile:
+    StopWords = [sw.replace('\n', '') for sw in inFile.readlines()]
 translator = Translator()
 RawNNoteWordsList = []
 for nid in range(len(Notes)):
 	note = Notes[nid]
 	WordsList = []
 	for term in Topics:
-		note = note.replace(term['c'], ' ' + term['e'] + ' ')
+		note = note.replace(term['term_c'], ' ' + term['term_e'] + ' ')
 	note = note.splitlines()
 	for lid in range(len(note)):
 		rawLine = note[lid]
@@ -56,11 +58,13 @@ for nid in range(len(Notes)):
 				prev = curr
 				line = rawLine[i]
 				continue
-			if curr != prev:
+			if curr != prev and (prev != 'd' and curr != 'd') and (rawLine[i] != '-' and rawLine[i - 1] != '-'):
 				line += ' '
 				prev = curr
 			line += rawLine[i]
-		line = ' '.join([translator.translate(w).text for w in line.split()]).replace(' 、 ', ', ').replace(' ， ', ', ')
+		line = ' '.join([translator.translate(w).text.lower() for w in line.split()]).replace(' 、 ', ', ').replace(' ， ', ', ')
+		for sw in StopWords:
+			line = line.replace(' ' + sw + ' ', ' ')
 		# print(line)
 		note[lid] = line
 		Words = line.split()
@@ -82,28 +86,28 @@ for note in Notes: Corpus += note
 # TFIDFs = transformer.fit_transform(TPs).toarray()
 
 
-# tfidf_vectorizer = TfidfVectorizer()
-# TFIDFs = tfidf_vectorizer.fit_transform(Corpus).toarray()
-# # print (TFIDFs)
-# NWordsList = [] # list of (union of words -> representaion of sentence)
-# start = 0 # the start index of the note in union
-# ComparedTFIFDs = TFIDFs[:len(Notes[0])]
-# threshold_cossim = 0.03
-# for nid in range(len(Notes)):
-# 	WordsList = RawNNoteWordsList[nid]
-# 	if nid == 0:
-# 		NWordsList = WordsList
-# 		start = len(Notes[nid])
-# 		continue
-# 	for i in range(start, start + len(Notes[nid])):
-# 		for j in range(len(Notes[0])):
-# 			cos_sim = cosine_similarity(TFIDFs[i].reshape(1,-1), TFIDFs[j].reshape(1,-1))[0][0]
-# 			if cos_sim >= threshold_cossim:
-# 				for w in WordsList[i - start]:
-# 					if w not in NWordsList[j]: NWordsList[j].append(w)
-# 				break
-# 			if j == len(NWordsList) - 1 and cos_sim < threshold_cossim:
-# 				NWordsList.append(WordsList[i - start])
-# 	start += len(Notes[nid])
-# for Words in NWordsList:
-# 	print (Words)
+tfidf_vectorizer = TfidfVectorizer()
+TFIDFs = tfidf_vectorizer.fit_transform(Corpus).toarray()
+# print (TFIDFs)
+NWordsList = [] # list of (union of words -> representaion of sentence)
+start = 0 # the start index of the note in union
+ComparedTFIFDs = TFIDFs[:len(Notes[0])]
+threshold_cossim = 0.03
+for nid in range(len(Notes)):
+	WordsList = RawNNoteWordsList[nid]
+	if nid == 0:
+		NWordsList = WordsList
+		start = len(Notes[nid])
+		continue
+	for i in range(start, start + len(Notes[nid])):
+		for j in range(len(Notes[0])):
+			cos_sim = cosine_similarity(TFIDFs[i].reshape(1,-1), TFIDFs[j].reshape(1,-1))[0][0]
+			if cos_sim >= threshold_cossim:
+				for w in WordsList[i - start]:
+					if w not in NWordsList[j]: NWordsList[j].append(w)
+				break
+			if j == len(NWordsList) - 1 and cos_sim < threshold_cossim:
+				NWordsList.append(WordsList[i - start])
+	start += len(Notes[nid])
+for Words in NWordsList:
+	print (Words)
