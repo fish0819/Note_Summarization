@@ -16,8 +16,9 @@ Lines = [l for l in Lines if len(l) > 0]
 
 FIELD_NAME = ['term', 'abbr', 'pages']
 Indexes = []
-StopWords = ['definition of', 'introduction to', 'assumptions of', 'calculation of']
-Prepositions = ['at', 'in', 'on', 'of', 'across']
+StopWords = ['assumptions of', 'calculation of', 'definition of', 'introduction to']
+Prepositions = ['across', 'at', 'in', 'of', 'on']
+
 for line in Lines:
 	line = line.lower()
 	isSubentry = False
@@ -30,11 +31,18 @@ for line in Lines:
 	# remove stop words
 	for w in StopWords:
 		if ', ' + w in line: line = line.replace(', ' + w, '')
-		elif re.match(w, line): continue
+		elif ' ' + w in line: line = line.replace(' ' + w, '')
+		elif re.match(w, line): line = ''
 	# remove tags of specific fields
 	for w in Prepositions:
-		if ', ' + w in line: line = line[:re.search(', ' + w, line).start()] + line[re.search(', ' + w, line).end():]
-		elif re.match(w, line): continue
+		if ', ' + w in line:
+			tmpline = line[:re.search(', ' + w, line).start()]
+			if re.search(', \d', line): line = tmpline + line[re.search(', \d', line).start():]
+		elif w != 'of' and ' ' + w in line: 
+			tmpline = line[:re.search(' ' + w, line).start()]
+			if re.search(', \d', line): line = tmpline + line[re.search(', \d', line).start():]
+		elif re.match(w, line): line = ''
+	if line == '': continue
 	if re.search('\([^(]*\)', line): # (abbr)
 		if line.index('(') > (line.index(')') - line.index('(') - 1):
 			abbr = line[line.index('(') + 1:line.index(')')] + line[line.index(')') + 1:(re.search(', \d', line)).start()]
