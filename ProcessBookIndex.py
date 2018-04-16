@@ -9,22 +9,12 @@ with open (FILE_NAME, 'r', encoding = 'utf-8') as inFile:
 pattern1 = '^\D+.*[^\dft]{1}$'
 pattern2 = '^(\d)+[ft]?$' # start with page number
 pattern3 = '.*(\d)[ft]?$' # page numbers followed by f have figures; followed by t have tables
-pattern4 = '\. See also'
-
-# s1 = 'USING OPERATIONS'
-# s2 = 'TO COMPETE 21'
-# s3 = '1'
-# s4 = 'Bal Seal Engineering, 266f'
-# s5 = '303t'
-# m = re.match(pattern1, s4)
-# if m:
-# 	print (s3, m)
 
 for lid in range(len(Lines)):
 	Lines[lid] = Lines[lid].replace('\n', '').strip()
 
 lid = 0
-while lid < len(Lines):	
+while lid < len(Lines):
 	if len(Lines[lid]) == 0:
 		del Lines[lid]
 		continue

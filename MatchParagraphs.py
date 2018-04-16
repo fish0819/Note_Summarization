@@ -1,436 +1,149 @@
 # -*- coding: UTF-8 -*-
 ''' match paragraphs '''
 from os import listdir
-from os.path import isfile
+import os
 from docx import *
 import csv
-from googletrans import Translator
 import re
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
-import nltk
-
-# nltk.download('averaged_perceptron_tagger')
-
-''' combine notes '''
-NOTE_FOLDER = 'note\\'
-NoteFileNames = [(NOTE_FOLDER + f) for f in listdir(NOTE_FOLDER) if '.docx' in f]
-# print (NoteFileNames)
-
-Notes = []
-for FILE_NAME in NoteFileNames:
-	note = ''
-	d = Document(FILE_NAME)
-	for p in d.paragraphs:
-		text = p.text.strip()
-		if len(text) > 0:
-			note += text + '\n'
-	Notes.append(note)
-
-Topics = []
-with open ('Topics.csv', 'r', encoding = 'utf-8') as termFile:
-	reader = csv.DictReader(termFile)
-	for row in reader:
-		Topics.append({'term_e': row['term_e'], 'abbr': row['abbr'], 'term_c': row['term_c']})
-
-# translate into english and remove stop words
-with open ('stopwords.txt', 'r', encoding = 'utf-8') as inFile:
-	StopWords = [sw.replace('\n', '') for sw in inFile.readlines()]
-translator = Translator()
-RawNoteWordsList = []
-PunctuationMarks = ['.', '!', '?']
-for nid in range(len(Notes)):
-	note = Notes[nid]
-	WordsList = []
-	for term in Topics:
-		if len(term['term_c']) > 0: note = note.replace(term['term_c'], ' ' + term['term_e'] + ' ')
-	note = note.splitlines()
-	for lid in range(len(note)):
-		rawLine = note[lid]
-		line = ''
-		prev = '' # 'c', 'e', 'd' or 'o' (other)
-		curr = ''
-		if re.search('(\d)+\.\D', rawLine):
-			rawLine = rawLine[:]
-		for i in range(len(rawLine)):
-			if rawLine[i] >= u'\u4e00' and rawLine[i] <= u'\u9fff': curr = 'c'
-			elif (rawLine[i] >= u'\u0041' and rawLine[i] <= u'\u005a') or (rawLine[i] >= u'\u0061' and rawLine[i] <= u'\u007a'): curr = 'e'
-			elif rawLine[i] >= u'\u0030' and rawLine[i] <= u'\u0039': curr = 'd'
-			else: curr = 'o'
-			if i == 0:
-				prev = curr
-				line = rawLine[i]
-				continue
-			if rawLine[i] == '?': print (rawLine[i-1], prev + '\t' + rawLine[i], curr )
-			if curr != prev and (prev != 'd' and curr != 'd') and (rawLine[i] != '-' and rawLine[i - 1] != '-'):
-				line += ' '
-				prev = curr
-			line += rawLine[i]
-		line = ' '.join([translator.translate(w).text.lower() for w in line.split()]).replace(' 、 ', ', ').replace(' ， ', ', ')
-		for sw in StopWords:
-			line = line.replace(' ' + sw + ' ', ' ')
-			if re.match(sw + ' ', line): line = line[len(sw):].strip() # remove stopwords at the start of sentences
-		for pm in PunctuationMarks: line = line.replace(pm, '')
-		note[lid] = line
-		Words = line.split()
-		for w in Words:
-			if re.search('\d\.$', w): Words.remove(w)
-		WordsList.append(Words)
-	Notes[nid] = note
-	RawNoteWordsList.append(WordsList)
-
-# combine sentences in notes
-Corpus = []
-for note in Notes: Corpus += note
-
-tfidf_vectorizer = TfidfVectorizer()
-TFIDFs = tfidf_vectorizer.fit_transform(Corpus).toarray()
-NWordsList = RawNoteWordsList[0][:] # list of (union of words -> representaion of sentence)
-start = 0 # the start index of the note in union
-ComparedTFIDFs = TFIDFs[:len(Notes[0])]
-print (len(ComparedTFIDFs), len(NWordsList))
-threshold_cossim = 0.1
-len_NWordsList = len(Notes[0])
-NoteSenMatch = []
-IsNoteSenMatched = []
-for nid in range(len(Notes)):
-	IsNoteSenMatched.append([])
-	for sid in range(len(Notes[nid])):
-		IsNoteSenMatched[nid].append(False)
-		if nid == 0:
-			NoteSenMatch.append([])
-			NoteSenMatch[sid].append(sid)
-for sid in range(len(NoteSenMatch)):
-	for nid in range(1, len(Notes)): NoteSenMatch[sid].append(None)
-# to match sentences (the sentences which are not matched will be insert to the list latter)
-start = len(Notes[0])
-for nid in range(1, len(Notes)):
-	prevMatchedj = -1
-	WordsList = RawNoteWordsList[nid]
-	for i in range(start, start + len(Notes[nid])):
-		for j in range(prevMatchedj + 1, len(Notes[0])):
-			cos_sim = cosine_similarity(TFIDFs[i].reshape(1, -1), ComparedTFIDFs[j].reshape(1, -1))[0][0]
-			if cos_sim >= threshold_cossim:
-				IsNoteSenMatched[nid][i - start] = True
-				NoteSenMatch[j][nid] = i - start
-				prevMatchedj = j # assume that if si matches sj, then si+1 will not match to sj or sj-1
-				IsNoteSenMatched[0][j] = True
-				# combine the two sentences
-				for w in WordsList[i - start]:
-					if w not in NWordsList[j]: NWordsList[j].append(w)
-				break # as soon as we find si matched, then continue to si+1 (assume that every sentence was matched once)
-	start += len(Notes[nid])
-# update ComparedTFIDFs
-for msid in range(len(NoteSenMatch)):
-	data = []
-	for nid in range(len(Notes)):
-		if nid == 0: start = 0
-		if NoteSenMatch[msid][nid] != None:
-			data.append(TFIDFs[msid + start][:])
-			start += len(Notes[nid])
-	ComparedTFIDFs[msid] = np.average(np.array(data), axis = 0)
-# insert the sentences which were not matched
-start = len(Notes[0])
-for nid in range(1, len(Notes)):
-	prevMatchedj = -1
-	WordsList = RawNoteWordsList[nid][:]
-	for sid in range(len(Notes[nid])):
-		found = False
-		if IsNoteSenMatched[nid][sid] == True: # find the next sentence to be matched
-			for msid in range(len(NoteSenMatch)):
-				if NoteSenMatch[msid][nid] == sid:
-					found = True
-					prevMatchedj = msid
-			if found == False: print ('nid:', nid, 'sid:', sid)
-			continue
-		i = start + sid
-		j = prevMatchedj + 1
-		len_Compared = len(ComparedTFIDFs)
-		while j < len_Compared:
-			if NoteSenMatch[j][nid] == None:
-				cos_sim = cosine_similarity(TFIDFs[i].reshape(1, -1), ComparedTFIDFs[j].reshape(1, -1))[0][0]
-				if cos_sim >= threshold_cossim:
-					IsNoteSenMatched[nid][sid] = True
-					NoteSenMatch[j][nid] = sid
-					prevMatchedj = j
-					for w in WordsList[i - start]:
-						if w not in NWordsList[j]: NWordsList.append(w)
-					break
-			if j == len(NWordsList) - 1 and cos_sim < threshold_cossim:
-				NWordsList.insert(prevMatchedj + 1, WordsList[sid]) # insert to the prevMatchedj+1
-				IsNoteSenMatched[nid][sid] = True
-				NoteSenMatch.insert(prevMatchedj + 1, [])
-				for n in Notes: NoteSenMatch[prevMatchedj + 1].append(None)
-				NoteSenMatch[prevMatchedj + 1][nid] = sid
-				ComparedTFIDFs = np.concatenate((ComparedTFIDFs[:prevMatchedj + 1], [TFIDFs[i]], ComparedTFIDFs[prevMatchedj + 1:]), axis = 0)
-				prevMatchedj += 1
-				break
-			j += 1
-			len_Compared = len(ComparedTFIDFs)
-	start += len(Notes[nid])
-NWordSeqlList = []
-for nws in NWordsList:
-	NWordSeqlList.append(' '.join(nws))
-for match in NoteSenMatch:
-	for nid in range(len(match)):
-		if match[nid] != None: print (Notes[nid][match[nid]])
-	print('\n')
-
-
-''' segment the book contentes '''
-# TSF
-import nltk.data # split text on sentences
-import re
-from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy # average and standard deviation
+import numpy as np # average, standard deviation, max
 from numpy import linalg # l2 norm
-import math # check inf
+import sys
+import GetDocuments
 
-def CosineSim (List_x, List_y):
-	dotProduct = numpy.dot(List_x, List_y)
-	norm_x = linalg.norm(List_x)
-	norm_y = linalg.norm(List_y)
-	if norm_x * norm_y > 0:
-		return (numpy.dot(List_x, List_y) / (linalg.norm(List_x) * linalg.norm(List_y)))
-	else: return 0
+SUBJECT = 'OM'
+CHAPTER = 'ch15'
+THRESHOLD_COSSIM = 0.2
+SUBJECT = sys.argv[1]
+CHAPTER = sys.argv[2]
+THRESHOLD_COSSIM = float(sys.argv[3])
+print (SUBJECT, CHAPTER, THRESHOLD_COSSIM)
 
-''' get content '''
-with open ('stopwords.txt', 'r', encoding = 'utf-8') as inFile:
-	StopWords = [sw.replace('\n', '') for sw in inFile.readlines()]
-Topics = []
-with open ('Topics.csv', 'r', encoding = 'utf-8') as termFile:
-	reader = csv.DictReader(termFile)
-	for row in reader:
-		Topics.append({'term_e': row['term_e'], 'abbr': row['abbr'], 'term_c': row['term_c']})
-with open ('book\\Supplement-A.txt', 'r', encoding = 'UTF-8') as inFile:
-	RawParagraphList = inFile.readlines()
-RawParagraphList = [s.replace('\n', '').strip().lower() for s in RawParagraphList]
-#nltk.download('punkt')
-senTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-RawSentenceList = [] # corpus
-for para in RawParagraphList:
-	RawSentenceList += senTokenizer.tokenize(para)
-	for sid in range(len(RawSentenceList)):
-		if re.match('(\d)+$', RawSentenceList[sid]): RawSentenceList[sid] = ''
-	RawSentenceList = [s for s in RawSentenceList if (len(s) > 0)]
-SentenceList = []
-for s in RawSentenceList:
-	for sw in StopWords:
-		s = s.replace(' ' + sw + ' ', ' ').strip()
-		if re.match(sw + ' ', s): s = s[len(sw):].strip() # remove stopwords at the start of sentences
-	SentenceList.append(s)
+NOTE_FOLDER = 'note/' + SUBJECT + '/' + CHAPTER + '/'
+BOOK_FOLDER = 'book/' + SUBJECT + '/'
+SLIDE_FOLDER = 'ppt/' + SUBJECT + '/'
+MATCH_FOLDER = 'match/' + SUBJECT + '_' + str(THRESHOLD_COSSIM) + '/'
+TOPIC_FOLDER = 'topic/' + SUBJECT + '/'
+BOOK_FILE_NAME = CHAPTER + '.txt'
+COMBINEDSLIDE_FILE_NAME = CHAPTER + '_slides.csv'
+NTERM_FILE_NAME = 'NTerms_' + CHAPTER + '.csv'
+BTERM_FILE_NAME = 'BTerms.csv'
+TOPIC_FILE_NAME = 'Topics_' + CHAPTER + '.csv'
+NSBMATCH_FILE_NAME = 'NSBMatch_' + CHAPTER + '.csv'
+BSMATCH_FILE_NAME = 'BSMatch_' + CHAPTER + '.csv'
+BOOKPARA_FILE_NAME = CHAPTER + '_TSF.txt'
+MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '.csv'
 
-''' TSF '''
-# parameter setting
-K = 10 # the number of sentences in a block
+Topics = GetDocuments.GetTopics(TOPIC_FOLDER + TOPIC_FILE_NAME)
+StopWords = GetDocuments.GetStopWords('stopwords.txt')
+RawNoteWordsList = []
+PunctuationMarks = ['.', '!', '?', ':', ';', '\'', '\"', ',', '，', '。', '！', '？', '：', '；', '「', '」', '『', '』', '※']
+SpecialMarks = ['+', '-', '*', '/', '=', '\\', '<', '>', '~', '@', '#', '(', ')', '[', ']', '{', '}', '|', '^', '–', '—']
 
-countVectorizer = CountVectorizer()
-TFList = countVectorizer.fit_transform(SentenceList).toarray()
-tfidfTransformer = TfidfTransformer()
-TFIDFList = tfidfTransformer.fit_transform(TFList).toarray()
-TermList = countVectorizer.get_feature_names()
+''' get ppt, book and note contentes '''
+Slides = GetDocuments.GetSlides(SLIDE_FOLDER + COMBINEDSLIDE_FILE_NAME)
+ParagraphList = GetDocuments.GetBookPara(BOOK_FOLDER + BOOKPARA_FILE_NAME, Topics)
+MixedNoteParaList = GetDocuments.GetNotePara(NOTE_FOLDER + MIXEDNOTEPARA_FILE_NAME)
 
-InnerSimList = [] # [i, innerSim] for each element; i starts from 0
-OuterSimList = [] # [i, outerSim] for each element
-DissimList = [] # [i, dissimilarity] for each element
-
-for i in range(K - 1, (len(TFList) - K + 1)):
-	innerSim = 0
-	outerSim = 0
-	for a in range(i - K + 1, i + 1):
-		for b in range(a + 1, i + 1):
-			if a != b:
-				innerSim = cosine_similarity(TFList[a].reshape(1, -1), TFList[b].reshape(1, -1))[0][0]
-		for c in range(i + 1, i + K):
-			outerSim += cosine_similarity(TFList[a].reshape(1, -1), TFList[c].reshape(1, -1))[0][0]
-	if innerSim == 0:
-		continue
-	dissim = (innerSim - outerSim) / innerSim
-	if math.isinf(dissim):
-		print ('inner:', innerSim)
-		print ('outer:', outerSim)
-		continue
-	InnerSimList.append([i, innerSim])
-	OuterSimList.append([i, outerSim])
-	DissimList.append({'i': i, 'dissim': dissim})
-
-avg_dissim = numpy.mean([d['dissim'] for d in DissimList])
-dev_dissim = numpy.std([d['dissim'] for d in DissimList])
-# print ('Avg =', avg_dissim)
-# print ('Dev =', dev_dissim)
-
-THRESHOLD_DISSIM = avg_dissim + 0.4 * dev_dissim # the threshold of the dissimilarity
-
-current_i = 0
-ParagrahList = []
-ParaSenList = []
-for d in DissimList:
-	if d['dissim'] > THRESHOLD_DISSIM:
-		ParagrahList.append(' '.join(RawSentenceList[current_i:d['i'] + 1]))
-		ParaSenList.append(RawSentenceList[current_i:d['i']])
-		current_i = d['i'] + 1
-ParagrahList.append(' '.join(RawSentenceList[current_i:]))
-ParaSenList.append(RawSentenceList[current_i:])
-
-for pid in range(len(ParagrahList)):
-	ParagrahList[pid] = {'topic': [], 'content': ParagrahList[pid]}
-	for term in Topics:
-		if term['term_e'] in ParagrahList[pid]['content'] or (term['abbr'] != '' and term['abbr'] in ParagrahList[pid]['content']):
-			ParagrahList[pid]['topic'].append(term['term_e'])
+Corpus = [] # ppt slides + book paragraphs + note paragraphs
+for S in Slides:
+	Corpus.append(S['content'])
+for P in ParagraphList:
+	Corpus.append(P['content'])
+for NP in MixedNoteParaList:
+	Corpus.append(NP['content'])
+tfidf_vectorizer = TfidfVectorizer()
+TFIDFs = tfidf_vectorizer.fit_transform(Corpus).toarray()
 
 
-''' combine ppt slides '''
-from pptx import Presentation
-import re
-
-Topics = []
-with open ('Topics.csv', 'r', encoding = 'utf-8') as termFile:
-	reader = csv.DictReader(termFile)
-	for row in reader:
-		Topics.append({'term_e': row['term_e'], 'abbr': row['abbr'], 'term_c': row['term_c']})
-
-FILE_NAME = 'ppt\\Supplement-A.pptx'
-prs = Presentation(FILE_NAME)
-slides = prs.slides
-NoteList = []
-Slides = []
-text_runs = []
-sid = 0
-for slide in prs.slides:
-	title = ''
-	if slide.has_notes_slide:
-		for shape in slide.notes_slide.shapes:
-			if shape.text != '':
-				NoteList.append(shape.text.lower())
-	if slide.shapes.title:
-		title = slide.shapes.title.text.lower()
-	for shape in slide.shapes:
-		content = ''
-		if not shape.has_text_frame:
-			continue
-		for paragraph in shape.text_frame.paragraphs:
-			text = ''
-			for run in paragraph.runs:
-				if len(run.text) > 0: text += run.text.lower()
-			if len(text) > 0:
-				content += text.replace('\n', ' ').replace('\t', ' ') + ' '
-		content = re.sub(' +', ' ', content) # remove duplicate spaces
-		if sid > 0 and title == Slides[sid - 1]['title']:
-			Slides[sid - 1]['content'] = Slides[sid - 1]['content'] + ' ' + content.strip() # combine the slides which have a same title
+''' match note paragraphs to ppt slides and book paragrpahs '''
+# calculate all cossim of note paragraphs with slides and book paragraphs
+NParaCossimList = []
+CosMatchNPList = []
+# CosSMatchNPList = []
+# CosPMatchNPList = []
+for npid in range(len(MixedNoteParaList)):
+	NParaCossimList.append({'SCossim': [], 'PCossim': []})
+	i = len(Slides) + len(ParagraphList) + npid
+	for j in range(len(Slides) + len(ParagraphList)):
+		if j < len(Slides):
+			NParaCossimList[npid]['SCossim'].append(cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0])
 		else:
-			Slides.append({'title': title, 'content': content.strip()})
-			sid += 1
-for sid in range(len(Slides)):
-	Slides[sid]['topic'] = []
-	for term in Topics:
-		if term['term_e'] in Slides[sid]['content'] or (term['abbr'] != '' and term['abbr'] in Slides[sid]['content']):
-			Slides[sid]['topic'].append(term['term_e'])
+			NParaCossimList[npid]['PCossim'].append(cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0])
+	sid = np.argmax(np.array(NParaCossimList[npid]['SCossim']))
+	if NParaCossimList[npid]['SCossim'][sid] < THRESHOLD_COSSIM: sid = None
+	pid = np.argmax(NParaCossimList[npid]['PCossim'])
+	if NParaCossimList[npid]['PCossim'][pid] < THRESHOLD_COSSIM: pid = None
+	CosMatchNPList.append({'npid': npid, 'sid': sid, 'pid': pid})
+	if sid == None: CosMatchNPList[-1]['cossim_nps'] = None
+	else:CosMatchNPList[-1]['cossim_nps'] = NParaCossimList[npid]['SCossim'][sid]
+	if pid == None: CosMatchNPList[-1]['cossim_npb'] = None
+	else: CosMatchNPList[-1]['cossim_npb'] = NParaCossimList[npid]['PCossim'][pid]
 
-
-''' match ppt slides and book paragraphs '''
-import csv
-# match by BTerms
-BTerms = []
-with open('book\\BTerms.csv', encoding = 'utf-8') as termFile:
-	reader = csv.DictReader(termFile)
-	for row in reader:
-		BTerms.append({'term': row['term'], 'abbr': row['abbr']})
-IndexMatchDict = {}
-for term in BTerms:
-	IndexMatchDict[term['term']] = {'sid_list': [], 'pid_list': []}
+# check if the note sentence has the same topic with a slide or a book paragraph
+NParaTopicList = []
+TopicSMatchNPList = []
+TopicPMatchNPList = []
+for npid in range(len(MixedNoteParaList)):
+	NParaTopicList.append({'STopics': [], 'PTopics': []})
 	for sid in range(len(Slides)):
-		if term['term'] in Slides[sid]['topic'] or (term['abbr'] != '' and term['abbr'] in Slides[sid]['topic']): IndexMatchDict[term['term']]['sid_list'].append(sid)
-	for pid in range(len(ParagrahList)):
-		if term['term'] in ParagrahList[pid]['topic'] or (term['abbr'] != '' and term['abbr'] in ParagrahList[pid]['topic']): IndexMatchDict[term['term']]['pid_list'].append(pid)
-	if len(IndexMatchDict[term['term']]['sid_list']) == 0 and len(IndexMatchDict[term['term']]['pid_list']) == 0: IndexMatchDict.pop(term['term'], None)
-SBIndexMatch = []
-for sid in range(len(Slides)):
-	SBIndexMatch.append([])
-	for term in BTerms:
-		if term['term'] in Slides[sid]['topic'] or (term['abbr'] != '' and term['abbr'] in Slides[sid]['topic']):
-			for pid in IndexMatchDict[term['term']]['pid_list']:
-				if pid not in SBIndexMatch[sid]: SBIndexMatch[sid].append(pid)
-
-# match by cosine similarity
-SBCossimMatch = []
-Corpus = []
-for s in Slides:
-	Corpus.append(s['content'])
-for p in ParagrahList:
-	Corpus.append(p['content'])
-tfidf_vectorizer = TfidfVectorizer()
-TFIDFs = tfidf_vectorizer.fit_transform(Corpus).toarray()
-THRESHOLD_COSSIM = 0.3 # avg = 0.066
-sum_cossim = 0
-count = 0
-for i in range(len(Slides)):
-	SBCossimMatch.append([])
-	for j in range(len(Slides), len(Corpus)): # Corpus is composed of Slides and ParagraphList
-		cos_sim = cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0]
-		sum_cossim += cos_sim
-		count += 1
-		if cos_sim > THRESHOLD_COSSIM:
-			SBCossimMatch[i].append(j - len(Slides))
-
-SBMatch = []
-for sid in range(len(Slides)):
-	SBMatch.append([])
-	for pid in range(len(ParagrahList)):
-		if pid in SBIndexMatch[sid] and pid in SBCossimMatch[sid]:
-			SBMatch[sid].append(pid)
-
-
-''' match ppt slides and note paragraphs '''
-# match by Topics
-Topics = []
-with open('Topics.csv', encoding = 'utf-8') as termFile:
-	reader = csv.DictReader(termFile)
-	for row in reader:
-		Topics.append({'term': row['term_e'], 'abbr': row['abbr']})
-TopicMatchDict = {}
-for term in Topics:
-	TopicMatchDict[term['term']] = {'sid_list': [], 'msid_list': []}
-	for sid in range(len(Slides)):
-		if term['term'] in Slides[sid]['topic'] or (term['abbr'] != '' and term['abbr'] in Slides[sid]['topic']): TopicMatchDict[term['term']]['sid_list'].append(sid)
-	for msid in range(len(NWordSeqlList)):
-		if term['term'] in NWordSeqlList[msid] or (term['abbr'] != '' and term['abbr'] in NWordSeqlList[msid]): TopicMatchDict[term['term']]['msid_list'].append(msid)
-	if len(TopicMatchDict[term['term']]['sid_list']) == 0 and len(TopicMatchDict[term['term']]['msid_list']) == 0: TopicMatchDict.pop(term['term'], None)
-SNTopicMatch = []
-for sid in range(len(Slides)):
-	SNTopicMatch.append([])
+		NParaTopicList[npid]['STopics'].append([])
+	for pid in range(len(ParagraphList)):
+		NParaTopicList[npid]['PTopics'].append([])
 	for term in Topics:
-		if term['term'] in Slides[sid]['topic'] or (term['abbr'] != '' and term['abbr'] in Slides[sid]['topic']):
-			for msid in TopicMatchDict[term['term']]['msid_list']:
-				if msid not in SNTopicMatch[sid]: SNTopicMatch[sid].append(msid)
+		if term['term_e'] in MixedNoteParaList[npid]['topic']:
+			for sid in range(len(Slides)):
+				if term['term_e'] in Slides[sid]['topic']: NParaTopicList[npid]['STopics'][sid].append(term['term_e'])
+			for pid in range(len(ParagraphList)):
+				if term['term_e'] in ParagraphList[pid]['topic']: NParaTopicList[npid]['PTopics'][pid].append(term['term_e'])
 
-# match by cosine similarity
-SNCossimMatch = []
-Corpus = []
-for nws in NWordSeqlList:
-	Corpus.append(nws)
-for s in Slides:
-	Corpus.append(s['content'])
-tfidf_vectorizer = TfidfVectorizer()
-TFIDFs = tfidf_vectorizer.fit_transform(Corpus).toarray()
-THRESHOLD_COSSIM = 0.03 # avg = 0.0239
-sum_cossim = 0
-count = 0
+
+''' match ppt slides to book paragraphs '''
+# calculate all cossim betweeen slides and book paragraphs
+SlideCossimList = []
+CosPMatchSlideList = []
 for i in range(len(Slides)):
-	SNCossimMatch.append([])
-	for j in range(len(Slides), len(Corpus)): # Corpus is composed of Slides and ParagraphList
-		cos_sim = cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0]
-		sum_cossim += cos_sim
-		count += 1
-		if cos_sim > THRESHOLD_COSSIM:
-			SNCossimMatch[i].append(j - len(Slides))
-SNMatch = []
+	SlideCossimList.append([])
+	for pid in range(len(ParagraphList)):
+		j = pid + len(Slides)
+		SlideCossimList[i].append(cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0])
+	tmpCossimList = np.array(SlideCossimList[i])
+	pid = np.argmax(tmpCossimList)
+	if SlideCossimList[i][pid] < THRESHOLD_COSSIM: CosPMatchSlideList.append((None, None))
+	else: CosPMatchSlideList.append((pid, SlideCossimList[i][pid]))
+
+
+# check if the slide has the same topic with a book paragraph
+SlideTopicList = []
+TopicPMatchSlideList = []
 for sid in range(len(Slides)):
-	SNMatch.append([])
-	for msid in range(len(NWordSeqlList)):
-		if msid in SNTopicMatch[sid] and msid in SNCossimMatch[sid]:
-			SNMatch[sid].append(msid)
-	SNMatch[sid].sort()
+	SlideTopicList.append([])
+	TopicPMatchSlideList.append([])
+	for pid in range(len(ParagraphList)):
+		SlideTopicList[sid].append([])
+	for term in Topics:
+		if term['term_e'] in Slides[sid]['topic']:
+			for pid in range(len(ParagraphList)):
+				if term['term_e'] in ParagraphList[pid]['topic']: SlideTopicList[sid][pid].append(term['term_e'])
+
+
+''' write files '''
+if not os.path.isdir('match/'):
+	os.makedirs('match/')
+if not os.path.isdir(MATCH_FOLDER):
+	os.makedirs(MATCH_FOLDER)
+
+with open (MATCH_FOLDER + NSBMATCH_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as outFile:
+	writer = csv.DictWriter(outFile, fieldnames = ['npid', 'sid', 'cossim_nps', 'pid', 'cossim_npb'])
+	writer.writeheader()
+	for match in CosMatchNPList:
+		writer.writerow(match)
+
+with open (MATCH_FOLDER + BSMATCH_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as outFile:
+	writer = csv.writer(outFile, delimiter = ',')
+	writer.writerow(['sid', 'pid', 'cossim'])
+	for sid in range(len(Slides)):
+		writer.writerow([sid, CosPMatchSlideList[sid][0], CosPMatchSlideList[sid][1]])

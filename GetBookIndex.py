@@ -3,9 +3,11 @@ import io
 import re # for regular expression
 import csv
 
-FILE_NAME = 'book\\SubjectIndex.txt'
+BOOK_FOLDER = 'book/DS/'
+FILE_NAME = 'Index.txt'
+TERM_FILE_NAME = 'BTerms.csv'
 
-with open (FILE_NAME, 'r', encoding = 'utf-8') as inFile:
+with open (BOOK_FOLDER + FILE_NAME, 'r', encoding = 'utf-8') as inFile:
 	Lines = inFile.readlines()
 
 for lid in range(len(Lines)):
@@ -16,7 +18,7 @@ Lines = [l for l in Lines if len(l) > 0]
 
 FIELD_NAME = ['term', 'abbr', 'pages']
 Indexes = []
-StopWords = ['assumptions of', 'calculation of', 'definition of', 'introduction to']
+StopWords = ['assumptions of', 'calculation of', 'definition of', 'introduction to', 'definition']
 Prepositions = ['across', 'at', 'in', 'of', 'on']
 
 for line in Lines:
@@ -51,23 +53,28 @@ for line in Lines:
 			abbr = line[:line.index(' (')]
 			if re.search(', \d', line): abbr += line[line.index(')') + 1:(re.search(', \d', line)).start()]
 			line = line[line.index('(') + 1:line.index(')')] + line[line.index(')') + 1:]
-	if re.search(', \d', line):
-		rawPage = line[(re.search(', \d', line)).start() + 2:]
-		line = line[:(re.search(', \d', line)).start()]
-		RawPages = rawPage.split(', ')
-		for pid in range(len(RawPages)):
-			if 'f' in RawPages[pid] or 't' in RawPages[pid]:
-				RawPages[pid] = RawPages[pid][:-1]
-			if '–' in RawPages[pid]:
-				for p in range(int(RawPages[pid][:RawPages[pid].index('–')].strip()), int(RawPages[pid][RawPages[pid].index('–') + 1:].strip()) + 1): Pages.append(p)
-			else: Pages.append(int(RawPages[pid]))
-	term = line
-	#print ('term:', term + ',\t', 'abbr:', abbr + ',\t', 'page:', Pages)
-	Indexes.append({'term': term, 'abbr': abbr, 'pages': Pages})
+	Words = [w.strip() for w in re.split(',|\.', line) if w != '' and w != None] # use ',' and '.' to split a string
+	term = ''
+	for w in Words:
+		# page no.
+		if re.match('(\d)+[ft]?$', w): # eg. 123f, 26, 33t
+			Pages.append(int(w.replace('f', '').replace('t', '')))
+		elif re.match('(\d)+[ft]?-(\d)+[ft]?$', w) or re.match('(\d)+[ft]?–(\d)+[ft]?$', w): # eg. 111-120
+			start = int(w[:re.search('[-–]', w).start()].replace('f', '').replace('t', ''))
+			end = int(w[re.search('[-–]', w).start() + 1:].replace('f', '').replace('t', ''))
+			if start <= end:
+				for p in range(start, end + 1): Pages.append(p)
+			else:
+				Pages.append(start)
+				Pages.append(end)
+		# term
+		else:
+			term += w + ' '
+	Pages = sorted(list(set(Pages)))
+	Indexes.append({'term': term.strip(), 'abbr': abbr, 'pages': Pages})
+	# print ('term:', term + ',\t', 'abbr:', abbr + ',\t', 'page:', Pages)
 
-
-TERM_FILE_NAME = 'book\\BTerms.csv'
-with open(TERM_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as termFile:
+with open(BOOK_FOLDER + TERM_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as termFile:
 	writer = csv.DictWriter(termFile, fieldnames = FIELD_NAME)
 	writer.writeheader()
 	for index in Indexes:
