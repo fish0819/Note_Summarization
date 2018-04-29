@@ -17,9 +17,9 @@ SUBJECT = 'OM'
 CHAPTER = 'supplementA'
 THRESHOLD_COSSIM = 0.2
 
-# SUBJECT = sys.argv[1]
-# CHAPTER = sys.argv[2]
-# THRESHOLD_COSSIM = float(sys.argv[3])
+SUBJECT = sys.argv[1]
+CHAPTER = sys.argv[2]
+THRESHOLD_COSSIM = float(sys.argv[3])
 print (SUBJECT, CHAPTER, THRESHOLD_COSSIM)
 
 NOTE_FOLDER = 'note/' + SUBJECT + '/' + CHAPTER + '/'
@@ -87,7 +87,7 @@ for nid in range(len(Notes)):
 		tmpCossimList = np.array(NSenCossimList[nid][nsid])
 		sid = np.argmax(tmpCossimList)
 		CosSMatchNSList[nid].append((sid, NSenCossimList[nid][nsid][sid]))
-		print (nid, nsid, sid, NSenCossimList[nid][nsid][sid])
+		# print (nid, nsid, sid, NSenCossimList[nid][nsid][sid])
 	start += DocumentLenList[nid + 1]
 
 # check if the note sentence has the same topic with a slide
@@ -110,13 +110,14 @@ CombinedNotes = []
 for nid in range(len(Notes)):
 	CombinedNotes.append([])
 	for nsid in range(DocumentLenList[nid + 1]):
-		# if there is not a slide which is really similar to the sentence, then combine it to the previous one
-		# if the slide which this sentence match to is the same as the previous sentence do, then combined them
-		if nsid > 0 and (CosSMatchNSList[nid][nsid][1] < THRESHOLD_COSSIM or CosSMatchNSList[nid][nsid][0] == CosSMatchNSList[nid][nsid - 1][0]):
-			CombinedNotes[nid][-1]['topic'] = list(set(CombinedNotes[nid][-1]['topic'] + Notes[nid][nsid]['topic']))
-			CombinedNotes[nid][-1]['nsid_list'].append(nsid)
-		else:
-			CombinedNotes[nid].append({'topic': Notes[nid][nsid]['topic'], 'nsid_list': [nsid], 'sid': CosSMatchNSList[nid][nsid][0]})
+		# if there is not a slide which is really similar to the sentence, then discard it
+		if CosSMatchNSList[nid][nsid][1] > THRESHOLD_COSSIM:
+			# if the slide which this sentence match to is the same as the previous sentence do, then combined them
+			if nsid > 0 and CosSMatchNSList[nid][nsid][0] == CosSMatchNSList[nid][nsid - 1][0] and len(CombinedNotes[nid]) > 0:
+				CombinedNotes[nid][-1]['topic'] = list(set(CombinedNotes[nid][-1]['topic'] + Notes[nid][nsid]['topic']))
+				CombinedNotes[nid][-1]['nsid_list'].append(nsid)
+			else:
+				CombinedNotes[nid].append({'topic': Notes[nid][nsid]['topic'], 'nsid_list': [nsid], 'sid': CosSMatchNSList[nid][nsid][0]})
 
 MixedNoteParaList = []
 for nid in range(len(Notes)):
@@ -131,8 +132,8 @@ for nid in range(len(Notes)):
 			for nsid in para['nsid_list']:
 				MixedNoteParaList[npid]['content'] += Notes[nid][nsid]['content'] + '\n'
 				MixedNoteParaList[npid]['topic'] = list(set(MixedNoteParaList[npid]['topic'] + para['topic']))
-# with open (NOTE_FOLDER + MIXEDNOTEPARA_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as outFile:
-# 	writer = csv.DictWriter(outFile, fieldnames = ['content', 'topic', 'sid'])
-# 	writer.writeheader()
-# 	for np in MixedNoteParaList:
-# 		writer.writerow(np)
+with open (NOTE_FOLDER + MIXEDNOTEPARA_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as outFile:
+	writer = csv.DictWriter(outFile, fieldnames = ['content', 'topic', 'sid'])
+	writer.writeheader()
+	for np in MixedNoteParaList:
+		writer.writerow(np)

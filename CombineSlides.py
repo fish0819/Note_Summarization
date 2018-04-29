@@ -11,8 +11,8 @@ import sys
 SUBJECT = 'OM'
 CHAPTER = 'supplementA'
 
-# SUBJECT = sys.argv[1]
-# CHAPTER = sys.argv[2]
+SUBJECT = sys.argv[1]
+CHAPTER = sys.argv[2]
 print (SUBJECT, CHAPTER)
 
 NOTE_FOLDER = 'note/' + SUBJECT + '/' + CHAPTER + '/'

@@ -70,16 +70,19 @@ for npid in range(len(MixedNoteParaList)):
 	i = len(Slides) + len(ParagraphList) + npid
 	for j in range(len(Slides) + len(ParagraphList)):
 		if j < len(Slides):
-			NParaCossimList[npid]['SCossim'].append(cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0])
+			# NParaCossimList[npid]['SCossim'].append(cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0])
+			pass
 		else:
 			NParaCossimList[npid]['PCossim'].append(cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0])
-	sid = np.argmax(np.array(NParaCossimList[npid]['SCossim']))
-	if NParaCossimList[npid]['SCossim'][sid] < THRESHOLD_COSSIM: sid = None
+	# sid = np.argmax(np.array(NParaCossimList[npid]['SCossim']))
+	# if NParaCossimList[npid]['SCossim'][sid] < THRESHOLD_COSSIM: sid = None
+	sid = MixedNoteParaList[npid]['sid']
 	pid = np.argmax(NParaCossimList[npid]['PCossim'])
 	if NParaCossimList[npid]['PCossim'][pid] < THRESHOLD_COSSIM: pid = None
 	CosMatchNPList.append({'npid': npid, 'sid': sid, 'pid': pid})
 	if sid == None: CosMatchNPList[-1]['cossim_nps'] = None
-	else:CosMatchNPList[-1]['cossim_nps'] = NParaCossimList[npid]['SCossim'][sid]
+	# else: CosMatchNPList[-1]['cossim_nps'] = NParaCossimList[npid]['SCossim'][sid]
+	else: CosMatchNPList[-1]['cossim_nps'] = cosine_similarity(TFIDFs[i].reshape(1, -1), TFIDFs[j].reshape(1, -1))[0][0]
 	if pid == None: CosMatchNPList[-1]['cossim_npb'] = None
 	else: CosMatchNPList[-1]['cossim_npb'] = NParaCossimList[npid]['PCossim'][pid]
 
