@@ -10,4 +10,4 @@ SET threshold_cossim2=0.1
 
 for %%c in (%chapters1%) do python EvaluateOthers.py %1 %subject1% %%c %threshold_cossim1%
 
-for %%c in (%chapters2%) do python EvaluateOthers.py %1 %subject2% %%c %threshold_cossim2%
+REM for %%c in (%chapters2%) do python EvaluateOthers.py %1 %subject2% %%c %threshold_cossim2%

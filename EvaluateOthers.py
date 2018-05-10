@@ -36,35 +36,35 @@ NoteParaList = GetDocuments.GetNoteParaText(NOTE_FOLDER + MIXEDNOTEPARA_FILE_NAM
 BookParaList = GetDocuments.GetBookParaText(BOOK_FOLDER + TSFBOOK_FILE_NAME)
 totalSenNum = 0
 for para in BookParaList:
-	totalSenNum += len(para)
+    totalSenNum += len(para)
 
 NoteCorpus = []
 for np in NoteParaList:
-	NoteCorpus += np
+    NoteCorpus += np
 BookCorpus = []
 for BP in BookParaList:
-	BookCorpus += BP
+    BookCorpus += BP
 
-Summarizers = ['Random', 'Luhn', 'TextRank', 'LexRank', 'LSA']
+Summarizers = ['Random', 'Luhn', 'TextRank', 'LexRank', 'LSA', 'PatSum']
 NSJSDList = []
 BSJSDList = []
 for i in range(len(Summarizers)):
-	SUMMARY_FILE_NAME = 'Summary_' + Summarizers[i] + '_' + CHAPTER + '.txt'
-	with open(SUMMARY_FOLDER + SUMMARY_FILE_NAME, 'r', encoding = 'utf-8') as inFile:
-		SelectedSenList = inFile.readlines()
-	totalSelectedSenNum = len(SelectedSenList)
-	# jsd for entire summary and note
-	SummaryCorpus = SelectedSenList
-	NSJSDList.append(jsd.JSDivergence(NoteCorpus, SummaryCorpus))
-	BSJSDList.append(jsd.JSDivergence(BookCorpus, SummaryCorpus))
+    SUMMARY_FILE_NAME = 'Summary_' + Summarizers[i] + '_' + CHAPTER + '.txt'
+    with open(SUMMARY_FOLDER + SUMMARY_FILE_NAME, 'r', encoding = 'utf-8') as inFile:
+        SelectedSenList = inFile.readlines()
+    totalSelectedSenNum = len(SelectedSenList)
+    # jsd for entire summary and note
+    SummaryCorpus = SelectedSenList
+    NSJSDList.append(jsd.JSDivergence(NoteCorpus, SummaryCorpus))
+    BSJSDList.append(jsd.JSDivergence(BookCorpus, SummaryCorpus))
 
 ''' write file '''
 needTitle = True
 title = ['Subject', 'Chapter', 'Summarizer', 'JS(N,S)', 'JS(B,S)', 'Total_SelectSenNum', 'Total_BookSenNum']
 if os.path.isfile(JSD_FOLDER + JSD_FILE_NAME): needTitle = False
 with open (JSD_FOLDER + JSD_FILE_NAME, 'a', newline='', encoding = 'utf-8') as outFile: # append
-	writer = csv.writer(outFile, delimiter = ',')
-	if needTitle:
-		writer.writerow(title)
-	for i in range(len(Summarizers)):
-		writer.writerow([SUBJECT, CHAPTER, Summarizers[i], NSJSDList[i], BSJSDList[i], totalSelectedSenNum, totalSenNum])
+    writer = csv.writer(outFile, delimiter = ',')
+    if needTitle:
+        writer.writerow(title)
+    for i in range(len(Summarizers)):
+        writer.writerow([SUBJECT, CHAPTER, Summarizers[i], NSJSDList[i], BSJSDList[i], totalSelectedSenNum, totalSenNum])
