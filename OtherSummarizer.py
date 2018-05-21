@@ -9,15 +9,18 @@ from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.text_rank import TextRankSummarizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
+from sumy.summarizers.sum_basic import SumBasicSummarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
 
 SUBJECT = 'OM'
 CHAPTER = 'supplementA'
+SELECTEDRATIO = 0.1
 
 SUBJECT = sys.argv[1]
 CHAPTER = sys.argv[2]
-print (SUBJECT, CHAPTER)
+SELECTEDRATIO = abs(round(float(sys.argv[3]), 1))
+print (SUBJECT, CHAPTER, SELECTEDRATIO)
 
 BOOK_FOLDER = 'book/' + SUBJECT + '/'
 SUMMARY_FOLDER = 'result/' + SUBJECT + '/others/'
@@ -32,13 +35,13 @@ BookSenList = ''
 for p in BookParaList:
 	TOTALSENNUM += len(p)
 	BookSenList += ' '.join(p) + '\n'
-SELECTEDSENNUM = int(round(TOTALSENNUM * 0.1))
+SELECTEDSENNUM = int(round(TOTALSENNUM * SELECTEDRATIO))
 LANGUAGE = "english"
 # parser = PlaintextParser.from_file(BOOK_FOLDER + BOOKPARA_FILE_NAME, Tokenizer(LANGUAGE))
 parser = PlaintextParser.from_string(BookSenList, Tokenizer(LANGUAGE))
 stemmer = Stemmer(LANGUAGE)
 
-SummarizerList = [['Random', RandomSummarizer(stemmer)], ['Luhn', LuhnSummarizer(stemmer)], ['TextRank', TextRankSummarizer(stemmer)], ['LexRank', LexRankSummarizer(stemmer)], ['LSA', LsaSummarizer(stemmer)]]
+SummarizerList = [['Random', RandomSummarizer(stemmer)], ['Luhn', LuhnSummarizer(stemmer)], ['TextRank', TextRankSummarizer(stemmer)], ['LexRank', LexRankSummarizer(stemmer)], ['LSA', LsaSummarizer(stemmer)], ['SumBasic', SumBasicSummarizer(stemmer)]]
 
 for i in range(len(SummarizerList)):
 	SummarizerList[i][1].stop_words = get_stop_words(LANGUAGE)

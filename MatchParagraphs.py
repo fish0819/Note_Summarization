@@ -14,9 +14,9 @@ from numpy import linalg # l2 norm
 import sys
 import GetDocuments
 
-SUBJECT = 'OM'
-CHAPTER = 'ch15'
-THRESHOLD_COSSIM = 0.2
+SUBJECT = 'DS'
+CHAPTER = 'ch7'
+THRESHOLD_COSSIM = 0.1
 SUBJECT = sys.argv[1]
 CHAPTER = sys.argv[2]
 THRESHOLD_COSSIM = float(sys.argv[3])
@@ -28,14 +28,14 @@ SLIDE_FOLDER = 'ppt/' + SUBJECT + '/'
 MATCH_FOLDER = 'match/' + SUBJECT + '_' + str(THRESHOLD_COSSIM) + '/'
 TOPIC_FOLDER = 'topic/' + SUBJECT + '/'
 BOOK_FILE_NAME = CHAPTER + '.txt'
-COMBINEDSLIDE_FILE_NAME = CHAPTER + '_slides.csv'
 NTERM_FILE_NAME = 'NTerms_' + CHAPTER + '.csv'
 BTERM_FILE_NAME = 'BTerms.csv'
 TOPIC_FILE_NAME = 'Topics_' + CHAPTER + '.csv'
+COMBINEDSLIDE_FILE_NAME = CHAPTER + '_slides.csv'
+MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '.csv'
 NSBMATCH_FILE_NAME = 'NSBMatch_' + CHAPTER + '.csv'
 BSMATCH_FILE_NAME = 'BSMatch_' + CHAPTER + '.csv'
 BOOKPARA_FILE_NAME = CHAPTER + '_TSF.txt'
-MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '.csv'
 
 Topics = GetDocuments.GetTopics(TOPIC_FOLDER + TOPIC_FILE_NAME)
 StopWords = GetDocuments.GetStopWords('stopwords.txt')

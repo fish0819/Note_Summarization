@@ -10,12 +10,12 @@ import re
 import sys
 import GetDocuments
 
-SUBJECT = 'OM'
-CHAPTER = 'ch1'
+SUBJECT = 'DS'
+CHAPTER = 'ch7'
 THRESHOLD_DISSIM = 0.3
-# SUBJECT = sys.argv[1]
-# CHAPTER = sys.argv[2]
-# THRESHOLD_DISSIM = sys.argv[3]
+SUBJECT = sys.argv[1]
+CHAPTER = sys.argv[2]
+THRESHOLD_DISSIM = sys.argv[3]
 print (SUBJECT, CHAPTER)
 
 # parameter setting

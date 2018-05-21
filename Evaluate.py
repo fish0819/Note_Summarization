@@ -1,4 +1,5 @@
-''' Jensen-Shannon Divergence '''
+# -*- coding: UTF-8 -*-
+''' prameter setting '''
 import sys
 from os import listdir
 import os.path
@@ -49,62 +50,58 @@ SUMMARY_FOLDER = 'result/' + SUBJECT + '/' + str(alpha) + ',' + str(beta) + ',' 
 SUMMARY_FILE_NAME = 'Summary_' + CHAPTER + '.csv'
 MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '.csv'
 # JSD_FILE_NAME = SUBJECT + '.csv'
-JSD_FILE_NAME = SUBJECT + '_thresscore.csv'
+# JSD_FILE_NAME = SUBJECT + '_thresscore.csv'
+JSD_FILE_NAME = SUBJECT + '_jsd.csv'
 # SELECTEDSENNUM_FILE_NAME = SUBJECT + '_thresscore_sennum.csv'
 
 StopWords = GetDocuments.GetStopWords('stopwords.txt')
+MatchPNList = []
 SelectedParaSenList = []
-SelectedParaSenNum = []
+totalSelectedSenNum = 0
 with open (SUMMARY_FOLDER + SUMMARY_FILE_NAME, 'r', newline = '', encoding = 'utf-8') as inFile:
-	reader = csv.DictReader(inFile)
-	for row in reader:
-		SelectedParaSenList.append({'npid': int(row['npid']), 'pid': int(row['pid']), 'sentence': row['sentence'].lower().replace('[\'', '').replace('\']', '').replace('[]', '').split('\', \'')})
-		SelectedParaSenNum.append(len(SelectedParaSenList[-1]['sentence']))
-totalSelectedSenNum = np.sum(SelectedParaSenNum)
-avgSelectedSenNum = totalSelectedSenNum / len(SelectedParaSenNum)
+    reader = csv.DictReader(inFile)
+    for row in reader:
+        if row['pid'] != '':
+            npid, pid = int(row['npid']), int(row['pid'])
+            pidlist = [match[0] for match in MatchPNList]
+            if pid not in pidlist:
+                MatchPNList.append([pid, [npid]])
+                SelectedParaSenList.append(row['sentence'].lower().replace('[\'', '').replace('\']', '').replace('[]', '').split('\', \''))
+                totalSelectedSenNum += len(SelectedParaSenList[-1])
+            else:
+                MatchPNList[pidlist.index(pid)][1].append(npid)
+avgSelectedSenNum = totalSelectedSenNum / len(SelectedParaSenList)
+MatchPNList, SelectedParaSenList = zip(*sorted(zip(MatchPNList, SelectedParaSenList)))
 
 NoteParaList = GetDocuments.GetNoteParaText(NOTE_FOLDER + MIXEDNOTEPARA_FILE_NAME)
 BookParaList = GetDocuments.GetBookParaText(BOOK_FOLDER + TSFBOOK_FILE_NAME)
 totalSenNum = 0
 for para in BookParaList:
-	totalSenNum += len(para)
+    totalSenNum += len(para)
 
-# print (len(NoteParaList))
-
-# jsd for each matched para
-MatchJSDList = []
+# find NoteCorpus and SummaryCorpus
 NoteCorpus = []
+for np in NoteParaList:
+    NoteCorpus += np
 SummaryCorpus = []
-count = 0
-for match in SelectedParaSenList:
-	NPCorpus = NoteParaList[match['npid']] # note para
-	SPCorpus = match['sentence'] # summary para
-	try:
-		MatchJSDList.append(jsd.JSDivergence(NPCorpus, SPCorpus))
-	except:
-		pass
-		# print (count)
-		# print (NPCorpus)
-		# print (SPCorpus)
-	NoteCorpus += NPCorpus
-	SummaryCorpus += SPCorpus
-	count += 1
-if len(MatchJSDList) == 0: avgJSD = None
-else: avgJSD = np.average(MatchJSDList)
+for m in range(len(MatchPNList)):
+    SummaryCorpus += SelectedParaSenList[m]
+    # for npid in MatchPNList[m]:
+    #     NoteCorpus += NoteParaList[npid] # note para
 
 # jsd for entire summary and note
 BookCorpus = []
 for BP in BookParaList:
-	BookCorpus += BP
+    BookCorpus += BP
 EntireDocumentJSD_NS = jsd.JSDivergence(NoteCorpus, SummaryCorpus)
 EntireDocumentJSD_BS = jsd.JSDivergence(BookCorpus, SummaryCorpus)
 
 ''' write file '''
 needTitle = True
-title = ['Subject', 'Chapter', 'Alpha', 'Beta', 'Gamma', 'Threshold_FScore', 'Avg_JS(NP,SP)', 'JS(N,S)', 'JS(B,S)', 'Avg_SelectSenNum', 'Total_SelectSenNum', 'Total_BookSenNum']
+title = ['Subject', 'Chapter', 'Alpha', 'Beta', 'Gamma', 'Threshold_FScore', 'JS(N,S)', 'JS(B,S)', 'Avg_SelectSenNum', 'Total_SelectSenNum', 'Total_BookSenNum']
 if os.path.isfile(JSD_FOLDER + JSD_FILE_NAME): needTitle = False
 with open (JSD_FOLDER + JSD_FILE_NAME, 'a', newline='', encoding = 'utf-8') as outFile: # append
-	writer = csv.writer(outFile, delimiter = ',')
-	if needTitle:
-		writer.writerow(title)
-	writer.writerow([SUBJECT, CHAPTER, alpha, beta, gamma, THRESHOLD_SCORE, avgJSD, EntireDocumentJSD_NS, EntireDocumentJSD_BS, avgSelectedSenNum, totalSelectedSenNum, totalSenNum])
+    writer = csv.writer(outFile, delimiter = ',')
+    if needTitle:
+        writer.writerow(title)
+    writer.writerow([SUBJECT, CHAPTER, alpha, beta, gamma, THRESHOLD_SCORE, EntireDocumentJSD_NS, EntireDocumentJSD_BS, avgSelectedSenNum, totalSelectedSenNum, totalSenNum])

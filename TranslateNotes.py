@@ -10,18 +10,22 @@ import sys
 
 # translate into english and remove stop words
 # print (sys.argv)
+SUBJECT = 'OM'
+CHAPTER = 'supplementA'
 NOTE_FOLDER = 'note/OM/ch15/'
 NOTE_NAME = '生管_ch10_黃慈方'
 
 UselessList = ['Summarization\\', '.docx']
-NOTE_FOLDER = sys.argv[1]
-NOTE_NAME = sys.argv[3]
+SUBJECT = sys.argv[1]
+CHAPTER = sys.argv[2]
+NOTE_FOLDER = 'note/' + SUBJECT + '/' + CHAPTER + '/'
+NOTE_NAME = sys.argv[4]
 for w in UselessList: NOTE_NAME = NOTE_NAME.replace(w, '')
 print (NOTE_NAME)
 CHNOTE_FILE_NAME = NOTE_NAME + '.docx'
 ENNOTE_FILE_NAME = NOTE_NAME + '_en.txt'
-TOPIC_FOLDER = 'result/OM/'
-TOPIC_FILE_NAME = 'Topics_supplementA.csv'
+TOPIC_FOLDER = 'topic/' + SUBJECT + '/'
+TOPIC_FILE_NAME = 'Topics_' + CHAPTER + '.csv'
 
 note = ''
 d = Document(NOTE_FOLDER + CHNOTE_FILE_NAME)

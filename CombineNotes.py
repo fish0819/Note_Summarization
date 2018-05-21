@@ -13,13 +13,13 @@ import numpy as np # average, standard deviation, max
 import sys
 import GetDocuments
 
-SUBJECT = 'OM'
-CHAPTER = 'supplementA'
-THRESHOLD_COSSIM = 0.2
+SUBJECT = 'DS'
+CHAPTER = 'ch7'
+THRESHOLD_COSSIM = 0.1
 
-SUBJECT = sys.argv[1]
-CHAPTER = sys.argv[2]
-THRESHOLD_COSSIM = float(sys.argv[3])
+# SUBJECT = sys.argv[1]
+# CHAPTER = sys.argv[2]
+# THRESHOLD_COSSIM = float(sys.argv[3])
 print (SUBJECT, CHAPTER, THRESHOLD_COSSIM)
 
 NOTE_FOLDER = 'note/' + SUBJECT + '/' + CHAPTER + '/'
@@ -28,6 +28,7 @@ TOPIC_FOLDER = 'topic/' + SUBJECT + '/'
 COMBINEDSLIDE_FILE_NAME = CHAPTER + '_slides.csv'
 TOPIC_FILE_NAME = 'Topics_' + CHAPTER + '.csv'
 MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '.csv'
+# MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '_nowiki.csv'
 
 Topics = []
 with open (TOPIC_FOLDER + TOPIC_FILE_NAME, 'r', encoding = 'utf-8') as termFile:
@@ -47,6 +48,7 @@ Slides = GetDocuments.GetSlides(SLIDE_FOLDER + COMBINEDSLIDE_FILE_NAME)
 
 # get note sentences
 NoteFileNames = [(NOTE_FOLDER + f) for f in listdir(NOTE_FOLDER) if '_en.txt' in f]
+# NoteFileNames = [(NOTE_FOLDER + f) for f in listdir(NOTE_FOLDER) if '_en_nowiki.txt' in f]
 print (NoteFileNames)
 Notes = []
 for FILE_NAME in NoteFileNames:

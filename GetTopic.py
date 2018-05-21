@@ -3,8 +3,8 @@ import sys
 import csv
 import codecs
 
-SUBJECT = 'OM'
-CHAPTER = 'ch1'
+SUBJECT = 'DS'
+CHAPTER = 'ch7'
 
 SUBJECT = sys.argv[1]
 CHAPTER = sys.argv[2]

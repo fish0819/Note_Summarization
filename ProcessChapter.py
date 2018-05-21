@@ -2,10 +2,11 @@ import io
 import re # for regular expression
 import sys
 
+SUBJECT = 'OM'
+CHAPTER = 'ch1'
 SUBJECT = sys.argv[1]
 CHAPTER = sys.argv[2]
-# SUBJECT = 'OM'
-# CHAPTER = 'ch1'
+print (SUBJECT, CHAPTER)
 
 # get content
 BOOK_FOLDER = 'book/' + SUBJECT + '/'
@@ -43,9 +44,6 @@ while lid < len(Lines):
 			del Lines[lid]
 			continue
 	lid += 1
-
-# for line in Lines:
-	# print (line)
 
 with open (BOOK_FOLDER + BOOK_FILE_NAME, 'w', encoding = 'utf-8') as outFile:
 	for line in Lines:

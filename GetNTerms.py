@@ -18,8 +18,8 @@ class Term:
 		self.cTerm = cTerm
 		self.eTerm = eTerm
 
-SUBJECT = 'OM'
-CHAPTER = 'ch12'
+SUBJECT = 'DS'
+CHAPTER = 'ch7'
 NTERM_FOLDER = 'note/' + SUBJECT + '/'
 NTERM_FILE_NAME = 'NTerms_' + CHAPTER + '.csv'
 NOTE_FOLDER = 'note/' + SUBJECT + '/' + CHAPTER + '/'

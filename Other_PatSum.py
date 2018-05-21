@@ -8,15 +8,19 @@ import numpy as np
 import itertools
 import time
 import pyfpgrowth
+import FPGrowth
 from sklearn.feature_extraction.text import CountVectorizer
 
 SUBJECT = 'OM'
-CHAPTER = 'supplementA'
+CHAPTER = 'ch8'
+SELECTEDRATIO = 0.1
 THRESHOLD_SUPPORT = 10
 
-SUBJECT = sys.argv[1]
-CHAPTER = sys.argv[2]
-print (SUBJECT, CHAPTER)
+# SUBJECT = sys.argv[1]
+# CHAPTER = sys.argv[2]
+# SELECTEDRATIO = abs(round(float(sys.argv[3]), 1))
+# THRESHOLD_SUPPORT = int(sys.argv[4])
+print (SUBJECT, CHAPTER, SELECTEDRATIO, THRESHOLD_SUPPORT)
 
 start_time = time.time()
 
@@ -40,21 +44,6 @@ senTokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 for p in BookParaList:
     TOTALSENNUM += len(p)
     RawBookSenList += p
-    # for s in p:
-    #     for sw in StopWords:
-    #         if re.match(sw + ' ', s): s = s.replace(sw, '').strip()
-    #         elif re.search(' ' + sw + ' ', s): s = s.replace(' ' + sw + ' ', ' ')
-    #     for m in re.finditer('\((\d)+\)', s):
-    #         s = s.replace(m.group(0), '')
-    #     for m in re.finditer('(\d)+\.\D', s):
-    #         s = s.replace(m.group(0), '')
-    #     for m in re.finditer('\([A-Za-z]+\)', s):
-    #         s = s.replace(m.group(0), '')
-    #     for m in re.finditer('[A-Za-z]+\. ', s):
-    #         s = s.replace(m.group(0), '')
-    #     for pun in PunctuationMarks: s = s.replace(pun, '').replace('  ', ' ').strip()
-    #     if re.search('[A-Za-z]\.', s): s = s[:-1]
-    #     BookSenList.append(s)
 sid = 0
 while sid < len(RawBookSenList):
     s = RawBookSenList[sid]
@@ -103,7 +92,8 @@ for sid in range(len(BookSenList)):
         if BSenWordsList[sid][wid] in Operators: del BSenWordsList[sid][wid]
         elif re.match('^(\d)+(\.(\d)+)*$', BSenWordsList[sid][wid]): del BSenWordsList[sid][wid]
         else: wid += 1
-Itemsets = pyfpgrowth.find_frequent_patterns(BSenWordsList, THRESHOLD_SUPPORT).keys()
+# Itemsets = pyfpgrowth.find_frequent_patterns(BSenWordsList, THRESHOLD_SUPPORT).keys()
+Itemsets = FPGrowth.find_frequent_patterns(BSenWordsList, THRESHOLD_SUPPORT).keys()
 Itemsets = [set(items) for items in Itemsets]
 i = 0
 while i < len(Itemsets):
@@ -174,8 +164,6 @@ for pid in range(len(Patterns)):
         ClosedPatWords.append(PatternWords[pid])
         ClosedPatterns.append(Patterns[pid])
 print (len(ClosedPatterns))
-end_time = time.time()
-print ('cost time:', end_time - start_time)
 # for cp in ClosedPatterns:
 #     print (cp.WordTuple, len(cp.CoverSenList))
 
@@ -235,10 +223,12 @@ SortedSenWeights, SortedBookSenList = zip(*sorted(zip(SenWeights, RawBookSenList
 print (len(SortedSenWeights), len(SortedBookSenList))
 
 # select sentences
-SELECTEDSENNUM = int(round(TOTALSENNUM * 0.1))
+SELECTEDSENNUM = int(round(TOTALSENNUM * SELECTEDRATIO))
 with open(SUMMARY_FOLDER + SUMMARY_FILE_NAME, 'w', encoding = 'utf-8') as outFile:
     sid = 0
     while sid < SELECTEDSENNUM:
         outFile.write(SortedBookSenList[sid] + '\n')
         sid += 1
-print ('cost time:', time.time() - end_time)
+
+end_time = time.time()
+print ('cost time:', end_time - start_time)

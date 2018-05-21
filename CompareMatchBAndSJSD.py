@@ -27,6 +27,10 @@ MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) +
 NSBMATCH_FILE_NAME = 'NSBMatch_' + CHAPTER + '.csv'
 BSMATCH_FILE_NAME = 'BSMatch_' + CHAPTER + '.csv'
 BSCOMPARE_FILE_NAME = 'BSCompare_' + SUBJECT + '.csv'
+# NSBMATCH_FILE_NAME = 'NSBMatch_nowiki' + CHAPTER + '.csv'
+# BSMATCH_FILE_NAME = 'BSMatch_nowiki' + CHAPTER + '.csv'
+# MIXEDNOTEPARA_FILE_NAME = 'MixedNote_' + CHAPTER + '_' + str(THRESHOLD_COSSIM) + '_nowiki.csv'
+# BSCOMPARE_FILE_NAME = 'BSCompare_' + SUBJECT + '_nowiki.csv'
 
 Topics = GetDocuments.GetTopics(TOPIC_FOLDER + TOPIC_FILE_NAME)
 SlideTextList = GetDocuments.GetSlideText(SLIDE_FOLDER + COMBINEDSLIDE_FILE_NAME)
@@ -60,7 +64,7 @@ with open (MATCH_FOLDER + NSBMATCH_FILE_NAME, 'r', newline = '', encoding = 'utf
 			BPCorpus = BookParaList[int(row['pid'])]
 		MatchNPList.append({'sid': sid, 'pid': pid})
 		if len(BPCorpus) > 0 and len(SLCorpus) > 0:
-			MatchJSDList.append(jsd.JSDivergence(SLCorpus, BPCorpus))
+			# MatchJSDList.append(jsd.JSDivergence(SLCorpus, BPCorpus)) # jsd of a slide and book para pair
 			matchCount += 1
 			if MatchNPList[-1]['pid'] == BMatchSList[MatchNPList[-1]['sid']]: matchSBCount += 1
 
@@ -68,8 +72,8 @@ needTitle = True
 if os.path.isfile(RESULT_FOLDER + BSCOMPARE_FILE_NAME): needTitle = False
 with open (RESULT_FOLDER + BSCOMPARE_FILE_NAME, 'a', newline = '', encoding = 'utf-8') as outFile:
 	writer = csv.writer(outFile, delimiter = ',')
-	if needTitle: writer.writerow(['Subject', 'Chapter', 'THRESHOLD_COSSIM', 'SB_AvgJSD', 'MatchSBCount', 'MatchNCount', 'TotalNotePara', 'SBMatchRatio'])
-	if len(MatchJSDList) == 0: avgJSD = None
-	else: avgJSD = np.average(MatchJSDList)
-	if matchCount == 0: writer.writerow([SUBJECT, CHAPTER, THRESHOLD_COSSIM, avgJSD, matchSBCount, matchCount, len(MatchNPList), None])
-	else: writer.writerow([SUBJECT, CHAPTER, THRESHOLD_COSSIM, avgJSD, matchSBCount, matchCount, len(MatchNPList), (matchSBCount / matchCount)])
+	if needTitle: writer.writerow(['Subject', 'Chapter', 'THRESHOLD_COSSIM', 'MatchSBCount', 'MatchNCount', 'TotalNotePara', 'SBMatchRatio', 'NoteMatchRatio'])
+	# if len(MatchJSDList) == 0: avgJSD = None
+	# else: avgJSD = np.average(MatchJSDList)
+	if matchCount == 0: writer.writerow([SUBJECT, CHAPTER, THRESHOLD_COSSIM, matchSBCount, matchCount, len(MatchNPList), None, (matchCount / len(MatchNPList))])
+	else: writer.writerow([SUBJECT, CHAPTER, THRESHOLD_COSSIM, matchSBCount, matchCount, len(MatchNPList), (matchSBCount / matchCount), (matchCount / len(MatchNPList))])

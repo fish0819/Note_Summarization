@@ -4,7 +4,7 @@ SET subject1=OM
 SET chapters1=ch1 ch3 ch6 ch7 ch8 ch9 ch10 ch11 ch12 ch15 ch16 supplementA
 
 SET subject2=DS
-SET chapters2=ch2 ch3 ch4 ch5 ch6 ch78 ch9
+SET chapters2=ch2 ch3 ch4 ch5 ch6 ch7 ch9
 
 SET threshold=0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 0.7 0.8 0.9
 

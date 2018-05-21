@@ -45,18 +45,23 @@ BookCorpus = []
 for BP in BookParaList:
     BookCorpus += BP
 
-Summarizers = ['Random', 'Luhn', 'TextRank', 'LexRank', 'LSA', 'PatSum']
+# Summarizers = ['Random', 'Luhn', 'TextRank', 'LexRank', 'LSA', 'SumBasic', 'PatSum']
+Summarizers = ['SumBasic']
 NSJSDList = []
 BSJSDList = []
 for i in range(len(Summarizers)):
     SUMMARY_FILE_NAME = 'Summary_' + Summarizers[i] + '_' + CHAPTER + '.txt'
-    with open(SUMMARY_FOLDER + SUMMARY_FILE_NAME, 'r', encoding = 'utf-8') as inFile:
-        SelectedSenList = inFile.readlines()
-    totalSelectedSenNum = len(SelectedSenList)
-    # jsd for entire summary and note
-    SummaryCorpus = SelectedSenList
-    NSJSDList.append(jsd.JSDivergence(NoteCorpus, SummaryCorpus))
-    BSJSDList.append(jsd.JSDivergence(BookCorpus, SummaryCorpus))
+    try:
+        with open(SUMMARY_FOLDER + SUMMARY_FILE_NAME, 'r', encoding = 'utf-8') as inFile:
+            SelectedSenList = inFile.readlines()
+        totalSelectedSenNum = len(SelectedSenList)
+        # jsd for entire summary and note
+        SummaryCorpus = SelectedSenList
+        NSJSDList.append(jsd.JSDivergence(NoteCorpus, SummaryCorpus))
+        BSJSDList.append(jsd.JSDivergence(BookCorpus, SummaryCorpus))
+    except:
+        NSJSDList.append(None)
+        BSJSDList.append(None)
 
 ''' write file '''
 needTitle = True

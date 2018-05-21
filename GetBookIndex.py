@@ -2,8 +2,13 @@
 import io
 import re # for regular expression
 import csv
+import sys
 
-BOOK_FOLDER = 'book/DS/'
+SUBJECT = 'OM'
+SUBJECT = sys.argv[1]
+print (SUBJECT)
+
+BOOK_FOLDER = 'book/' + SUBJECT + '/'
 FILE_NAME = 'Index.txt'
 TERM_FILE_NAME = 'BTerms.csv'
 
@@ -40,7 +45,7 @@ for line in Lines:
 		if ', ' + w in line:
 			tmpline = line[:re.search(', ' + w, line).start()]
 			if re.search(', \d', line): line = tmpline + line[re.search(', \d', line).start():]
-		elif w != 'of' and ' ' + w in line: 
+		elif w != 'of' and ' ' + w in line:
 			tmpline = line[:re.search(' ' + w, line).start()]
 			if re.search(', \d', line): line = tmpline + line[re.search(', \d', line).start():]
 		elif re.match(w, line): line = ''
