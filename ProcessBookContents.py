@@ -9,18 +9,11 @@ with open (FILE_NAME, 'r', encoding = 'utf-8') as inFile:
 pattern1 = '.*\D$'
 pattern2 = '^(\d)+$'
 
-# s1 = 'USING OPERATIONS'
-# s2 = 'TO COMPETE 21'
-# s3 = '1'
-# m = re.match(pattern2, s3)
-# if m:
-# 	print (s3, m)
-
 for lid in range(len(Lines)):
 	Lines[lid] = Lines[lid].replace('\n', '').strip()
 
 lid = 0
-while lid < len(Lines):	
+while lid < len(Lines):
 	if len(Lines[lid]) == 0:
 		del Lines[lid]
 		continue
@@ -38,9 +31,6 @@ while lid < len(Lines):
 		del Lines[lid + 1]
 		m = re.match(pattern1, Lines[lid])
 	lid += 1
-
-# for line in Lines:
-	# print (line)
 
 with open (FILE_NAME, 'w', encoding = 'utf-8') as outFile:
 	for line in Lines:
