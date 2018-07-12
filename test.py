@@ -1,4 +1,49 @@
 # -*- coding: UTF-8 -*-
+import sys
+import re
+from decimal import Decimal
+from langdetect import detect
+import nltk
+import numpy as np
+print (sys.argv)
+# a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# b = [3, 1, 2]
+# c = ['three', 'one', 'two']
+# print (np.sum(a, axis = 0))
+# print (np.max(a, axis = 0))
+# print (np.max(a, axis = 1))
+# print (np.max(a[2]))
+# b, c = zip(*sorted(zip(b, c)))
+# print (b)
+# print (c)
+# x = 0.999999
+# print (round(x, 1))
+# print (detect('計劃的步驟'))
+
+# import csv
+# NTERM_FOLDER = 'note/OM/'
+# NTERM_FILE_NAME = 'NTerms_ch4.csv'
+# OldNTerms = []
+# with open(NTERM_FOLDER + NTERM_FILE_NAME, encoding = 'utf-8') as termFile:
+# 	reader = csv.DictReader(termFile)
+# 	for row in reader:
+# 		OldNTerms.append({'c': row['c'], 'e': row['e']})
+# NTERM_FILE_NAME = 'NTerms_ch6.csv'
+# NewNTerms = []
+# with open(NTERM_FOLDER + NTERM_FILE_NAME, encoding = 'utf-8') as termFile:
+# 	reader = csv.DictReader(termFile)
+# 	for row in reader:
+# 		NewNTerms.append({'c': row['c'], 'e': row['e']})
+# for term in OldNTerms:
+# 	if term not in NewNTerms:
+# 		NewNTerms.append(term)
+# NTERM_FILE_NAME = 'NTerms_ch6-1.csv'
+# with open(NTERM_FOLDER + NTERM_FILE_NAME, 'w', newline = '', encoding = 'utf-8') as termFile:
+# 	writer = csv.DictWriter(termFile, fieldnames = ['c', 'e'])
+# 	writer.writeheader()
+# 	for t in NewNTerms:
+# 		writer.writerow(t)
+
 
 # from googletrans import Translator
 # translator = Translator()
