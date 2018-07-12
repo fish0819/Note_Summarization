@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NoteSum</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .drop{
+            font-family: 微軟正黑體;
+            font-size: 20px;
+            width: 32%;
+            margin: 10px;
+        }
+        .para{
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            margin: 10px;
+            width: 32%;
+        }
+        #slide_pic{
+            width: 100%;
+        }
+    </style>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#subject").change(function() {
+                var subject = $("#subject :selected").val()
+                $.ajax({
+                    url: "deal.php",
+                    method: "GET",
+                    data: {
+                        dropdown:0,
+                        subject:subject
+                    },
+                    dataType: "json",
+                    success: function(res){
+                        $("#chapter").empty();
+                        $("#chapter").append($("<option></option>").attr("value", "").text(""));
+                        for (row in res) {
+                            $("#chapter").append($("<option></option>").attr("value", res[row][0]).text(res[row][0]));
+                        }
+                    }
+                })
+            });
+            $("#chapter").change(function() {
+                var subject = $("#subject :selected").val()
+                var chapter = $("#chapter :selected").val()
+                $.ajax({
+                    url: "deal.php",
+                    method: "GET",
+                    data: {
+                        dropdown:1,
+                        subject:subject,
+                        chapter:chapter
+                    },
+                    dataType: "json",
+                    success: function(res){
+                        $("#title").empty();
+                        $("#title").append($("<option></option>").attr("value", "").text(""));
+                        for (row in res) {
+                            $("#title").append($("<option></option>").attr("value", res[row][0]).text(res[row][1]));
+                        }
+                    }
+                })
+            });
+            $("#title").change(function() {
+                var subject = $("#subject :selected").val()
+                var chapter = $("#chapter :selected").val()
+                var sid = $("#title :selected").index() // the first option is space and the first slide is skipped
+                $.ajax({
+                    url: "deal.php",
+                    method: "GET",
+                    data: {
+                        dropdown:2,
+                        subject:subject,
+                        chapter:chapter,
+                        sid:sid
+                    },
+                    dataType: "json",
+                    success: function(res){
+                        $("#slide_text").text(res[0][0]);
+                        $("#slide_text").css("display", "none");
+                        $("#slide_pic").css("display", "block");
+                        $("#slide_pic").attr("src", "ppt/" + subject + "_" + chapter + "_" + sid + ".PNG");
+                        $("#note_para").empty();
+                        $("#book_para").empty();
+                        if (res.length >= 2) {
+                            $("#note_para").text(res[1][0]);
+                            if (res.length == 3)
+                            {
+                                var bpSentences = res[2][0].split("\n");
+                                for (var i = 0; i < bpSentences.length; i++)
+                                    bpSentences[i] = $.trim(bpSentences[i]);
+                                var bsSentences = res[2][1].split("\n")
+                                for (var i = 0; i < bsSentences.length; i++)
+                                    bsSentences[i] = $.trim(bsSentences[i]);
+                                for (var i = 0; i < bpSentences.length; i++) {
+                                    if ($.inArray(bpSentences[i], bsSentences) > -1) {
+                                        $("#book_para").append('<mark>' + bpSentences[i] + "\n" + "</mark>");
+                                    } else {
+                                        $("#book_para").append("<p>" + "\n" + bpSentences[i] + "</p>");
+                                    }
+                                    $("#book_para").append("<br>")
+                                }
+                            }
+                        }
+                    }
+                })
+            });
+        })
+    </script>
+    <script>
+        function imgError(image) {
+            // alert("img error");
+            $("#slide_pic").css("display", "none");
+            $("#slide_text").css("display", "block");
+        }
+    </script>
+</head>
+<body>
+    <div class="row" data-role="controlgroup" data-type="horizontal" align="center">
+        <select class="drop" id="subject">
+            <option value=""></option>
+            <option value="om">生產管理</option>
+            <option value="ds">資料結構</option>
+        </select>
+        <select class="drop" id="chapter">
+            <option value=""></option>
+        </select>
+        <select class="drop" id="title">
+            <option value=""></option>
+        </select>
+    </div>
+    <div class="row" id="text" data-role="controlgroup" data-type="horizontal">
+        <div class="para" id="slide">
+            <p id="slide_text"></p>
+            <img id="slide_pic" src="ppt/om_ch3_3.PNG" style="display: none;" onerror="imgError(this);">
+        </div>
+        <div class="para" id="note_para"></div>
+        <div class="para" id="book_para"></div>
+    </div>
+</body>
+</html>
